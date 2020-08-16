@@ -35,7 +35,7 @@ export default class SlideMain extends Component {
                                     <div className="single-carousel-ddt-cm-ittm">
                                         <div className="ddcm-titm-img-part">
                                             <Link to="/#">
-                                                <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collection"/>
+                                                <img src={require('../../assets/slide-4.jpg')} alt="orponbd global collection"/>
                                             </Link>
                                         </div>
                                     </div>
@@ -44,7 +44,7 @@ export default class SlideMain extends Component {
                                     <div className="single-carousel-ddt-cm-ittm">
                                         <div className="ddcm-titm-img-part">
                                             <Link to="/#">
-                                                <img src={require('../../assets/slide-2.jpg')} alt="orponbd global collection"/>
+                                                <img src={require('../../assets/slide-5.jpg')} alt="orponbd global collection"/>
                                             </Link>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@ export default class SlideMain extends Component {
                                     <div className="single-carousel-ddt-cm-ittm">
                                         <div className="ddcm-titm-img-part">
                                             <Link to="/#">
-                                                <img src={require('../../assets/slide-3.jpg')} alt="orponbd global collection"/>
+                                                <img src={require('../../assets/slide-6.jpg')} alt="orponbd global collection"/>
                                             </Link>
                                         </div>
                                     </div>
