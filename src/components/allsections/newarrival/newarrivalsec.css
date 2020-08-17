@@ -1,0 +1,113 @@
+.new-arrivalcxz-doot-com-main-sectionx {
+    margin-top: 10px;
+}
+.new-arrivalnbxc-wexv-dot-main-sec-bboxx .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.new-arrivalnbxc-wexv-dot-main-sec-bboxx {
+    background: #F6F5F5;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+/* hhhh */
+.new-arrivatltx-dott-ccm-dealmmnnff-bb p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+.new-arrivatltx-dott-ccm-dealmmnnff-bb p {
+    position: relative;
+}
+.new-arrivatltx-dott-ccm-dealmmnnff-bb a {
+    position: absolute;
+    right: 19px;
+    top: 6px;
+    font-size: 13px;
+    color: #696969;
+    font-weight: 400;
+}
+.new-arrivatltx-dott-ccm-dealmmnnff-bb a i.fa {
+    color: #545454;
+    font-size: 12px;
+}
+/* hhhh */
+
+.row.new-aarvvl-dott-com-delproj-rww .col-3 {padding: 1.8px;}
+
+.row.new-aarvvl-dott-com-delproj-rww {
+    margin: 0;
+    margin-top: -10px;
+}
+
+.new-arrivvalx-web-ddot-cmm-snnggl-prodct {
+    width: 100%;
+    height: 113.5px;
+    background-color: #fff;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+.new-arrivalcv-deal-web-ddot-cmm-snnggl-prodct-img img {
+    width: 100%;
+    height: 70px;
+    padding: 3px;
+    border-radius: 7px;
+}
+.new-arrivalcv-deal-web-ddot-cmm-snnggl-prodct-ttxt p {
+    font-size: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: #272727;
+}
+
+.new-arrivalcv-deal-web-ddot-cmm-snnggl-prodct-ttxt h4 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #e42424;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1px;
+    margin-top: -9px;
+}
+.new-arrivalcv-deal-web-ddot-cmm-snnggl-prodct-ttxt {
+    padding: 3px;
+    margin-top: -5px;
+}
+
+
+
+/* Carousel custom css */
+button.slick-arrow.slick-prev {
+    margin-left: 24px;
+    z-index: 999;
+}
+button.slick-arrow.slick-next {
+    z-index: 999;
+    margin-right: 24px;
+}
+
+.slide-dot-cmm-section-box-neww-arrival {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.slide-dot-cmm-section-box-neww-arrival .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-left: 18px;
+    padding: 0;
+    margin-right: 18px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #f76060 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* Carousel custom css */

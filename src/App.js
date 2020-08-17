@@ -22,6 +22,15 @@ import PreOrder from './components/allsections/preorder/PreOrder.js'
 // Top Category Item
 import TopCategoryItem from './components/allsections/topcategory/TopCategoryItem.js'
 
+// New Arrival Section
+import NewArrivalSec from './components/allsections/newarrival/NewArrivalSec.js'
+
+// Top Brands
+import TopBrands from './components/allsections/topbrands/TopBrands.js'
+
+// Top Picks
+import TopPicks from './components/allsections/toppicks/TopPicks.js'
+
 function App() {
   return (
     <div className="main-app-secttnn">
@@ -32,6 +41,9 @@ function App() {
       <FlashDeals/>
       <PreOrder/>
       <TopCategoryItem/>
+      <NewArrivalSec/>
+      <TopBrands/>
+      <TopPicks/>
 
     </div>
   );
