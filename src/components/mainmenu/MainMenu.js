@@ -13,34 +13,42 @@ export default class MainMenu extends Component {
                                 <ul>
                                     <li>
                                         <Link to="/">
-                                            <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                <span><i className="fas fa-home"></i></span>
+                                            <div className="main-menu-xccx-boxc">
+                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
+                                                    <img src={require('../../assets/home-icon-red.svg')} alt="orponbd global collection"/>
+                                                </div>
+                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Home</p>
                                             </div>
-                                            <p className="main-cx-meny-dd-bbox-cct-name text-center">Home</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
-                                            <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/tshirt.png')} alt="orponbd global collection"/>
+                                            <div className="main-menu-xccx-boxc">
+                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
+                                                    <img src={require('../../assets/list.svg')} alt="orponbd global collection"/>
+                                                </div>
+                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Category</p>
                                             </div>
-                                            <p className="main-cx-meny-dd-bbox-cct-name text-center">Category</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
-                                            <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/watch2.png')} alt="orponbd global collection"/>
+                                            <div className="main-menu-xccx-boxc">
+                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
+                                                    <img src={require('../../assets/shopping-cart.svg')} alt="orponbd global collection"/>
+                                                </div>
+                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Cart</p>
                                             </div>
-                                            <p className="main-cx-meny-dd-bbox-cct-name text-center">Cart</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
-                                            <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/shoes1.png')} alt="orponbd global collection"/>
+                                            <div className="main-menu-xccx-boxc">
+                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
+                                                    <img src={require('../../assets/profile-man-icon.svg')} alt="orponbd global collection"/>
+                                                </div>
+                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Account</p>
                                             </div>
-                                            <p className="main-cx-meny-dd-bbox-cct-name text-center">Account</p>
                                         </Link>
                                     </li>
                                 </ul>

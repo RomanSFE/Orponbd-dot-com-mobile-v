@@ -29,3 +29,11 @@
     border: none;
     background: none;
 }
+
+
+.search-dd-cm-main-section {
+    position: fixed;
+    top: 0;
+    width: 97%;
+    z-index: 999;
+}

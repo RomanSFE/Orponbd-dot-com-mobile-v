@@ -46,7 +46,7 @@ export default class CategoryMenu extends Component {
                                     <li>
                                         <Link to="/">
                                             <div className="caatetory-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/sms-icon.svg')} alt="orponbd global collection"/>
+                                                <img src={require('../../assets/toy2.png')} alt="orponbd global collection"/>
                                             </div>
                                             <p className="caatetory-meny-dd-bbox-cct-name text-center">Toys</p>
                                         </Link>
