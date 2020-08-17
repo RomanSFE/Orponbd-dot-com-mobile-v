@@ -37,7 +37,7 @@ export default class MainMenu extends Component {
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/shopping-cart.svg')} alt="orponbd global collection"/>
                                                 </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Cart</p>
+                                                <p className="main-cx-meny-dd-bbox-cct-name crrtxtx text-center">Cart</p>
                                             </div>
                                         </Link>
                                     </li>

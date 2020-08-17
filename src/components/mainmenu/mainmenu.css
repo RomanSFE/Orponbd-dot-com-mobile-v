@@ -34,14 +34,19 @@
     padding: 0px;
 }
 .mainmenu-cm-meny-dd-bbox-img-bbx img {
-    width: 46px;
-    height: 24px;
-    margin-top: 8px;
+    width: 65px;
+    height: 35px;
+    margin-top: 1px;
 }
 .mainementu-meny-dd-bbox ul li a p {
-    font-size: 12px;
+    font-size: 11px;
     color: #292929;
+    margin-left: 11px;
+    margin-top: -2px;
 }
 .main-menu-xccx-boxc {
-    padding: 1px 13px 1px 13px;
+    padding: 1px 22px 1px 14px;
+}
+p.main-cx-meny-dd-bbox-cct-name.crrtxtx {
+    margin-left: 16px;
 }
