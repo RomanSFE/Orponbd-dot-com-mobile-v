@@ -31,6 +31,12 @@ import TopBrands from './components/allsections/topbrands/TopBrands.js'
 // Top Picks
 import TopPicks from './components/allsections/toppicks/TopPicks.js'
 
+// Just for you
+import JustForYou from './components/allsections/justforyou/JustForYou.js'
+
+// Main Menu
+import MainMenu from './components/mainmenu/MainMenu.js'
+
 function App() {
   return (
     <div className="main-app-secttnn">
@@ -44,6 +50,8 @@ function App() {
       <NewArrivalSec/>
       <TopBrands/>
       <TopPicks/>
+      <JustForYou/>
+      <MainMenu/>
 
     </div>
   );
