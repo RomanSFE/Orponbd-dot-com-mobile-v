@@ -1,12 +1,13 @@
 .new-arrivalcxz-doot-com-main-sectionx {
     margin-top: 10px;
 }
-.new-arrivalnbxc-wexv-dot-main-sec-bboxx .container {
+.new-arrivalcxz-doot-com-main-sectionx .container {
     width: 100%;
     padding-right: 7px;
     padding-left: 7px;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
 .new-arrivalnbxc-wexv-dot-main-sec-bboxx {
     background: #F6F5F5;
@@ -79,27 +80,27 @@
 
 
 /* Carousel custom css */
-button.slick-arrow.slick-prev {
+/* button.slick-arrow.slick-prev {
     margin-left: 24px;
     z-index: 999;
 }
 button.slick-arrow.slick-next {
     z-index: 999;
     margin-right: 24px;
-}
+} */
 
 .slide-dot-cmm-section-box-neww-arrival {
     border-radius: 15px;
     overflow: hidden;
 }
-.slide-dot-cmm-section-box-neww-arrival .slick-list {
+/* .slide-dot-cmm-section-box-neww-arrival .slick-list {
     position: relative;
     display: block;
     overflow: hidden;
     margin-left: 18px;
     padding: 0;
     margin-right: 18px;
-}
+} */
 
 .slick-prev:before, .slick-next:before {
     font-family: 'slick';

@@ -22,14 +22,15 @@ export default class Search extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             
+                        <div className="icon-dd-mbl">
+                            <button><i className="fa fa-search"></i></button>
+                        </div>
                         <SuggestionInputSearch
                             onSubmitFunction={this.handleOnSubmit}
                             recentSearches={recentSearches}
                             placeholder={placeholder}
                         />
-                        <div className="icon-dd-mbl">
-                            <button><i className="fa fa-search"></i></button>
-                        </div>
+                        
 
                         </div>
                     </div>

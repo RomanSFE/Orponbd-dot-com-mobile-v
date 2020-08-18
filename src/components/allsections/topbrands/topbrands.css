@@ -1,12 +1,13 @@
 .top-brandxsc-doot-com-main-sectionx {
     margin-top: 10px;
 }
-.topb-brandxs-wexv-dot-main-sec-bboxx .container {
+.top-brandxsc-doot-com-main-sectionx .container {
     width: 100%;
     padding-right: 7px;
     padding-left: 7px;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
 .topb-brandxs-wexv-dot-main-sec-bboxx {
     background: #F6F5F5;

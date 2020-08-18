@@ -1,0 +1,16 @@
+.wen-dot-cmm-banner-section-main .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.wen-dot-cmm-banner-section-main {
+    margin-top: 10px;
+}
+.banner-dot-cm-image-box img {
+    width: 100%;
+    height: 116px;
+    border-radius: 7px;
+}

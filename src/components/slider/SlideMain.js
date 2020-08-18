@@ -58,6 +58,15 @@ export default class SlideMain extends Component {
                                         </div>
                                     </div>
                                     {/* single slide item */}
+                                    {/* single slide item */}
+                                    <div className="single-carousel-ddt-cm-ittm">
+                                        <div className="ddcm-titm-img-part">
+                                            <Link to="/#">
+                                                <img src={require('../../assets/slide-4.jpg')} alt="orponbd global collection"/>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* single slide item */}
                                 </Slider>
                             </div>
                         </div>

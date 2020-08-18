@@ -34,15 +34,15 @@
     padding: 0px;
 }
 .mainmenu-cm-meny-dd-bbox-img-bbx img {
-    width: 65px;
-    height: 35px;
-    margin-top: 1px;
+    width: 61px;
+    height: 26px;
+    margin-top: 4px;
 }
 .mainementu-meny-dd-bbox ul li a p {
     font-size: 11px;
-    color: #292929;
+    color: #6b6b6b;
     margin-left: 11px;
-    margin-top: -2px;
+    margin-top: 3px;
 }
 .main-menu-xccx-boxc {
     padding: 1px 22px 1px 14px;
@@ -50,3 +50,10 @@
 p.main-cx-meny-dd-bbox-cct-name.crrtxtx {
     margin-left: 16px;
 }
+/* .mainmenu-cm-meny-dd-bbox-img-bbx.category-exx-ccls-vc img {
+    height: 23px;
+} */
+/* .mainmenu-cm-meny-dd-bbox-img-bbx.category-exx-ccls-vc img {
+    width: 25px;
+    margin-left: 16px;
+} */

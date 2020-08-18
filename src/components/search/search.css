@@ -1,14 +1,14 @@
 .search-input-container .search-input-container__inner {
     width: 93% !important;
     position: absolute !important;
-    margin-top: 5px !important;
+    margin-top: 12px !important;
 }
 .search-input-container .suggestion-input {
     outline: none;
-    width: 100% !important;
+    width: 99% !important;
     border: none;
-    background: #f9f9f9;
-    height: 40px !important;
+    background: #ececec;
+    height: 35px !important;
     border-radius: 30px;
     padding: 10px;
     font-size: 12px;
@@ -23,17 +23,35 @@
 .icon-dd-mbl button {
     position: absolute;
     right: 22px;
-    top: 13px;
+    top: 16px;
     font-size: 17px;
     color: #b7b7b7;
     border: none;
     background: none;
+    z-index: 999;
 }
 
 
 .search-dd-cm-main-section {
     position: fixed;
     top: 0;
-    width: 97%;
+    width: 100%;
     z-index: 999;
+}
+.search-dd-cm-main-section {
+    background-color: #ffffff;
+    height: 59px;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 -5px 4px -5px #c7c7c7;
+}
+
+
+.suggestions-container ul li span {
+    padding: .8rem;
+    letter-spacing: .2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: lowercase;
+    display: block;
+    z-index: 999 !important;
 }

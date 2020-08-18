@@ -20,7 +20,7 @@ export default class NewArrivalSec extends Component {
                   breakpoint: 600,
                   settings: {
                     dots: false,
-                    arrows: true
+                    arrows: false
                   }
                 }
               ]
