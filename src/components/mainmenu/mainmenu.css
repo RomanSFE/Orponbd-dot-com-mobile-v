@@ -25,6 +25,7 @@
     display: inline-block;
     margin: 0px;
     padding: 0px;
+    width: 25%;
 }
 .mainmenu-cm-meny-dd-bbox-img-bbx {
     width: 50px;
@@ -39,16 +40,20 @@
     margin-top: 4px;
 }
 .mainementu-meny-dd-bbox ul li a p {
-    font-size: 11px;
+    font-size: 10px;
     color: #6b6b6b;
-    margin-left: 11px;
+    margin-left: 5px;
     margin-top: 3px;
 }
 .main-menu-xccx-boxc {
     padding: 1px 22px 1px 14px;
 }
 p.main-cx-meny-dd-bbox-cct-name.crrtxtx {
-    margin-left: 16px;
+    margin-left: 7px;
+}
+.col-md-12.main-menu-dott-cm-cmm-ex-cclx {
+    margin: 0px;
+    padding: 0px;
 }
 /* .mainmenu-cm-meny-dd-bbox-img-bbx.category-exx-ccls-vc img {
     height: 23px;

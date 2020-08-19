@@ -8,7 +8,7 @@ export default class CategoryMenu extends Component {
             <div className="category-menu-dodd-cmm-main-sec">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-12 category-menu-dodd-cmm-exxtra">
                             <div className="caatetory-meny-dd-bbox text-center">
                                 <ul>
                                     <li>

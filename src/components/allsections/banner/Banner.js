@@ -10,7 +10,7 @@ export default class Banner extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="banner-web-dot-cm-image-section">
-                            <Link to="/singleproducttopmenu">
+                            <Link to="/singleproductpage">
                                 <div className="banner-dot-cm-image-box">
                                     <img src={require('../../../assets/slide-5.jpg')} alt="orponbd global collections"/>
                                 </div>

@@ -8,7 +8,7 @@ export default class MainMenu extends Component {
             <div className="main-menu-dott-cm-cmm-main-sec">
                 <div className="container">
                     <div className="row main-menu-web-ddt-cm">
-                        <div className="col-md-12">
+                        <div className="col-md-12 main-menu-dott-cm-cmm-ex-cclx">
                             <div className="mainementu-meny-dd-bbox text-center">
                                 <ul>
                                     <li>
