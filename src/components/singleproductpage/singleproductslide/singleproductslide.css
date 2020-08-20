@@ -45,7 +45,7 @@
 }
 .single-product-wishlist-boxzx {
     position: absolute;
-    z-index: 9999;
+    z-index: 999;
     right: -8px;
     bottom: 35px;
     width: 89px;
