@@ -34,7 +34,7 @@ export default class SingleProductSlide extends Component {
                             <Link to="/#">
                                 <div className="single-product-wishlist-boxzx text-center">
                                     <span><i className="fas fa-heart"></i></span>
-                                    <p>12</p>
+                                    <span class="wish-count-mobile-xexe">123</span>
                                 </div>
                             </Link>
 
