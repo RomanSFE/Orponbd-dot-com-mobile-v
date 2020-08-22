@@ -44,7 +44,12 @@ import Home from './components/home/Home.js'
 
 
 // Extrasss
+
+// Single product page
 import SingleProductPage from './components/singleproductpage/SingleProductPage.js'
+
+// Single product page
+import MoreReviewPage from './components/singleproductpage/morereviewpage/MoreReviewPage.js'
 // import Header from './components/extrasection/Header.js'
 
 function App() {
@@ -59,6 +64,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/singleproductpage" component={SingleProductPage}/>
+        <Route path="/more-review-page" component={MoreReviewPage}/>
         {/* <Route path="/website-sections" component={WebsiteSections}/>
         <Route path="/react" component={ReactScreen}/>
         <Route path="/react-native" component={ReactNativeScr}/>

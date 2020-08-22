@@ -1,0 +1,53 @@
+/* progress skill */
+.progress-bar {
+    background-color: #ebebeb !important;
+    height: 2px;
+    width: 102px;
+    margin-bottom: 10px;
+  }
+  .progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;    
+  }
+  .blue span { 
+    background-image: linear-gradient(-86deg, #5151e5 0%, #72edf2 100%);  
+  }
+  .progress-section p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .skill-progress {
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 8px;
+  }
+  /* progress skill */
+
+  .singge-product-more-review-page-mobile-main-section-total-rat-ccnt {
+    border-right: 1px solid #bdbdbd;
+    padding: 1px;
+}
+  .hshsgdf-five-starx ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.hshsgdf-five-starx ul li {
+    display: inline-block;
+    margin-right: 7px;
+}
+.hshsgdf-five-starx ul li p {
+    font-size: 11px;
+}
+.row.single-pro-rev-pagg-ex-row-ccls .col-8 {
+    margin: 0px;
+    padding: 0px;
+}
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt-right-part.extradcax {
+    margin-top: -12px;
+}

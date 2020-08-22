@@ -11,7 +11,14 @@ export default class SingleProductAllText extends Component {
         super(props);
         this.state = {
           clicks: 0,
-          show: true
+          show: true,
+        //   View more Button
+          ViewMore: false,
+        //   View more Button
+
+        //   More Review Button
+          MoreReviewButton: false,
+        //   More Review Button
         };
       }
     
@@ -21,28 +28,54 @@ export default class SingleProductAllText extends Component {
       DecreaseItem = () => {
         this.setState({ clicks: this.state.clicks - 1 });
       }
-    //   ToggleClick = () => {
-    //     this.setState({ show: !this.state.show });
-    //   }
     // Quantity incre decre
+
+    
+    // View More Button
+    ToggleClick = () => {
+        this.setState({ ViewMore: !this.state.ViewMore });
+    }
+    // View More Button
+
+    // More Review Button
+    ToggleClickX = () => {
+        this.setState({ MoreReviewButton: !this.state.MoreReviewButton });
+    }
+    // More Review Button
 
     // Select Modal
     state = {
-        open: false,
+        ProductOptionOpen: false,
+        ProductHighlightsOpen: false,
       };
+
+    //   Product options open
       onOpenModal = () => {
-        this.setState({ open: true });
+        this.setState({ ProductOptionOpen: true });
       };
      
       onCloseModal = () => {
-        this.setState({ open: false });
+        this.setState({ ProductOptionOpen: false });
       };
+      //   Product options open
+
+    //   Product Highlights open
+      onOpenModalHighlights = () => {
+        this.setState({ ProductHighlightsOpen: true });
+      };
+     
+      onCloseModalHighlights = () => {
+        this.setState({ ProductHighlightsOpen: false });
+      };
+      //   Product Highlights open
+
     // Select Modal
 
     render() {
 
         // Select Modal
-        const { open } = this.state;
+        const { ProductOptionOpen } = this.state;
+        const { ProductHighlightsOpen } = this.state;
         // Select Modal
 
         return (
@@ -106,9 +139,17 @@ export default class SingleProductAllText extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="single-product-select-color-sizzx">
-                                <button onClick={this.onOpenModal}>Products Options <p>Color, Size</p></button>
-                                <button onClick={this.onOpenModal}><h5>Select</h5></button>
-                                <Modal open={open} onClose={this.onCloseModal} >
+                                <div className="row">
+                                    <div className="col-8">
+                                        <button onClick={this.onOpenModal}>Products Options <p>Color, Size</p></button>
+                                    </div>
+                                    <div className="col-4">
+                                        <button onClick={this.onOpenModal}><h5>Select</h5></button>
+                                    </div>
+                                </div>
+                                {/* <button onClick={this.onOpenModal}>Products Options <p>Color, Size</p></button>
+                                <button onClick={this.onOpenModal}><h5>Select</h5></button> */}
+                                <Modal open={ProductOptionOpen} onClose={this.onCloseModal} >
                                     {/* Image and price section */}
                                     <div className="modal-singg-mob-product-imgg-section">
                                         <div className="container">
@@ -216,10 +257,42 @@ export default class SingleProductAllText extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="single-product-highlight-section-mobile-main-booxs">
-                            <button onClick={this.onOpenModal}>Products Highlights </button>
-                                <button onClick={this.onOpenModal}><h5>Select</h5></button>
-                                <Modal open={open} onClose={this.onCloseModal} >
-                                    <h2>Products highlights text</h2>
+                                <div className="row">
+                                    <div className="col-8">
+                                        <button onClick={this.onOpenModalHighlights}>Products Highlights </button>
+                                    </div>
+                                    <div className="col-4">
+                                        <button onClick={this.onOpenModalHighlights}><h5>Select</h5></button>
+                                    </div>
+                                </div>
+                                {/* <button onClick={this.onOpenModalHighlights}>Products Highlights </button>
+                                <button onClick={this.onOpenModalHighlights}><h5>Select</h5></button> */}
+                                <Modal open={ProductHighlightsOpen} onClose={this.onCloseModalHighlights} >
+                                    <div className="products-highlights-prod-details-txztxt">
+                                        <div className="container">
+                                            <div className="row">
+                                                <div className="col-12">
+                                                    <div className="products-highlights-prod-details-txztxt-heading text-center">
+                                                        <h5>Products Highlights</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-12">
+                                                    <div className="products-highlights-prod-details-txztxt-bboxc">
+                                                        <ul>
+                                                            <li><p>Product details text 1</p></li>
+                                                            <li><p>Product details text 2</p></li>
+                                                            <li><p>Product details text 3</p></li>
+                                                            <li><p>Product details text 4</p></li>
+                                                            <li><p>Product details text 5</p></li>
+                                                            <li><p>Product details text 6</p></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </Modal>
                             </div>                    
                         </div>
@@ -227,6 +300,125 @@ export default class SingleProductAllText extends Component {
                 </div>
             </div>
             {/* Single Products Highlights sections */}
+
+            {/* Customer Review Section */}
+            <div className="single-product-page-customer-review-section-main-mobbil">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="single-product-page-customer-review-section-main-mobbil-box"> 
+                                <div className="row custtomxm-rrvu">
+                                    <div className="col-6">
+                                        <div className="customer-revv-heddnngx-ttxt">
+                                            <h5>Customer Reviews</h5>
+                                        </div>
+                                    </div>
+                                    <div className="col-3">
+                                        <div className="customer-revvxx-revveeu">
+                                            <p>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-2">
+                                        <div className="customer-revvuuzx-ccount">
+                                            <p>0/5 <span>(0)</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Customer Review Section */}
+            {/* Customer Review Provide by customer section start */}
+            <div className="customer-review-provide-by-customer-revvxu-sec">
+                <div className="container">
+                    <div className="row customer-review-provide-by-customer-eecx">
+                        <div className="col-3">
+                            <div className="customer-review-provide-by-customer-revvxu-sec-pro-img">
+                                <img src={require('../../../assets/product-9.jpg')} alt="orponbd global collections"/>
+                            </div>
+                        </div>
+                        <div className="col-9">
+                            <div className="customer-review-provide-by-customer-revvxu-sec-rating-name">
+                                <p><strong>First Name</strong> 
+                                    <span className="customer-review-provide-by-customer-revvxu-sec-rating-bbxc">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </span> 
+                                </p>
+                                <h6>10/09/2020</h6>
+                            </div>
+                        </div>
+                        <div className="customer-review-provide-by-customer-revvxu-sec-texxtc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, soluta? </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="customer-review-provide-by-customer-revvxu-sec-texxt-social-likke text-right">
+                    <ul text-right>
+                        <li><i className="far fa-comment-dots"></i></li>
+                        <li>0</li>
+                        <li><i className="far fa-thumbs-up"></i></li>
+                        <li>5</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="customer-review-provide-by-customer-revvxu-view-more-review text-center">
+                {/* View More Review Content */}
+                    <Link to="/more-review-page">More Review</Link>
+                {/* View More Review Content */}
+            </div>
+            {/* Customer Review Provide by customer section end */}
+
+            {/* Products Details Section */}
+            <div className="single-products-product-details-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="single-products-product-details-heading-ttxt">
+                                <h4>Product Details</h4>
+                            </div>
+                            <div className="single-products-product-details-immgg-prt">
+                                <img src={require('../../../assets/slide-1.jpg')} alt="orponbd online shop"/>
+                            </div>
+                            <div className="single-products-product-details-view-mmortc-bbtx text-center">
+                                {/* View More Button Content */}
+                                { this.state.ViewMore ?
+                                <>
+                                    <div className="single-product-inside-view-more-buttom-details text-left">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere.</p>
+                                        
+                                        <p className="single-product-inside-view-more-buttom-deta-para-second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptate.</p>
+                                    </div>
+                                    <div className="single-product-inside-view-more-buttom-details-images-all">
+                                        <img src={require('../../../assets/slide-2.jpg')} alt="orponbd online shop"/>
+                                        <img src={require('../../../assets/slide-3.jpg')} alt="orponbd online shop"/>
+                                    </div>
+                                </>
+                                : '' }
+                                {/* View More Button Content */}
+
+                                <button onClick={this.ToggleClick}>
+                                    { this.state.ViewMore ? 'View Less' : 'View More' }
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Products Details Section */}
             </>
         )
     }

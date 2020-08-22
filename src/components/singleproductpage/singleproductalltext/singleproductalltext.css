@@ -114,10 +114,10 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    margin-left: 84px;
+    margin-left: 38px;
 }
 .single-product-color-option-select-main-mobl {
-    background-color: #FBFBFB;
+    background-color: #F7F7F7;
     height: 50px;
     margin-top: 10px;
 }
@@ -363,3 +363,247 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 /* products options color size quantity */
 /* After modal open */
 /* Modal single product color size */
+
+/* Products Highlights start */
+.single-product-highlight-section-mobile-main-booxs button {
+    background: none;
+    border: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4px;
+    margin-left: -7px;
+    outline: none;
+}
+.single-product-highlight-section-mobile-main-booxs button p {
+    font-size: 11px;
+    color: #ababab;
+    margin-left: -76px;
+}
+
+.single-product-highlight-section-mobile-main-booxs button h5 {
+    color: #de2121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 38px;
+}
+.single-product-highlight-section-mobile-main {
+    background-color: #F7F7F7;
+    height: 50px;
+    margin-top: 10px;
+}
+.products-highlights-prod-details-txztxt-heading {
+    border-bottom: 1px solid #ababab;
+}
+.products-highlights-prod-details-txztxt-heading h5 {
+    color: #333;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.products-highlights-prod-details-txztxt-bboxc ul {
+    margin-top: 7px;
+    padding: 0px;
+    margin-left: 17px;
+}
+.products-highlights-prod-details-txztxt-bboxc ul li {
+    margin-bottom: 5px;
+}
+.products-highlights-prod-details-txztxt-bboxc ul li p {
+    color: #545454;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.single-product-highlight-section-mobile-main-booxs {
+    margin-top: 11px;
+}
+
+/* .react-responsive-modal-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    padding: 0px !important;
+    width: 100% !important;
+}
+.react-responsive-modal-modal {
+    width: 100% !important;
+    position: relative;
+    padding: 0px;
+    background: #ffffff;
+    background-clip: padding-box;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: 96%;
+} */
+/* Products Highlights */
+
+/* Customer Review Section */
+.single-product-page-customer-review-section-main-mobbil {
+    border-bottom: 1px solid #676767;
+}
+.customer-revv-heddnngx-ttxt h5 {
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 5px;
+}
+
+.customer-revvxx-revveeu p {
+    font-size: 10px;
+    margin-left: -7px;
+}
+
+.customer-revvuuzx-ccount p {
+    font-size: 11px;
+    font-weight: 500;
+}
+.row.custtomxm-rrvu .col-6 {
+    margin-left: 14px;
+    padding: 0px;
+}
+.row.custtomxm-rrvu .col-2 {
+    margin-left: 10px;
+    padding: 0px;
+}
+.row.custtomxm-rrvu .col-3 {
+    padding-left: 0px;
+    margin-left: 1px;
+}
+.single-product-page-customer-review-section-main-mobbil {
+    background-color: #F7F7F7;
+    height: 50px;
+    margin-top: 10px;
+}
+.single-product-page-customer-review-section-main-mobbil-box {
+    margin-top: 15px;
+}
+.customer-revvxx-revveeu {
+    border-right: 1px solid #868686;
+}
+/* Customer Review Section */
+
+/* Customer Review Provide by customer section start */
+.customer-review-provide-by-customer-revvxu-sec {
+    border-bottom: 1px solid #717171;
+    margin-top: 12px;
+}
+.customer-review-provide-by-customer-revvxu-sec-pro-img img {
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+}
+.row.customer-review-provide-by-customer-eecx .col-9 {
+    margin: 0px;
+    padding: 0px;
+}
+.row.customer-review-provide-by-customer-eecx .col-9 {
+    margin-left: -10px;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name p {
+    font-size: 11px;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name p strong {
+    font-size: 14px;
+    margin-right: 7px;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name h6 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #848484;
+    margin-top: -12px;
+}
+.customer-review-provide-by-customer-revvxu-sec-texxtc p {
+    padding: 4px 10px 4px 14px;
+    color: #6d6d6d;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.customer-review-provide-by-customer-revvxu-sec-texxt-social-likke ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 8px;
+    margin-top: -12px;
+}
+.customer-review-provide-by-customer-revvxu-sec-texxt-social-likke ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.customer-review-provide-by-customer-revvxu-view-more-review a {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 12px 4px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+.customer-review-provide-by-customer-revvxu-view-more-review {
+    margin-top: 8px;
+}
+/* Customer Review Provide by customer section end */
+
+/* Product Details Section */
+.single-products-product-details-section {
+    margin-top: 14px;
+}
+.single-products-product-details-immgg-prt img {
+    width: 100%;
+    position: relative;
+    margin-top: 7px;
+}
+.single-products-product-details-heading-ttxt {
+    border-bottom: 1px solid #8a8a8a;
+    margin-bottom: 4px;
+}
+.single-products-product-details-heading-ttxt h4 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+.single-products-product-details-view-mmortc-bbtx button {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 12px 4px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+.single-products-product-details-view-mmortc-bbtx {
+    margin-top: 7px;
+}
+.single-products-product-details-view-mmortc-bbtx {
+    margin-top: 7px;
+    position: absolute;
+    width: 92%;
+    z-index: 999;
+    box-shadow: 0px -25px 28px 17px #fff;
+}
+/* View More Button */
+.single-product-inside-view-more-buttom-details-images-all img {
+    width: 100%;
+    margin-top: 10px;
+}
+.single-product-inside-view-more-buttom-details p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+/* View More Button */
+/* Product Details Section */
