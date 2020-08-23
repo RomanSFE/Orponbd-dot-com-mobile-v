@@ -5,6 +5,9 @@ import './singleproductalltext.css';
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 
+// Recommended component
+import RecommendedProducts from '../recomendedproducts/RecommendedProducts.js'
+
 export default class SingleProductAllText extends Component {
     // Quantity incre decre
     constructor(props) {
@@ -396,6 +399,7 @@ export default class SingleProductAllText extends Component {
                                 {/* View More Button Content */}
                                 { this.state.ViewMore ?
                                 <>
+                                <div className="view-more-bbtn-inside-ttxxtx-mmobbl">
                                     <div className="single-product-inside-view-more-buttom-details text-left">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, voluptate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere.</p>
                                         
@@ -405,6 +409,7 @@ export default class SingleProductAllText extends Component {
                                         <img src={require('../../../assets/slide-2.jpg')} alt="orponbd online shop"/>
                                         <img src={require('../../../assets/slide-3.jpg')} alt="orponbd online shop"/>
                                     </div>
+                                </div>
                                 </>
                                 : '' }
                                 {/* View More Button Content */}
@@ -419,6 +424,43 @@ export default class SingleProductAllText extends Component {
                 </div>
             </div>
             {/* Products Details Section */}
+
+            {/* Recommended for you section */}
+            <div className="single-products-recommended-peoodect-sec">
+                <RecommendedProducts/>
+            </div>
+            {/* Recommended for you section */}
+
+            {/* Buy Now and Add to cart Butto single product page */}
+            <div className="buy-now-and-add-to-cart-page-mobile-v-single-prodcpg">
+                <div className="container">
+                    <div className="row buy-now-and-add-to-cart-page-mobile-extra-ppxdc">
+                        <div className="col-5">
+                           <div className="buy-now-and-add-to-cart-page-mobile-buy-now-bbtn text-center">
+                               <Link to="#">
+                                    Buy Now
+                               </Link>
+                            </div> 
+                        </div>
+                        <div className="col-5">
+                            <div className="buy-now-and-add-to-cart-page-mobile-addto-ccrt-bbtn text-center">
+                               <Link to="#">
+                                    Add To Cart
+                               </Link>
+                            </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="buy-now-and-add-to-cart-page-mobile-cart-icon-bbtn">
+                               <Link to="#">
+                                    <img src={require('../../../assets/supermarket.svg')} alt="orponbd online shop"/>
+                               </Link>
+                               <p>17</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Buy Now and Add to cart Butto single product page */}
             </>
         )
     }

@@ -13,7 +13,8 @@
     transition: width .4s ease-in-out;    
   }
   .blue span { 
-    background-image: linear-gradient(-86deg, #5151e5 0%, #72edf2 100%);  
+    /* background-image: linear-gradient(-86deg, #5151e5 0%, #72edf2 100%);   */
+    background-color: rgb(77, 77, 77);
   }
   .progress-section p {
     font-size: 14px;
@@ -30,7 +31,26 @@
 
   .singge-product-more-review-page-mobile-main-section-total-rat-ccnt {
     border-right: 1px solid #bdbdbd;
-    padding: 1px;
+    padding: 8px;
+    margin-top: 27px;
+}
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt p {
+  font-size: 11px;
+}
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: rgb(83, 83, 83);
+}
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt h6 {
+  font-size: 11px;
+  color: #636363;
+  margin-top: -8px;
+}
+
+
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt-right-part {
+  margin-top: 8px;
 }
   .hshsgdf-five-starx ul {
     list-style: none;
@@ -51,3 +71,101 @@
 .singge-product-more-review-page-mobile-main-section-total-rat-ccnt-right-part.extradcax {
     margin-top: -12px;
 }
+
+.all-review-count-box-mobile-vv-xsec {
+  background-color: #F7F7F7;
+  height: 50px;
+  margin-top: 4px;
+}
+.all-review-count-box-mobile-vv-xsec-alll p {
+  border: 1px solid #ff524e;
+  padding: 3px;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #f5501f;
+}
+
+.all-review-count-box-mobile-vv-xsec-alll {
+  margin-top: 12px;
+}
+
+/* Customer Review Provide by customer section start */
+.customer-review-provide-by-customer-revvxu-sec-details-page-all {
+  /* border-bottom: 1px solid #c7c7c7; */
+  margin-top: 12px;
+}
+.customer-review-provide-by-customer-revvxu-sec-pro-img-details-pp img {
+  width: 50px;
+  border-radius: 100%;
+  height: 50px;
+}
+.row.customer-review-provide-by-customer-eecx-details-pgg .col-9 {
+  margin: 0px;
+  padding: 0px;
+}
+.row.customer-review-provide-by-customer-eecx-details-pgg .col-9 {
+  margin-left: -10px;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg p {
+  font-size: 9px;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg p strong {
+  font-size: 13px;
+  margin-right: 7px;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg h6 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #848484;
+  margin-top: -12px;
+}
+.customer-review-provide-by-customer-revvxu-sec-texxtc-details-ppg p {
+  padding: 4px 10px 4px 14px;
+  color: #6d6d6d;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+.customer-review-provide-by-customer-revvxu-sec-texxt-social-likke-detl-pgg ul {
+  list-style: none;
+  margin: 0px;
+  padding-bottom: 4px;
+  margin-right: 8px;
+  margin-top: -12px;
+}
+.customer-review-provide-by-customer-revvxu-sec-texxt-social-likke-detl-pgg ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+.row.sociall-xxcc-bodr {
+  border-bottom: 1px solid #c7c7c7;
+}
+.row.sociall-xxcc-bodr {
+  margin-bottom: 10px;
+}
+
+
+/* star color */
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt p .fa {
+  color: #dcdcdc;
+}
+.singge-product-more-review-page-mobile-main-section-total-rat-ccnt p .checked {
+  color: #ffa500;
+}
+
+.hshsgdf-five-starx ul li p span .fa {
+  color: #dcdcdc;
+}
+.hshsgdf-five-starx ul li p span .checked {
+  color: #ffa500;
+}
+
+.customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg p .fa {
+  color: #dcdcdc;
+}
+.customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg p .checked {
+  color: #ffa500;
+}
+/* star color */
+/* Customer Review Provide by customer section end */

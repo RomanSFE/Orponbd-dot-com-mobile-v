@@ -13,6 +13,10 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/singleproductpage">Single product page</Link></li>
                                     <li><Link to="/more-review-page">More Review Page</Link></li>
+                                    <li><Link to="/empty-cart">Empty Cart</Link></li>
+                                    <li><Link to="/my-cart">My Cart</Link></li>
+                                    <li><Link to="/wishlist">My Wishlist</Link></li>
+                                    <li><Link to="/product-not-found">Product Not Found</Link></li>
                                 </ul>
                             </div>
                         </div>

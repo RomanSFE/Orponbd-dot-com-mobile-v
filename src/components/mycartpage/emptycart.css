@@ -1,0 +1,32 @@
+.my-empty-cart-mobile-v-main-section-booxc-img img {
+    width: 90%;
+    height: 265px;
+    margin-top: 100px;
+}
+.my-empty-cart-mobile-v-main-section-booxc-texttc h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.my-empty-cart-mobile-v-main-section-booxc-texttc p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #797979;
+}
+.my-empty-cart-mobile-v-main-section-booxc-back-bbtnn {
+    width: 86%;
+    height: 45px;
+    border-radius: 20px;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    margin-top: 27px;
+}
+.my-empty-cart-mobile-v-main-section-booxc-back-bbtnn a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 45px;
+}

@@ -50,7 +50,19 @@ import SingleProductPage from './components/singleproductpage/SingleProductPage.
 
 // Single product page
 import MoreReviewPage from './components/singleproductpage/morereviewpage/MoreReviewPage.js'
-// import Header from './components/extrasection/Header.js'
+
+// Empty Cart page
+import EmptyCart from './components/mycartpage/EmptyCart.js'
+
+// My Cart page
+import MyCart from './components/mycartpage/MyCart.js'
+
+// My Wishlist page
+import WishList from './components/wishlist/WishList.js'
+
+// Not Found page
+import NotFound from './components/notfoundpage/NotFound.js'
+
 
 function App() {
   return (
@@ -65,10 +77,10 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path="/singleproductpage" component={SingleProductPage}/>
         <Route path="/more-review-page" component={MoreReviewPage}/>
-        {/* <Route path="/website-sections" component={WebsiteSections}/>
-        <Route path="/react" component={ReactScreen}/>
-        <Route path="/react-native" component={ReactNativeScr}/>
-        <Route path="/uiux-design" component={UiuxScreen}/> */}
+        <Route path="/empty-cart" component={EmptyCart}/>
+        <Route path="/my-cart" component={MyCart}/>
+        <Route path="/wishlist" component={WishList}/>
+        <Route path="/product-not-found" component={NotFound}/>
       </Switch>
 
     </>

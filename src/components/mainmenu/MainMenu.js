@@ -22,7 +22,7 @@ export default class MainMenu extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/product-not-found">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx category-exx-ccls-vc">
                                                     <img src={require('../../assets/list.svg')} alt="orponbd global collection"/>
@@ -32,7 +32,7 @@ export default class MainMenu extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/my-cart">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/supermarket.svg')} alt="orponbd global collection"/>
@@ -42,7 +42,7 @@ export default class MainMenu extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/wishlist">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/user.svg')} alt="orponbd global collection"/>
