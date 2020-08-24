@@ -17,6 +17,9 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/my-cart">My Cart</Link></li>
                                     <li><Link to="/wishlist">My Wishlist</Link></li>
                                     <li><Link to="/product-not-found">Product Not Found</Link></li>
+                                    <li><Link to="/main-category">Main category</Link></li>
+                                    <li><Link to="/sub-category">Main category</Link></li>
+                                    <li><Link to="/single-category-product">Single Category Product</Link></li>
                                 </ul>
                             </div>
                         </div>

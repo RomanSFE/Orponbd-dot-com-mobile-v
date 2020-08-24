@@ -289,9 +289,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 .single-products-options-section-quantity-bbox ul li {
     display: inline-block;
     margin-right: 0px;
-    /* background: #ccc; */
     text-align: center;
-    border: 1px solid #f9f9f9;
 }
 .single-products-options-section-quantity-bbox {
     margin-top: -10px;
@@ -311,6 +309,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     background-color: #ccc;
     font-size: 16px;
     border-radius: 5px 0px 0px 5px;
+    margin-right: -1px;
 }
 .single-products-options-section-quantity-bbox ul li.plusxsxts-bbtn button {
     border: 1px solid #969696;
@@ -318,6 +317,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     background-color: #ccc;
     font-size: 16px;
     border-radius: 0px 5px 5px 0px;
+    margin-left: -3px;
 }
 .single-products-options-section-quantity-bbox ul li h2 {
     font-size: 17px;

@@ -48,3 +48,24 @@
     padding: 3px 8px 3px 8px;
     font-weight: 600;
 }
+
+/* Modal Button */
+.wishlist-product-and-text-section button h5 {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding: 3px 8px 3px 8px;
+    font-weight: 600;
+}
+.wishlist-product-and-text-section button {
+    background: none;
+    border: none;
+}
+.wishlist-product-and-text-section button {
+    float: right;
+    margin-top: -16px;
+    outline: none;
+}
+/* Modal Button */

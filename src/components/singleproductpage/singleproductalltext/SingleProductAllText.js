@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './singleproductalltext.css';
 
+// Modal
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
+// Modal
 
 // Recommended component
 import RecommendedProducts from '../recomendedproducts/RecommendedProducts.js'

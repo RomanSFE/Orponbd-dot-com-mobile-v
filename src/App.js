@@ -63,6 +63,15 @@ import WishList from './components/wishlist/WishList.js'
 // Not Found page
 import NotFound from './components/notfoundpage/NotFound.js'
 
+// Main Category page
+import MainCategory from './components/categorypage/MainCategory.js'
+
+// Sub Category page
+import SubCategory from './components/categorypage/subcategory/SubCategory.js'
+
+// Single Category Product
+import SingleCategoryProduct from './components/categorypage/singlecategoryproduct/SingleCategoryProduct.js'
+
 
 function App() {
   return (
@@ -81,6 +90,9 @@ function App() {
         <Route path="/my-cart" component={MyCart}/>
         <Route path="/wishlist" component={WishList}/>
         <Route path="/product-not-found" component={NotFound}/>
+        <Route path="/main-category" component={MainCategory}/>
+        <Route path="/sub-category" component={SubCategory}/>
+        <Route path="/single-category-product" component={SingleCategoryProduct}/>
       </Switch>
 
     </>

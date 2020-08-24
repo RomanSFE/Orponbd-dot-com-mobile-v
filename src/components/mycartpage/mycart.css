@@ -1,0 +1,207 @@
+.my-cart-product-vvx-and-text-section span {
+    display: inline-block;
+    margin-top: -73px;
+    float: right;
+}
+.hgffhhfg img {
+    width: 100%;
+    height: 74px;
+}
+.row.my-cart-select-all-ex-ppdnfg .col-8 {
+    margin: 0px;
+    padding-right: 10px;
+}
+.row.my-cart-select-all-ex-ppdnfg .col-2 {
+    margin: 0px;
+    padding-right: 0px;
+}
+.row.my-cart-select-all-ex-ppdnfg .col-3 {
+    margin: 0px;
+    padding: 0px;
+}
+.my-cart-product-vvx-and-text-section a {
+    float: right;
+    margin-top: -38px;
+}
+.my-cart-product-vvx-and-text-section h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #de3030;
+    margin-top: -4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-cart-product-vvx-and-text-section h5 {
+    font-size: 12px;
+    color: #adadad;
+    margin-top: -13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-cart-product-vvx-and-text-section p {
+    font-size: 14px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4px;
+}
+.row.my-wishlisst-ex-ppdnfg {
+    margin-top: 11px;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 4px;
+}
+.my-cart-select-vvb-immxg img {
+    width: 100%;
+    height: 70px;
+    margin-left: -10px;
+}
+.row.my-cart-select-all-ex-ppdnfg {
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+span.my-cart-select-all-x-txtt {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d5d5d;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 9px;
+}
+.rs-checkbox-checker label {
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.my-cart-product-vvx-and-text-section {
+    margin-left: -10px;
+}
+
+/* Checkbox custom css */
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin: 11px auto;
+    background: #fcfff4;
+    border-radius: 100px;
+    /* box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgb(249 14 14 / 50%); */
+    border: 2px solid #333;
+}
+
+/* .rs-checkbox.rs-checkbox-inline.rs-checkbox-checked {
+    box-sizing: border-box;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: 11px auto;
+    background: #fcfff4;
+    border-radius: 100px;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgb(249 14 14 / 50%);
+    border: 2px solid #333;
+}
+.rs-checkbox.rs-checkbox-inline.rs-checkbox-checked input[type=checkbox], input[type=radio] {
+    visibility: hidden;
+} */
+/* Checkbox custom css */
+
+/* Incress Decress */
+.my-cart-dfc-single-products-options-section-quantity-bbox ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.my-cart-dfc-single-products-options-section-quantity-bbox ul li {
+    display: inline-block;
+    margin-right: 0px;
+    text-align: center;
+}
+.my-cart-dfc-single-products-options-section-quantity-bbox {
+    margin-top: -35px;
+    float: right;
+}
+
+.my-cart-dfc-single-products-options-section-quantity-bbox ul li button {
+    border: 1px solid #dcdcdc;
+    padding: 0px 10px 0px 10px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    border-radius: 15px 0px 0px 15px;
+    margin-right: -1px;
+}
+.my-cart-dfc-single-products-options-section-quantity-bbox ul li.plusxsxts-bbtn button {
+    border: 1px solid #dcdcdc;
+    padding: 0px 10px 0px 10px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: -3px;
+}
+.my-cart-dfc-single-products-options-section-quantity-bbox ul li h2 {
+    font-size: 17px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    padding: 0px 17px 0px 17px;
+    font-weight: 500;
+}
+.my-cart-dfc-single-products-options-section-quantity-bbox ul li.incrementhhtwo-ttxt h2 {
+    font-size: 17px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    padding: 1px 13px 3px 11px;
+    font-weight: 500;
+    background-color: #f7f7f7;
+    border: 1px solid #dcdcdc;
+}
+/* Incress Decress */
+
+/* Total price section */
+.my-cart-total-price-buttxcn-section-bbox a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.my-cart-total-price-buttxcn-section-bbox {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    border-radius: 10px;
+    font-weight: 600;
+    width: 98%;
+    height: 38px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 5px;
+}
+.my-cart-total-price-main-section {
+    background-color: #f0f0f0;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    bottom: 56px;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+}
+.my-cart-total-price-main-section {
+    background-color: #f2f2f2;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    bottom: 56px;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+}
+.my-cart-total-price-section-bbox p {
+    color: #0c0c0c;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-cart-total-price-section-bbox {
+    margin-top: 14px;
+}
+.my-cart-total-price-section-bbox p strong {
+    color: #f14444;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+/* Total price section */

@@ -1,0 +1,48 @@
+.single-category-product-right-filter-sec-mobli ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.single-category-product-right-filter-sec-mobli ul li {
+    display: inline-block;
+}
+.single-category-product-item-mobile-top-section {
+    height: 50px;
+}
+.single-category-product-right-filter-sec-mobli ul li span i.fas {
+    font-size: 23px;
+}
+li.single-cat-prr-iitm-left-icn span {
+    margin-right: 12px;
+}
+.single-category-product-left-best-match-section {
+    margin-top: 10px;
+}
+.single-category-product-right-filter-sec-mobli {
+    margin-top: 10px;
+}
+.single-category-product-left-best-match-section select {
+    width: 111px;
+    font-size: 15px;
+    color: #dc4040;
+    border: none;
+    font-weight: 500;
+    outline: none;
+}
+.single-category-product-left-best-match-section select option {
+    font-size: 14px;
+    color: #333;
+}
+.row.single-category-prod-ex-pdd .col-3 {
+    margin: 0px;
+    padding: 0px;
+}
+li.single-cat-prr-iitm-left-icn {
+    border-right: 1px solid #b7b7b7;
+}
+li.single-cat-prr-iitm-filter-iicn span {
+    margin-left: 9px;
+}
+li.single-cat-prr-iitm-filter-iicn span i.fas {
+    color: #d64747;
+}

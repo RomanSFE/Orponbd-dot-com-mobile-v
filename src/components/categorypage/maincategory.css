@@ -1,0 +1,44 @@
+.main-category-mmobl-text-section span {
+    display: inline-block;
+    margin-top: -73px;
+    float: right;
+}
+.main-category-immgbg img {
+    width: 100%;
+    height: 50px;
+}
+.row.main-category-ex-ppdnfg .col-8 {
+    margin: 0px;
+    padding: 0px;
+}
+.main-category-mmobl-text-section a {
+    float: right;
+    margin-top: -38px;
+}
+.main-category-mmobl-text-section h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #de3030;
+    margin-top: -14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-category-mmobl-text-section p {
+    font-size: 15px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6px;
+}
+.row.main-category-ex-ppdnfg {
+    margin-top: 11px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 4px;
+}
+.row.main-category-ex-ppdnfg .col-1 {
+    margin: 0px;
+    padding: 0px;
+}
+.main-category-mobll-icon-secctn span i.fas {
+    font-size: 20px;
+    color: #b9b9b9;
+    margin-top: 14px;
+}
