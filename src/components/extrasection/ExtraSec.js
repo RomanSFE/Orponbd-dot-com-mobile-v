@@ -20,6 +20,7 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/main-category">Main category</Link></li>
                                     <li><Link to="/sub-category">Main category</Link></li>
                                     <li><Link to="/single-category-product">Single Category Product</Link></li>
+                                    <li><Link to="/single-category-product-two-column">Single Category Product two column</Link></li>
                                 </ul>
                             </div>
                         </div>

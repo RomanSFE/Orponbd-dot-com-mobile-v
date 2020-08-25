@@ -12,6 +12,23 @@ import { Modal } from 'react-responsive-modal';
 
 
 export default class WishList extends Component {
+    // Quantity incre decre
+    constructor(props) {
+        super(props);
+        this.state = {
+          clicks: 0,
+          show: true,
+        };
+      }
+    
+      IncrementItem = () => {
+        this.setState({ clicks: this.state.clicks + 1 });
+      }
+      DecreaseItem = () => {
+        this.setState({ clicks: this.state.clicks - 1 });
+      }
+    // Quantity incre decre
+
     // Select Modal
     state = {
         ProductOptionOpen: false,
@@ -60,20 +77,20 @@ export default class WishList extends Component {
                                 <div className="sfsjgfj">
                                 <Modal open={WishlistOptionOpen} onClose={this.onCloseModalWishlist} >
                                     {/* Image and price section */}
-                                    <div className="modal-singg-mob-product-imgg-section">
+                                    <div className="wishlist-ffg-mob-product-imgg-section">
                                         <div className="container">
                                             <div className="row">
                                                 <div className="col-4">
-                                                    <div className="single-product-open-modal-image-immg-mbl">
+                                                    <div className="wishlist-product-open-modal-image-immg-mbl">
                                                         <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/>
                                                     </div>
                                                 </div>
                                                 <div className="col-7">
-                                                    <div className="single-product-open-modal-image-txctt">
+                                                    <div className="wishlistt-pp-product-open-modal-image-txctt">
                                                         <h3>1750 TK <del><span className="single-pro-pr-old-pprc-xs">2100 TK</span></del></h3>
                                                         <p>Selected: <span>Black</span></p>
                                                     </div>
-                                                    <div className="instock-and-offer-box">
+                                                    <div className="wishlist-instock-and-offer-box">
                                                         <ul>
                                                             <li><h6>In Stock</h6></li>
                                                             <li><p>17% off</p></li>
@@ -86,13 +103,13 @@ export default class WishList extends Component {
                                     {/* Image and price section */}
 
                                     {/* single product options section */}
-                                    <div className="single-products-options-section-size-color-quant">
+                                    <div className="wishlist-ppx-products-options-section-size-color-quant">
                                         {/* color with img */}
-                                        <div className="single-products-options-section-color-with-immg">
-                                            <div className="single-products-options-section-color-ttxtt">
+                                        <div className="wishlist-products-options-section-color-with-immg">
+                                            <div className="wishlist-products-options-section-color-ttxtt">
                                                 <p>Color: <span>Black</span></p>
                                             </div>
-                                            <div className="single-products-options-section-iimmg-bbox">
+                                            <div className="wishlist-ppcx-products-options-section-iimmg-bbox">
                                                 <ul>
                                                    <li><Link to="#"><img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/></Link></li>   
                                                    <li><Link to="#"><img src={require('../../assets/slide-2.jpg')} alt="orponbd global collections"/></Link></li>   
@@ -103,11 +120,11 @@ export default class WishList extends Component {
                                         {/* color with img */}
 
                                         {/* Size */}
-                                        <div className="single-products-options-section-sizexx">
-                                            <div className="single-products-options-section-sizeext-ttxtt">
+                                        <div className="wishlist-ppr-products-options-section-sizexx">
+                                            <div className="wishlist-ppr-products-options-section-sizeext-ttxtt">
                                                 <p>Size: <span>M</span></p>
                                             </div>
-                                            <div className="single-products-options-section-sizzx-bbox">
+                                            <div className="wishlist-ppr-products-options-section-sizzx-bbox">
                                                 <ul>
                                                    <li><Link to="#"><p>M</p></Link></li>
                                                    <li><Link to="#"><p>L</p></Link></li>
@@ -119,20 +136,16 @@ export default class WishList extends Component {
                                         {/* Size */}
 
                                         {/* Quantity */}
-                                        <div className="single-products-options-section-quantity">
-                                            <div className="single-products-options-section-quantity-ttxtt">
+                                        <div className="wishlist-ppr-products-options-section-quantity">
+                                            <div className="wishlist-ppxc-products-options-section-quantity-ttxtt">
                                                 <p>Quantity:</p>
                                             </div>
-                                            <div className="single-products-options-section-quantity-bbox">
+                                            <div className="wishlist-ppr-products-options-section-quantity-bbox">
                                                 <ul>
                                                     <li><button onClick={this.DecreaseItem}>-</button></li>
                                                     <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
                                                     <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
                                                 </ul>
-                                                
-                                                {/* <button onClick={this.ToggleClick}>
-                                                { this.state.show ? 'Hide number' : 'Show number' }
-                                                </button> */}
                                             </div>
                                         </div>
                                         {/* Quantity */}
@@ -140,11 +153,11 @@ export default class WishList extends Component {
                                     {/* single product options section */}
 
                                     {/* Single product  Buy Now section button */}
-                                    <div className="single-product-buy-now-open-modal-mobile-section">
+                                    <div className="wishlist-ppxc-product-buy-now-open-modal-mobile-section">
                                         <div className="container">
                                             <div className="row">
                                                 <div className="col-12">
-                                                    <div className="single-product-buy-now-open-modal-mobile-section-box text-center">
+                                                    <div className="wishlist-bvf-product-buy-now-open-modal-mobile-section-box text-center">
                                                         <button>Buy Now</button>
                                                     </div>
                                                 </div>

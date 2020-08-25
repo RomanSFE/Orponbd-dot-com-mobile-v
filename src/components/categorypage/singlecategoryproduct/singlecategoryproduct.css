@@ -1,3 +1,4 @@
+/* Top Best Match start */
 .single-category-product-right-filter-sec-mobli ul {
     list-style: none;
     margin: 0px;
@@ -46,3 +47,146 @@ li.single-cat-prr-iitm-filter-iicn span {
 li.single-cat-prr-iitm-filter-iicn span i.fas {
     color: #d64747;
 }
+span.sing-pro-sing-pro-icon-two-box {
+    color: #797878;
+}
+/* Top Best Match end */
+
+/* single category product item */
+.single-category-single-product-immxg-sec img {
+    width: 100%;
+    height: 95px;
+    border-radius: 4px;
+}
+.row.single-catt-prood-ex0pdd .col-7 {
+    margin: 0px;
+    padding: 1px;
+}
+.single-category-single-product-texxtt-sec p {
+    color: #333;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 3px;
+}
+.single-category-single-product-texxtt-sec h3 {
+    color: #e83131;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -10px;
+}
+.single-category-single-product-texxtt-sec h6 {
+    color: #a0a0a0;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+span.single-catt-pro-iit-star i.fas {
+    margin-left: 6px;
+    color: #f13535;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.row.single-catt-prood-ex0pdd {
+    margin-top: 7px;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* single category product item */
+
+
+/* Modal Section */
+.modal.left .modal-dialog,
+	.modal.right .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.left .modal-content,
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.modal.left .modal-body,
+	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	}
+
+/*Left*/
+	.modal.left.fade .modal-dialog{
+		left: -320px;
+		-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+		        transition: opacity 0.3s linear, left 0.3s ease-out;
+	}
+	
+	.modal.left.fade.in .modal-dialog{
+		left: 0;
+	}
+        
+/*Right*/
+	.modal.right.fade .modal-dialog {
+		right: -320px;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.modal.right.fade.in .modal-dialog {
+		right: 0;
+	}
+
+/* ----- MODAL STYLE ----- */
+	.modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+	.modal-header {
+		border-bottom-color: #EEEEEE;
+		background-color: #FAFAFA;
+	}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+.btn-demo {
+	margin: 15px;
+	padding: 10px 15px;
+	border-radius: 0;
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+
+.btn-demo:focus {
+	outline: 0;
+}
+
+.demo-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+	background-color: #212121;
+	text-align: center;
+}
+
+.demo-footer > a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+}
+/* Modal Section */

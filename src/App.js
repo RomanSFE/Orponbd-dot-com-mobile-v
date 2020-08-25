@@ -72,6 +72,9 @@ import SubCategory from './components/categorypage/subcategory/SubCategory.js'
 // Single Category Product
 import SingleCategoryProduct from './components/categorypage/singlecategoryproduct/SingleCategoryProduct.js'
 
+// Single Category Product two column
+import SingleCategoryProductTwoColumn from './components/categorypage/singlecategorytwocolumn/SingleCategoryProductTwoColumn.js'
+
 
 function App() {
   return (
@@ -93,6 +96,7 @@ function App() {
         <Route path="/main-category" component={MainCategory}/>
         <Route path="/sub-category" component={SubCategory}/>
         <Route path="/single-category-product" component={SingleCategoryProduct}/>
+        <Route path="/single-category-product-two-column" component={SingleCategoryProductTwoColumn}/>
       </Switch>
 
     </>
