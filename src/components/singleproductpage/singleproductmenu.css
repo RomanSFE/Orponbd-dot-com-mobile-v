@@ -14,8 +14,9 @@
     opacity: 0.0;
 }
 .single-product-menu-dot-cm-top-menu {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     height: 55px;
+    border-bottom: 1px solid #d4d4d4;
 }
 .single-product-menu-dot-cm-top-menu-right-icon img {
     width: 35px;

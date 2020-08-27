@@ -370,6 +370,9 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     border-top-right-radius: 10px;
     top: 96%;
 }
+.react-responsive-modal-overlay {
+    z-index: 99999 !important;
+}
 /* products options color size quantity */
 /* After modal open */
 /* Modal single product color size */

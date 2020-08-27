@@ -125,7 +125,7 @@ li.sing-cat-profill-done span {
     font-weight: 600 !important;
 }
 
-.single-pro-cat-sidebar-filter-section-select-opttn select {
+/* .single-pro-cat-sidebar-filter-section-select-opttn select {
     width: 98%;
     font-size: 14px;
     color: #101010;
@@ -134,7 +134,7 @@ li.sing-cat-profill-done span {
     outline: none;
     padding: 5px;
     background-color: #f5f5f5;
-}
+} */
 .single-pro-cat-sidebar-filter-section-select-opttn {
     margin-top: 10px;
 }
@@ -156,9 +156,9 @@ li.sing-cat-profill-done span {
     text-align: center;
     font-size: 14px;
 }
-.row.single-pro-fill-price-ex-pdd .col-6 {
+/* .row.single-pro-fill-price-ex-pdd .col-6 {
     padding-left: 23px;
-}
+} */
 .single-pro-cat-sidebar-filter-section-pricce-opttn {
     margin-top: 11px;
     background-color: #f5f5f5;

@@ -241,7 +241,9 @@ export default class SingleProductAllText extends Component {
                                             <div className="row">
                                                 <div className="col-12">
                                                     <div className="single-product-buy-now-open-modal-mobile-section-box text-center">
-                                                        <button>Buy Now</button>
+                                                        <Link to="/payment-with-shipping-button">
+                                                            <button>Buy Now</button>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -439,7 +441,7 @@ export default class SingleProductAllText extends Component {
                     <div className="row buy-now-and-add-to-cart-page-mobile-extra-ppxdc">
                         <div className="col-5">
                            <div className="buy-now-and-add-to-cart-page-mobile-buy-now-bbtn text-center">
-                               <Link to="#">
+                               <Link to="/payment-product-page">
                                     Buy Now
                                </Link>
                             </div> 

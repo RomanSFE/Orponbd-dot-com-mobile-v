@@ -1,0 +1,114 @@
+.register-with-emaill-tpp-bg {
+    background: #fff;
+    height: 100%;
+    bottom: 0;
+    padding-bottom: 100%;
+}
+/* sign in */
+.register-with-email-cdd-mob-vv-input-bboox input {
+    width: 100%;
+    padding: 16px 1px 17px 9px;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+    background: none;
+}
+.register-with-email-cdd-mob-vv-input-bboox {
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 5px;
+}
+
+.register-with-email-cdd-mob-vv-bbuttnn button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+.register-with-email-cdd-mob-vv-bbuttnn {
+    margin-top: 30px;
+}
+
+.register-wifg-oor-connect-ttextt {
+    margin-top: 38px;
+}
+.register-wifg-oor-connect-ttextt h5 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Or facebook google */
+.col-6.signin-faceeffbbkk-reg-wt-eml {
+    padding-right: 4px;
+}
+.col-6.signin-gooooddfgg-reg-wt-eml {
+    padding-left: 4px;
+}
+.register-wtgf-eemml-mob-vv-signin-bbuttnn-facebookx button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #3A63BF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+.register-wtgf-eemml-mob-vv-signin-bbuttnn-googgoofd button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #C94131;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+.signin-google-and-facebook-buttnnn-register-with-eeml {
+    margin-top: 23px;
+}
+
+.register-wtgf-eemml-mob-vv-signin-bbuttnn-facebookx button span i.fab {
+    margin-right: 9px;
+    border-right: 1px solid #6A66DB;
+    height: 41px;
+    line-height: 40px;
+    padding-right: 10px;
+}
+.register-wtgf-eemml-mob-vv-signin-bbuttnn-googgoofd button span i.fab {
+    margin-right: 10px;
+    border-right: 1px solid #B83E30;
+    height: 41px;
+    line-height: 40px;
+    padding-right: 10px;
+    margin-left: -17px;
+}
+/* Or facebook google */
+/* sign in */
+
+/* Terms condition */
+.complete-profile-agree-and-terms-sec {
+    margin-top: 4px;
+}
+.complete-profile-terms-and-cond-confir p {
+    color: #bfbfbf;
+    font-size: 13px;
+}
+.complete-profile-terms-and-cond-confir p a {
+    color: #82BEFF;
+}
+/* Terms condition */

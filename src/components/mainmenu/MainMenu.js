@@ -42,7 +42,7 @@ export default class MainMenu extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/wishlist">
+                                        <Link to="/signup-registration">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/user.svg')} alt="orponbd global collection"/>

@@ -1,0 +1,50 @@
+/* complete profile */
+.complete-profile-topp-serrct-continue {
+    background: #fff;
+    height: 100%;
+    bottom: 0;
+    padding-bottom: 100%;
+}
+
+.register-complete-profile-secrion-mob-vv-input-bboox input {
+    width: 100%;
+    padding: 16px 1px 17px 9px;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+    background: none;
+}
+.register-complete-profile-secrion-mob-vv-input-bboox {
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 5px;
+}
+
+.register-complete-profile-secrion-mob-vv-signin-bbuttnn button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+.register-complete-profile-secrion-mob-vv-signin-bbuttnn {
+    margin-top: 20px;
+}
+
+/* Terms condition */
+.complete-profile-agree-and-terms-sec {
+    margin-top: 4px;
+}
+.complete-profile-terms-and-cond-confir p {
+    color: #bfbfbf;
+    font-size: 13px;
+}
+.complete-profile-terms-and-cond-confir p a {
+    color: #82BEFF;
+}
+/* Terms condition */

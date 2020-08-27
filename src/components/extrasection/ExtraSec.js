@@ -21,6 +21,13 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/sub-category">Main category</Link></li>
                                     <li><Link to="/single-category-product">Single Category Product</Link></li>
                                     <li><Link to="/single-category-product-two-column">Single Category Product two column</Link></li>
+                                    <li><Link to="/payment-with-shipping-button">Payment With Shipping Button</Link></li>
+                                    <li><Link to="/shipping-address">Shipping Address</Link></li>
+                                    <li><Link to="/payment-product-page">Payment Product Page</Link></li>
+                                    <li><Link to="/payment-proceed">Payment Proceed</Link></li>
+                                    <li><Link to="/signup-registration">Signup and Registration</Link></li>
+                                    <li><Link to="/complete-profile">Complete Profile</Link></li>
+                                    <li><Link to="/register-with-email">Register with Email</Link></li>
                                 </ul>
                             </div>
                         </div>

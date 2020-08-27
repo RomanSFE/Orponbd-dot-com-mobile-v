@@ -1,0 +1,306 @@
+/* Address Carousel */
+.row.pro-ppgg-add-seectt .col-1 {
+    margin: 0px;
+    padding-left: 9px;
+    padding-right: 0px;
+}
+.row.pro-ppgg-add-seectt .col-11 {
+    margin: 0px;
+    padding: 0px;
+}
+.add-adreess-button-mobbl-v {
+    background-image: linear-gradient(-70deg, #f5c399 0%, #ffe1a2 100%);
+    height: 100%;
+    border-radius: 4px;
+    text-align: center;
+}
+.add-adreess-button-mobbl-v i.fas {
+    margin-top: 67px;
+    color: #ff4b4b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-page-address-texxtt-sec {
+    background-image: linear-gradient(-70deg, #f5c399 0%, #ffe1a2 100%);
+    border-radius: 4px;
+}
+.product-page-address-texxtt-sec p {
+    font-size: 13px;
+    color: #888;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.default-delivary-addd-r-mm ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.default-delivary-addd-r-mm ul li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+.default-delivary-addd-r-mm ul li input[type=radio] {
+    position: absolute;
+    top: -24px;
+    left: -13px;
+}
+.default-delivary-addd-r-mm ul li p {
+    font-size: 10px;
+    color: #8e8e8e;
+}
+.default-delivary-addd-r-mm {
+    margin-top: -17px;
+}
+.product-page-address-carousel-section {
+    margin-top: 12px;
+    margin-bottom: 13px;
+}
+.product-page-address-texxtt-sec p {
+    padding: 5px 17px 5px 10px;
+}
+.row.web-ddt-cm-carssl-extra-clss-addrrff .col-12 {
+    margin: 0px;
+    margin-left: -21px;
+}
+.product-page-address-texxtt-sec {
+    margin-left: -17px;
+}
+/* Address Carousel */
+
+
+.row.order-summary-singgl-product-ex-pdd .col-8 {
+    margin: 0px;
+    padding: 0px;
+}
+.row.order-summary-singgl-product-ex-pdd {
+    margin-top: 8px;
+}
+.order-summary-sinng-pro-ittm-img img {
+    width: 100%;
+    height: 82px;
+}
+.order-summary-sinng-pro-ittm-ttext p {
+    font-size: 15px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+.order-summary-sinng-pro-ittm-ttext h5 {
+    color: #F88422;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: -16px;
+}
+.single-product-itwm-summary-color-option ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.single-product-itwm-summary-color-option ul li {
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #afafaf;
+    border-right: 1px solid #afafaf;
+    padding-right: 6px;
+    height: 13px;
+    line-height: 14px;
+}
+.single-product-itwm-summary-color-option {
+    margin-top: -11px;
+}
+.single-product-itwm-summary-color-option ul li:last-child {
+    border-right: none;
+}
+.order-summary-hedd-ttxt {
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 8px;
+}
+.row.product-summv-total-ex-pzdd {
+    background-color: #f3f3f3;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.product-summary-item-total-price-box p {
+    color: #101010;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.product-summary-item-total-price-box p strong {
+    font-family: 'Montserrat', sans-serif;
+    color: #F88422;
+    font-weight: 700;
+    font-size: 17px;
+}
+.product-summary-item-total-del-chrrg-bxbx-ttxt p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.product-summary-item-total-del-chrrg-bxbx-ttxt h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #848484;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -14px;
+}
+.product-summary-item-total-del-chrrg-bxbx-ttxt-quntty p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F88422;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+.product-summary-item-total-del-chrrg-bxbx {
+    margin-top: 10px;
+}
+.order-summary-hedd-ttxt h3 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+.order-summary-hedd-ttxt {
+    margin-top: 12px;
+}
+
+.order-summary-coupponn-input-box-sec form input[type=text] {
+    border: none;
+    background: #efefef;
+    width: 75%;
+    height: 50px;
+    position: relative;
+    padding: 7px;
+    color: #3a3a3a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+.order-summary-input-bbox-couppn-bx-button button {
+    position: absolute;
+    width: 25%;
+    top: 0px;
+    right: 15px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+}
+.order-summary-coupponn-main-section {
+    margin-top: 7px;
+}
+.order-summary-coupponn-main-section {
+    border-top: 1px solid #b5b5b5;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #b5b5b5;
+    padding-top: 8px;
+}
+/* Apply Coupon sec */
+
+/* Order Total */
+.order-summary-order-total-section-main-mobile {
+    margin-top: 10px;
+}
+.oreder-total-ffhednf-ttxt h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #151515;
+}
+.oreder-total-ffhednf-ttxt-single-productt-ittm ul li {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    color: #333;
+}
+.oreder-total-ffhednf-ttxt-single-productt-ittm ul li span.hdjhdhfhj {
+    position: absolute;
+    right: 5px;
+    font-weight: 500;
+    color: #333;
+}
+.oreder-total-ffhednf-ttxt-single-productt-ittm ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.oreder-total-ffhednf-ttxt-single-productt-ittm {
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 3px;
+}
+
+.product-summary-item-total-payable-amt p {
+    color: #101010;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.product-summary-item-total-payable-amt p strong {
+    font-family: 'Montserrat', sans-serif;
+    color: #F88422;
+    font-weight: 700;
+    font-size: 17px;
+}
+/* Order Total */
+
+/* Confirm Total */
+.product-summary-total-confirm-section {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background: #efefef;
+    height: 50px;
+    border-top: 1px solid #b9b9b9;
+}
+.product-summary-total-confirm-section-total-ttxt p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 500;
+    line-height: 50px;
+}
+.product-summary-total-confirm-section-total-ttxt p span {
+    font-size: 17px;
+    font-weight: 600;
+    color: #f88422;
+}
+.product-summary-total-confirm-section-con-ffn-btn {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    width: 100%;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 7px;
+    text-align: center;
+}
+.product-summary-total-confirm-section-con-ffn-btn a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.product-summary-total-confirm-section-con-ffn-btn a span {
+    margin-left: 6px;
+}
+.product-summary-total-confirm-section-con-ffn-btn a span i.fas {
+    font-size: 14px;
+}
+/* Confirm Total */

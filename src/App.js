@@ -75,6 +75,27 @@ import SingleCategoryProduct from './components/categorypage/singlecategoryprodu
 // Single Category Product two column
 import SingleCategoryProductTwoColumn from './components/categorypage/singlecategorytwocolumn/SingleCategoryProductTwoColumn.js'
 
+// Payment with shipping button
+import PaymentWithShippingButton from './components/mycartpage/paymentandshipping/PaymentWithShippingButton.js'
+
+// Payment with shipping button
+import ShippingAddressForm from './components/shippingaddressform/ShippingAddressForm.js'
+
+// Payment product page
+import PaymentProductPage from './components/mycartpage/paymentpage/PaymentProductPage.js'
+
+// Payment proceed page
+import PaymentProceed from './components/mycartpage/paymentproceed/PaymentProceed.js'
+
+// Signup and Registration
+import SignupAndRegistration from './components/signupandregistration/SignupAndRegistration.js'
+
+// Complete Profile
+import CompleteProfile from './components/signupandregistration/completeprofile/CompleteProfile.js'
+
+// Register With Email Page
+import RegisterWithEmail from './components/signupandregistration/registerwithemail/RegisterWithEmail.js'
+
 
 function App() {
   return (
@@ -84,6 +105,7 @@ function App() {
       {/* <Home/> */}
 
     </div>
+    
 
       <Switch>
         <Route exact path="/" component={Home}/>
@@ -97,6 +119,13 @@ function App() {
         <Route path="/sub-category" component={SubCategory}/>
         <Route path="/single-category-product" component={SingleCategoryProduct}/>
         <Route path="/single-category-product-two-column" component={SingleCategoryProductTwoColumn}/>
+        <Route path="/payment-with-shipping-button" component={PaymentWithShippingButton}/>
+        <Route path="/shipping-address" component={ShippingAddressForm}/>
+        <Route path="/payment-product-page" component={PaymentProductPage}/>
+        <Route path="/payment-proceed" component={PaymentProceed}/>
+        <Route path="/signup-registration" component={SignupAndRegistration}/>
+        <Route path="/complete-profile" component={CompleteProfile}/>
+        <Route path="/register-with-email" component={RegisterWithEmail}/>
       </Switch>
 
     </>
