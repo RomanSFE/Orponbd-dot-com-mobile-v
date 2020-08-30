@@ -2,7 +2,29 @@ import React, { Component } from 'react';
 import SingleProductTopMenu from '../SingleProductTopMenu.js'
 import './morereviewpage.css';
 
+import Modal from 'react-awesome-modal';
+
 export default class MoreReviewPage extends Component {
+    // Comment Modal
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible : false
+        }
+    }
+ 
+    openModal() {
+        this.setState({
+            visible : true
+        });
+    }
+ 
+    closeModal() {
+        this.setState({
+            visible : false
+        });
+    }
+    // Comment Modal
     render() {
         return (
             <>
@@ -224,7 +246,23 @@ export default class MoreReviewPage extends Component {
                         <div className="col-12">
                             <div className="customer-review-provide-by-customer-revvxu-sec-texxt-social-likke-detl-pgg text-right">
                                 <ul>
-                                    <li><i className="far fa-comment-dots"></i></li>
+                                    <li>
+                                        <div className="ggffdssaa">
+                                            <button onClick={() => this.openModal()}><i className="far fa-comment-dots"></i></button>
+                                            <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                                                <div className="comment-modal-secc text-center">
+                                                    <input type="text" placeholder="your comment..."/>
+                                                    <div className="comment-subbmt-bbtn">
+                                                        <button type="submit">Submit</button>
+                                                    </div>
+                                                    {/* <Link to="javascript:void(0);" onClick={() => this.closeModal()}>Close</Link> */}
+                                                    <div className="cpmment-close-bbxtn">
+                                                        <button onClick={() => this.closeModal()}><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+                                                    </div>
+                                                </div>
+                                            </Modal>
+                                        </div>
+                                    </li>
                                     <li>0</li>
                                     <li><i className="far fa-thumbs-up"></i></li>
                                     <li>5</li>
@@ -262,7 +300,9 @@ export default class MoreReviewPage extends Component {
                         <div className="col-12">
                             <div className="customer-review-provide-by-customer-revvxu-sec-texxt-social-likke-detl-pgg text-right">
                                 <ul>
-                                    <li><i className="far fa-comment-dots"></i></li>
+                                    <li>
+                                        <i className="far fa-comment-dots"></i>
+                                    </li>
                                     <li>0</li>
                                     <li><i className="far fa-thumbs-up"></i></li>
                                     <li>5</li>

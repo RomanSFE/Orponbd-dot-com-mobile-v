@@ -169,3 +169,42 @@
 }
 /* star color */
 /* Customer Review Provide by customer section end */
+
+
+/* Comment Modal */
+.ggffdssaa button {
+  background: none;
+  border: none;
+}
+.comment-modal-secc input {
+  background: none;
+  border: none;
+  width: 93%;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px;
+  outline: none;
+}
+.comment-modal-secc {
+  margin-top: 77px;
+}
+.comment-subbmt-bbtn button {
+  background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+  color: #fff;
+  padding: 3px 20px 3px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+.comment-subbmt-bbtn {
+  margin-top: 16px;
+}
+.comment-modal-secc {
+  position: relative;
+}
+.cpmment-close-bbxtn {
+  position: absolute;
+  right: 10px;
+  top: -58px;
+}
+/* Comment Modal */

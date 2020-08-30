@@ -1,0 +1,91 @@
+.card-image-card-icon-section img {
+    width: 112px;
+    margin-top: 10px;
+}
+.card-payment-main-top-section {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+
+
+.crrded-card-image-boxx img {
+    width: 100%;
+}
+.credit-card-total-price-sec-box h4 {
+    color: #F86220;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.credit-card-total-price-sec-box {
+    margin-top: 13px;
+}
+.credit-card-details-hedd-ttxtt {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+/* Register section */
+.card-payment-secrion-mob-vv-pp {
+    margin-top: 15px;
+}
+.card-payment-pp-secrion-mob-vv-input-bboox input {
+    width: 100%;
+    padding: 16px 1px 17px 9px;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+    background: none;
+}
+.card-payment-pp-secrion-mob-vv-input-bboox {
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 5px;
+}
+.card-payment-pp-secrion-mob-vv-regg-bbuttnn button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+.card-payment-pp-secrion-mob-vv-regg-bbuttnn {
+    margin-top: 30px;
+}
+.card-payment-pp-secrion-mob-vv-input-bboox.card-pay-ex-vvcls {
+    position: relative;
+}
+.card-payment-pp-secrion-mob-vv-input-bboox.card-pay-ex-vvcls span img {
+    position: absolute;
+    right: 5px;
+    top: 16px;
+    width: 35px;
+}
+.card-payment-discount-text p {
+    font-size: 10px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #84b9f1;
+}
+.card-payment-save-info-sec label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #6d6d6d;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 27px;
+    top: 10px;
+}
+.card-payment-save-info-sec {
+    position: relative;
+}
+/* Registration */

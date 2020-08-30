@@ -28,6 +28,14 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/signup-registration">Signup and Registration</Link></li>
                                     <li><Link to="/complete-profile">Complete Profile</Link></li>
                                     <li><Link to="/register-with-email">Register with Email</Link></li>
+                                    <li><Link to="/card-payment">Card Payment</Link></li>
+                                    <li><Link to="/my-account-main">My Account</Link></li>
+                                    <li><Link to="/help-and-support">Help and Support</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy and Policy</Link></li>
+                                    <li><Link to="/terms-conditions">Terms and Conditions</Link></li>
+                                    <li><Link to="/about-us">About Us</Link></li>
+                                    <li><Link to="/forget-password">Forget Password</Link></li>
+                                    <li><Link to="/accounts-settings">Account Settings</Link></li>
                                 </ul>
                             </div>
                         </div>

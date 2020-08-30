@@ -29,7 +29,7 @@ export default class SignupAndRegistration extends Component {
                                                         <input type="password" placeholder="Password"/>
                                                     </div>
                                                     <div className="signin-secrrrt-forgot-pass">
-                                                        <Link to="/">
+                                                        <Link to="/forget-password">
                                                             Forgot password?
                                                         </Link>
                                                     </div>

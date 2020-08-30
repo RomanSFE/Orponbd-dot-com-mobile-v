@@ -1,0 +1,148 @@
+.my-account-help-and-support-page-top-sectiom {
+    background: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.my-account-help-and-suttort-immg {
+    width: 50px;
+    height: 50px;
+    background-color: #D0FCDA;
+    border-radius: 100%;
+}
+.my-accoon-helpp-spp-secbbox {
+    border-bottom: 1px solid #e2e2e2;
+}
+.my-accoon-helpp-spp-secbbox {
+    margin-top: 20px;
+}
+.my-account-help-and-suttort-immg span i.far {
+    font-size: 27px;
+    line-height: 50px;
+    color: #1DA566;
+}
+.my-avccount-help-and-supp-ttxtt {
+    position: relative;
+}
+span.acc-help-supp-right-icn {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 16px;
+    color: #7b7b7b;
+}
+.my-avccount-help-and-supp-ttxtt h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6px;
+}
+.my-avccount-help-and-supp-ttxtt p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+/* messenger conn */
+.my-account-help-and-suttort-immg-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #E4E7F6;
+    border-radius: 100%;
+}
+.my-account-help-and-suttort-immg-2 span i.fab {
+    font-size: 27px;
+    line-height: 50px;
+    color: #2E00AF;
+}
+/* messenger conn */
+
+/* Call center */
+.my-account-help-and-suttort-immg-3 {
+    width: 50px;
+    height: 50px;
+    background-color: #F3D5DA;
+    border-radius: 100%;
+}
+.my-account-help-and-suttort-immg-3 span i.fas {
+    font-size: 27px;
+    line-height: 50px;
+    color: #FF7777;
+}
+.my-avccount-help-and-supp-ttxtt-call-center {
+    position: relative;
+}
+.my-avccount-help-and-supp-ttxtt-call-center h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1px;
+}
+.my-avccount-help-and-supp-ttxtt-call-center h6 {
+    font-size: 13px;
+    margin-top: -5px;
+    color: #ec5454;
+    font-weight: 600;
+}
+.my-avccount-help-and-supp-ttxtt-call-center p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-bottom: 9px;
+}
+/* Call Center*/
+
+/* Email Us */
+.my-account-help-and-suttort-immg-4 {
+    width: 50px;
+    height: 50px;
+    background-color: #EFEFAF;
+    border-radius: 100%;
+}
+.my-account-help-and-suttort-immg-4 span i.far {
+    font-size: 27px;
+    line-height: 50px;
+    color: #C6B22E;
+}
+.my-avccount-help-and-supp-ttxtt h5 {
+    color: #ec5454;
+    font-size: 13px;
+    margin-top: -8px;
+    padding-bottom: 17px;
+}
+/* Email Us */
+
+/* Terms and conditions */
+.account-set-terms-and-privicy-section {
+    margin-top: 20px;
+}
+.account-settings-terms-and-condition-link-sections-mv-single {
+    position: relative;
+    border-bottom: 1px solid #dedede;
+    margin-top: 16px;
+}
+.account-settings-terms-and-condition-link-sections-mv-single span.account-trrms-con-mv-an-rg-icon {
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    font-size: 17px;
+    color: #333;
+}
+.account-settings-terms-and-condition-link-sections-mv-single p {
+    margin-left: 32px;
+    position: relative;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.account-settings-terms-and-condition-link-sections-mv-single span.acc-terms-coond-icn-cls {
+    position: absolute;
+    font-size: 21px;
+    color: #a2a2a2;
+    top: -5px;
+}
+/* Terms and conditions */

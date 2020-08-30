@@ -1,0 +1,167 @@
+.myaccount-mainpage-ttop-sectioon {
+    background: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+/* account profile image */
+.myaccount-main-page-vv-mm-profile-img-section-immg img {
+    width: 68px;
+    height: 68px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+.myaccount-main-page-vv-mm-profile-img-section {
+    background-color: #F88822;
+    height: 95px;
+}
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt h4 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt p {
+    color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -2px;
+}
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt {
+    margin-top: 31px;
+    margin-left: -10px;
+}
+/* account profile image */
+
+/* My Orders Section */
+.my-account-page-may-order-main-sectionx {
+    margin-top: 27px;
+}
+.my-account-page-may-order-main-mob-sectionx-bboxx {
+    background: #F9F9F9;
+    border-radius: 7px;
+    padding: 0px;
+}
+
+
+.my-account-page-may-order-main-hed p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #10100F;
+    margin-left: 8px;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-account-page-mobb-lv-snnggl-prodct {
+    width: 18.6%;
+}
+.my-account-page-mobb-lv-snnggl-prodct-img img {
+    width: 80%;
+    padding: 0px;
+    height: 29px;
+}
+.my-account-page-mobb-lv-snnggl-prodct-img span i.fa {
+    font-size: 18px;
+    color: #828282;
+}
+.my-account-page-mobb-lv-snnggl-prodct-img span i.fas {
+    font-size: 18px;
+    color: #828282;
+}
+.my-account-page-mobb-lv-snnggl-prodct-img span i.far {
+    font-size: 18px;
+    color: #828282;
+}
+.my-account-page-mobb-lv-snnggl-prodct {
+    background-color: #F9F9F9;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+.row.my-account-page-may-order-expdd-rww {
+    padding: 0px;
+    margin: 0px;
+}
+.row.my-account-page-may-order-expdd-rww {
+    margin-top: -8px;
+}
+
+
+.my-account-page-mobb-lv-snnggl-prodct-ttxt p {
+    color: #1A1A1A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    margin-top: 1px;
+}
+.my-account-page-mobb-lv-snnggl-prodct-ttxt {
+    padding: 5px;
+}
+/* My Orders Section */
+
+/* Wallet section */
+.my-account-my-wallet-main-section-mv {
+    margin-top: 15px;
+}
+.my-account-my-wallet-mv-ttxt h4 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 9px;
+    padding-top: 10px;
+}
+.my-account-my-wallet-mv-ttxt {
+    background-color: #f9f9f9;
+    height: 68px;
+}
+.my-account-my-wallet-mv-ttxt p {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 500;
+    margin-left: 9px;
+    font-size: 15px;
+}
+.my-account-my-wallet-mv-ttxt p span {
+    color: #f56906;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Wallet section */
+
+/* Account and wishlist all link sec */
+.account-settings-wishlist-all-link-sections-mv-main {
+    margin-top: 15px;
+}
+.account-settings-wishlist-all-link-sections-mv-single {
+    position: relative;
+    border-bottom: 1px solid #dedede;
+    margin-top: 16px;
+}
+.account-settings-wishlist-all-link-sections-mv-single span.account-mv-an-rg-icon {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    font-size: 17px;
+    color: #333;
+}
+
+.account-settings-wishlist-all-link-sections-mv-single p {
+    margin-left: 32px;
+    position: relative;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.account-settings-wishlist-all-link-sections-mv-single span.acc-wisshlst-icn-cls {
+    position: absolute;
+    font-size: 21px;
+    color: #a2a2a2;
+    top: -5px;
+}
+/* Account and wishlist all link sec */
+
+/* Just For You */
+.myy-account-just-for-youu-secctbn {
+    margin-top: 25px;
+}
+/* Just For You */

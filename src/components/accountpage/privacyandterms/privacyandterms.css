@@ -1,0 +1,18 @@
+.privacy-and-policy-main-toop-sections {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.pricacy-and-policy-textt-sec {
+    margin-top: 15px;
+}
+.pricacy-and-policy-textt-sec h4 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricacy-and-policy-textt-sec p {
+    font-size: 14px;
+    color: #464646;
+    font-family: 'Montserrat', sans-serif;
+}

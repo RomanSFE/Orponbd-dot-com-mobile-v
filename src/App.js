@@ -48,7 +48,7 @@ import Home from './components/home/Home.js'
 // Single product page
 import SingleProductPage from './components/singleproductpage/SingleProductPage.js'
 
-// Single product page
+// More Review page
 import MoreReviewPage from './components/singleproductpage/morereviewpage/MoreReviewPage.js'
 
 // Empty Cart page
@@ -96,6 +96,30 @@ import CompleteProfile from './components/signupandregistration/completeprofile/
 // Register With Email Page
 import RegisterWithEmail from './components/signupandregistration/registerwithemail/RegisterWithEmail.js'
 
+// Card Payment Page
+import CardPayment from './components/mycartpage/cardpayment/CardPayment.js'
+
+// Main Account Page
+import MyAccountMainPage from './components/accountpage/MyAccountMainPage.js'
+
+// Help and Support Page
+import HelpAndSupport from './components/accountpage/helpandsupport/HelpAndSupport.js'
+
+// Privacy Policy Page
+import PrivacyAndPolicy from './components/accountpage/privacyandterms/PrivacyAndPolicy.js'
+
+// Terms Conditions Page
+import TermsAndConditions from './components/accountpage/privacyandterms/TermsAndConditions.js'
+
+// About Us Page
+import AboutUs from './components/accountpage/aboutus/AboutUs.js'
+
+// Forget Password Page
+import ForgetPassword from './components/signupandregistration/forgotpassword/ForgetPassword.js'
+
+// Account Settings Page
+import AccountSettings from './components/accountpage/accountsettings/AccountSettings.js'
+
 
 function App() {
   return (
@@ -126,6 +150,14 @@ function App() {
         <Route path="/signup-registration" component={SignupAndRegistration}/>
         <Route path="/complete-profile" component={CompleteProfile}/>
         <Route path="/register-with-email" component={RegisterWithEmail}/>
+        <Route path="/card-payment" component={CardPayment}/>
+        <Route path="/my-account-main" component={MyAccountMainPage}/>
+        <Route path="/help-and-support" component={HelpAndSupport}/>
+        <Route path="/privacy-policy" component={PrivacyAndPolicy}/>
+        <Route path="/terms-conditions" component={TermsAndConditions}/>
+        <Route path="/about-us" component={AboutUs}/>
+        <Route path="/forget-password" component={ForgetPassword}/>
+        <Route path="/accounts-settings" component={AccountSettings}/>
       </Switch>
 
     </>
