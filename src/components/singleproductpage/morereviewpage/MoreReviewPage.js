@@ -249,7 +249,7 @@ export default class MoreReviewPage extends Component {
                                     <li>
                                         <div className="ggffdssaa">
                                             <button onClick={() => this.openModal()}><i className="far fa-comment-dots"></i></button>
-                                            <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                                            <Modal visible={this.state.visible} width="320" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                                                 <div className="comment-modal-secc text-center">
                                                     <input type="text" placeholder="your comment..."/>
                                                     <div className="comment-subbmt-bbtn">

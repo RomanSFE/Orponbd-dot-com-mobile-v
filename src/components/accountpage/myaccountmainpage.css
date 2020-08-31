@@ -158,6 +158,99 @@
     color: #a2a2a2;
     top: -5px;
 }
+/* Logout btn */
+span.my-accny-logout-bbsf i.fas {
+    font-size: 21px;
+    color: #a2a2a2;
+}
+.main-acc-sec-loggoout-sec-moddl button strong {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 28px;
+}
+span.my-accny-logout-bbsf {
+    position: absolute;
+}
+/* Modal */
+.main-acc-sec-loggoout-sec-moddl button {
+    background: none;
+    border: none;
+  }
+  .main-acc-logoutacc-sett-modal-secvc input {
+    background: none;
+    border: none;
+    width: 93%;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px;
+    outline: none;
+  }
+  .main-acc-logoutacc-sett-modal-secvc {
+    margin-top: 77px;
+  }
+  
+  
+  .main-acc-logoutacc-sett-modal-secvc {
+    position: relative;
+  }
+  .main-acc-llxzg-acc-setxt-close-bbxtn {
+    position: absolute;
+    right: 10px;
+    top: -58px;
+  }
+  
+  .main-acc-sec-loggoout-sec-moddl {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 13px;
+    position: relative;
+  }
+  .main-acc-sec-loggoout-sec-moddl {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 13px;
+    position: relative;
+  }
+  .main-acc-sec-loggoout-sec-moddl button {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    margin-left: -5px;
+    outline: none;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .main-acc-logxg-avccount-sett-subbmt-bbtn button {
+    width: 44%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .main-acc-logxg-avccount-sett-subbmt-bbtn button {
+    background-color: rgb(47 47 47);
+    color: #fff;
+    padding: 3px 20px 3px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+  .main-acc-sec-loggoout-sec-moddl {
+    margin-top: 12px;
+  }
+  span.main-llggacc-sett-moddl-ang-rr i.fas {
+    color: #333;
+    font-size: 16px;
+}
+span.main-llggacc-sett-moddl-ang-rr {
+    position: absolute;
+    right: 2px;
+    top: 7px;
+  }
+  /* Modal */
+/* Logout btn */
 /* Account and wishlist all link sec */
 
 /* Just For You */

@@ -2,10 +2,34 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './myaccountmainpage.css';
 
+import Modal from 'react-awesome-modal';
+
 import MainMenu from '../mainmenu/MainMenu.js';
 import JustForYou from '../allsections/justforyou/JustForYou.js'
 
 export default class MyAccountMainPage extends Component {
+
+    // Modal
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible : false,
+        }
+    }
+ 
+    openModal() {
+        this.setState({
+            visible : true
+        });
+    }
+ 
+    closeModal() {
+        this.setState({
+            visible : false,
+        });
+    }
+    // Modal
+
     render() {
         return (
             <>
@@ -208,7 +232,7 @@ export default class MyAccountMainPage extends Component {
                                         </div>
                                     </Link>
                                     {/* single link */}
-                                    <Link to="/">
+                                    <Link to="/pre-order">
                                         <div className="account-settings-wishlist-all-link-sections-mv-single">
                                             <span className="acc-wisshlst-icn-cls"><i class="fa fa-cart-plus" aria-hidden="true"></i></span>
                                             <p>Pre Order</p>
@@ -229,7 +253,7 @@ export default class MyAccountMainPage extends Component {
                                             <span className="account-mv-an-rg-icon"><i className="fas fa-angle-right"></i></span>
                                         </div>
                                     </Link>
-                                    <Link to="/">
+                                    <Link to="/manage-review">
                                         <div className="account-settings-wishlist-all-link-sections-mv-single">
                                             <span className="acc-wisshlst-icn-cls"><i class="fas fa-star"></i></span>
                                             <p>Manage Reviews</p>
@@ -257,13 +281,27 @@ export default class MyAccountMainPage extends Component {
                                             <span className="account-mv-an-rg-icon"><i className="fas fa-angle-right"></i></span>
                                         </div>
                                     </Link>
-                                    <Link to="/">
-                                        <div className="account-settings-wishlist-all-link-sections-mv-single">
-                                            <span className="acc-wisshlst-icn-cls"><i class="fas fa-sign-out-alt"></i></span>
-                                            <p>Logout</p>
-                                            <span className="account-mv-an-rg-icon"><i className="fas fa-angle-right"></i></span>
-                                        </div>
-                                    </Link>
+
+                                    {/* modal */}
+                                    {/* Single item Logout */}
+                                    <div className="main-acc-sec-loggoout-sec-moddl">
+                                        <button onClick={() => this.openModal()}> <span className="my-accny-logout-bbsf"><i class="fas fa-sign-out-alt"></i></span> <strong>Logout</strong></button>
+                                        <Modal visible={this.state.visible} width="320" height="200" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                                            <div className="main-acc-logoutacc-sett-modal-secvc text-center">
+                                                {/* <input type="text" placeholder="your name..."/> */}
+                                                <div className="main-acc-logxg-avccount-sett-subbmt-bbtn">
+                                                    <button type="submit">Logout</button>
+                                                </div>
+                                                <div className="main-acc-llxzg-acc-setxt-close-bbxtn">
+                                                    <button onClick={() => this.closeModal()}><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+                                                </div>
+                                            </div>
+                                        </Modal>
+                                        <span className="main-llggacc-sett-moddl-ang-rr"><i className="fas fa-angle-right"></i></span>
+                                    </div>
+                                    {/* Single item LogOut */}
+                                    {/* modal */}
+
                                 </div>
                             </div>
                         </div>
