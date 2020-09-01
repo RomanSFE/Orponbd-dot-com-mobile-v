@@ -38,6 +38,7 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/accounts-settings">Account Settings</Link></li>
                                     <li><Link to="/pre-order">Pre Order</Link></li>
                                     <li><Link to="/manage-review">Manage Review</Link></li>
+                                    <li><Link to="/address-book">Address Book</Link></li>
                                 </ul>
                             </div>
                         </div>

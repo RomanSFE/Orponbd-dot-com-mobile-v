@@ -1,0 +1,185 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-bottom: 5px solid #ff7474;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin-left: 10%;
+    color: #737373;
+}
+.need-rev-and-prevv-rev-sec-main-content-bbox .nav-tabs {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #000;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.tab-content {
+    margin-top: 25px;
+}
+
+/* Review Page */
+/* .manage-review-toopp-coll-section {
+    background: #fff;
+    height: 100%;
+    bottom: 0;
+    padding-bottom: 100%;
+} */
+
+.manage-rreevvu-main-bboox-mmainn {
+    margin-top: 13px;
+}
+.manage-rreevvu-main-pgg-bbox {
+    background-color: #fff;
+    padding-bottom: 7px;
+    border-radius: 4px;
+}
+.manage-rrvu-single-immg img {
+    width: 100%;
+    height: 85px;
+}
+
+.manage-revvu-singgle-product-sec {
+    margin-top: 4px;
+    padding: 4px;
+}
+.row.manng-rev-snn-immg-eezx-pdd .col-8 {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.manage-revvuu-single-tteexct p {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.manage-revvuu-single-tteexct h4 {
+    color: #e80d0d;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -12px;
+}
+.manage-revvuu-single-tteexct h4 span {
+    color: #ff9f9f;
+    margin-left: 10px;
+}
+.manage-revvuu-single-tteexct p {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.manage-revvuu-single-tteexct h4 {
+    color: #e80d0d;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -12px;
+}
+.manage-revvuu-single-tteexct h4 span {
+    color: #ff9f9f;
+    margin-left: 10px;
+}
+.manage-revvu-color-sz ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.manage-revvu-color-sz ul li {
+    display: inline-block;
+    margin-right: 14px;
+    border-right: 1px solid #848383;
+    height: 13px;
+    padding-right: 10px;
+    line-height: 11px;
+}
+.manage-revvu-color-sz ul li:last-child {
+    border-right: none;
+}
+.manage-revvu-color-sz ul li p {
+    color: #5d5d5d;
+    font-weight: 500;
+}
+.manage-revvu-color-sz {
+    margin-top: -9px;
+}
+.manage-revv-wrt-bbtn button{
+    width: 100%;
+    background-color: #F14747;
+    height: 39px;
+    margin-top: -3px;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Modal Custom Text */
+.hyperCloseIcon___14vht {
+    display: block;
+    background-image: url(https://api.iconify.design/iwwa:close.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 40% !important;
+    height: 40% !important;
+    margin-left: 35px !important;
+    margin-top: -16px !important;
+}
+.hyperModalWrapper___2sZCR .hyperModalContentWrapper___1o7Ug {
+    position: relative;
+    background-color: #ffffff;
+    width: 75% !important;
+    height: 60%;
+    z-index: 5;
+    border-radius: 10px;
+    overflow: auto;
+}
+/* Modal Custom Text */
+
+/* Modal Inside Text */
+.manage-revv-wrtt-rev-input input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c5c5c5;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+.manage-revvv-moddxl-connt {
+    padding: 8px;
+}
+.manage-rev-wrt-rev-save-bbtn button {
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 32px;
+    width: 50%;
+    margin-left: 25%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* Modal Inside Text */
+
+/* Previous Review */
+.manage-rreevvu-main-pgg-bbox-revvu {
+    background-color: #fff;
+    padding-bottom: 1px;
+    border-radius: 4px;
+}
+.manage-revvu-color-sz h5 {
+    color: #0336c5;
+    font-size: 12px;
+    margin-top: 11px;
+}
+/* Previous Review */

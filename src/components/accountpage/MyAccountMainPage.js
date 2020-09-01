@@ -246,7 +246,7 @@ export default class MyAccountMainPage extends Component {
                                             <span className="account-mv-an-rg-icon"><i className="fas fa-angle-right"></i></span>
                                         </div>
                                     </Link>
-                                    <Link to="/">
+                                    <Link to="/address-book">
                                         <div className="account-settings-wishlist-all-link-sections-mv-single">
                                             <span className="acc-wisshlst-icn-cls"><i class="fa fa-users" aria-hidden="true"></i></span>
                                             <p>My Address Book</p>
