@@ -12,15 +12,15 @@
 }
 .address-pbbok-buttn-section {
     width: 70%;
-    background-color: #E3F3F1;
+    background-color: #F8AB1F;
     margin-left: 15%;
     height: 70px;
-    border: 1px dotted #42c7b7;
+    border: 1px solid #F8AB1F;
     margin-top: 15px;
 }
 .address-pbbok-buttn-section a {
     font-size: 16px;
-    color: #64C8BA;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     line-height: 70px;
@@ -90,7 +90,7 @@ li.address-bbock-def-radio-tbtn {
     position: absolute;
     right: 8px;
     top: 3px;
-    color: #64C8BA;
+    color: #ff7f24;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 500;
@@ -99,8 +99,8 @@ li.address-bbock-def-radio-tbtn {
 
 
   /* checkbox icon color end .squaredThree */
-  input[type=checkbox],
-input[type=radio] {
+.address-bbock-def-radio-tbtn input[type=checkbox]
+ {
 		opacity: 0;
 		position: absolute;
 		z-index: 12;
@@ -108,15 +108,14 @@ input[type=radio] {
 		height: 18px;
 }
 
-input[type=checkbox]:checked,
-input[type=radio]:checked,
-input[type=checkbox]:focus,
-input[type=radio]:focus {
-		outline: none !important;
+.address-bbock-def-radio-tbtn input[type=checkbox]:checked,
+
+input[type=checkbox]:focus
+{
+	outline: none !important;
 }
 
-input[type=checkbox]+.lbl,
-input[type=radio]+.lbl {
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl{
 		position: relative;
 		z-index: 11;
 		display: inline-block;
@@ -127,37 +126,36 @@ input[type=radio]+.lbl {
 		font-weight: normal;
 }
 
-input[type=checkbox]+.lbl.padding-16::before,
-input[type=radio]+.lbl.padding-16::before {
-		margin-right: 16px;
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl.padding-16::before
+ {
+	margin-right: 16px;
 }
 
-input[type=checkbox]+.lbl.padding-12::before,
-input[type=radio]+.lbl.padding-12::before {
-		margin-right: 12px;
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl.padding-12::before {
+	margin-right: 12px;
 }
 
-input[type=checkbox]+.lbl.padding-8::before,
-input[type=radio]+.lbl.padding-8::before {
-		margin-right: 8px;
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl.padding-8::before
+ {
+	margin-right: 8px;
 }
 
-input[type=checkbox]+.lbl.padding-4::before,
-input[type=radio]+.lbl.padding-4::before {
-		margin-right: 4px;
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl.padding-4::before
+ {
+	margin-right: 4px;
 }
 
-input[type=checkbox]+.lbl.padding-0::before,
-input[type=radio]+.lbl.padding-0::before {
-		margin-right: 0px;
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl.padding-0::before
+{
+	margin-right: 0px;
 }
 
-input[type=checkbox]+.lbl::before,
-input[type=radio]+.lbl::before {
+.address-bbock-def-radio-tbtn input[type=checkbox]+.lbl::before
+{
 		font-family: fontAwesome;
 		font-weight: normal;
 		font-size: 11px;
-		color: #64C8BA;
+		color: #ff7f24;
 		content: "\a0";
 		background-color: #FAFAFA;
 		border: 1px solid #CCC;
@@ -173,8 +171,8 @@ input[type=radio]+.lbl::before {
 		margin-top: -4px;
 }
 
-input[type=checkbox]:checked+.lbl::before,
-input[type=radio]:checked+.lbl::before {
+.address-bbock-def-radio-tbtn input[type=checkbox]:checked+.lbl::before
+ {
 		display: inline-block;
 		content: '\f00c';
 		background-color: #F5F8FC;
@@ -182,41 +180,32 @@ input[type=radio]:checked+.lbl::before {
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
 }
 
-input[type=checkbox]:hover+.lbl::before,
-input[type=radio]:hover+.lbl::before,
-input[type=checkbox]+.lbl:hover::before,
-input[type=radio]+.lbl:hover::before {
-		border-color: #d4d4d4;
+.address-bbock-def-radio-tbtn input[type=checkbox]:hover+.lbl::before,
+input[type=checkbox]+.lbl:hover::before
+ {
+	border-color: #d4d4d4;
 }
 
-input[type=checkbox]:active+.lbl::before,
-input[type=radio]:active+.lbl::before,
-input[type=checkbox]:checked:active+.lbl::before,
-input[type=radio]:checked:active+.lbl::before {
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+.address-bbock-def-radio-tbtn input[type=checkbox]:active+.lbl::before,
+input[type=checkbox]:checked:active+.lbl::before
+ {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-input[type=checkbox]:disabled+.lbl::before,
-input[type=radio]:disabled+.lbl::before,
+.address-bbock-def-radio-tbtn input[type=checkbox]:disabled+.lbl::before,
+
 input[type=checkbox][disabled]+.lbl::before,
-input[type=radio][disabled]+.lbl::before,
-input[type=checkbox].disabled+.lbl::before,
-input[type=radio].disabled+.lbl::before {
+
+input[type=checkbox].disabled+.lbl::before
+ {
 		background-color: #DDD !important;
 		border-color: #CCC !important;
 		box-shadow: none !important;
 		color: #BBB;
 }
 
-input[type=radio]+.lbl::before {
-		border-radius: 32px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 36px;
-}
 
-input[type=radio]:checked+.lbl::before {
-		content: "\2022";
-}
+
 /* checkbox icon color .squaredThree */
 
 

@@ -1,0 +1,201 @@
+.bkash-payment-mobbl-vvrsn-top-cclr-sect {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.bkash-paymeny-tpoo-section {
+    margin-top: 10px;
+}
+.bkash-paymeny-tpoo-section p {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+}
+.bkash-paymeny-tpoo-section {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.bkash-payment-info-hed-text h4 {
+    color: #333;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bkash-payment-info-hed-text {
+    margin-top: 13px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.bkash-order-number-and-payable-ammnt-sec-bbox {
+    border-bottom: 1px solid #d8d8d8;
+}
+.bkash-order-number-and-payable-ammnt-sec-bbox {
+    margin-top: 17px;
+}
+.bkash-order-number-and-payable-ammnt-sec {
+    margin-top: 16px;
+}
+.bkash-order-number-and-payable-ammnt-sec p {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+span.bkash-ord-pay-amnt-right-ttxt {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #151414;
+}
+.bkash-order-number-and-payable-ammnt-sec {
+    position: relative;
+}
+span.bkash-ord-pay-amnt-right-ttxt {
+    position: absolute;
+    right: 16px;
+    top: 2px;
+}
+
+/* Marchent number */
+.bkash-payment-mercnt-nmbr-sec p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #252525;
+    margin-bottom: 2px;
+}
+.bkash-payment-mercnt-nmbr-sec {
+    margin-top: 5px;
+}
+.bkash-payment-mercnt-nmbr-sec {
+    position: relative;
+}
+span.merchent-nnmbe-mv-nmbr {
+    position: absolute;
+    right: 4px;
+    top: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* Marchent number */
+
+/* Transaction sec */
+.bkash-payment-enter-transaction-sec-mv {
+    margin-top: 32px;
+}
+.bkash-payment-enter-transaction-sec-mv {
+    background-color: #E2116E;
+    border-radius: 10px;
+}
+.bkash-payment-enter-transaction-sec-mv h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 13px;
+    padding-bottom: 4px;
+}
+.bkks-entt-teansctn-input-bbx input {
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 91%;
+    height: 38px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.bkks-entt-teansctn-input-bbx ::placeholder {
+    color: #c5c5c5;
+    font-size: 15px;
+}
+/* Transaction sec */
+
+/* confirm order button */
+.bkash-payment-confirm-order-mv button {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.bkash-payment-confirm-order-mv {
+    margin-top: 32px;
+}
+/* .bkash-payment-confirm-order-mv {
+    box-shadow: 0 11px 13px rgb(220 220 220 / 50%);
+} */
+/* confirm order button */
+
+/* How to pay sec */
+.edfred {
+    background: #e2e2e2;
+    height: 7px;
+    margin-top: 28px;
+}
+.bkash-pmnt-how-to-or-hed h4 {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+}
+.bkash-payment-how-to-order-sec-main-ttxt {
+    margin-top: 22px;
+}
+.bkash-payment-how-to-order-sec {
+    background-color: #f5f5f5;
+    margin-top: -1px;
+    padding-bottom: 100%;
+}
+
+.bkash-payment-hhow-to-orrd-rull-ttxt-sngl-box h6 {
+    background-color: #333;
+    color: #fff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+}
+.bkash-payment-hhow-to-orrd-rull-ttxt-sngl-box {
+    position: relative;
+}
+.bkash-payment-hhow-to-orrd-rull-ttxt-sngl-box h6 {
+    background-color: rgb(112, 112, 112);
+    color: #fff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 23px;
+}
+p.ggbvzxuii {
+    position: absolute;
+    left: 29px;
+    top: 2px;
+}
+p.ggbvzxuii {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+.bkash-payment-hhow-to-orrd-rull-ttxt-sngl-box.exxppdnfs {
+    margin-bottom: 23px;
+}
+.bkash-payment-hhow-to-orrd-rull-ttxt-sngl-box {
+    margin-bottom: 12px;
+}
+/* How to pay sec */

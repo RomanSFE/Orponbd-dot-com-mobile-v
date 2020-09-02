@@ -39,6 +39,7 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/pre-order">Pre Order</Link></li>
                                     <li><Link to="/manage-review">Manage Review</Link></li>
                                     <li><Link to="/address-book">Address Book</Link></li>
+                                    <li><Link to="/bkash-payment">Bkash Payment</Link></li>
                                 </ul>
                             </div>
                         </div>

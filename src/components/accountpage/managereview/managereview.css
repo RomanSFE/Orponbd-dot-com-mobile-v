@@ -18,23 +18,35 @@
     color: #000;
     margin-top: 10px;
     text-transform: uppercase;
-    border-bottom: none;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 16px;
+}
+.need-rev-and-prevv-rev-sec-main-content-bbox nav.nav.nav-tabs {
+    background-color: #fff;
+    width: 104%;
+    margin-left: -6px;
 }
 
-.tab-content {
+/* .tab-content {
     margin-top: 25px;
+} */
+.need-rev-and-prevv-rev-sec-main-content-bbox .tab-content {
+    margin-top: 14px;
 }
 
 /* Review Page */
-/* .manage-review-toopp-coll-section {
-    background: #fff;
-    height: 100%;
-    bottom: 0;
-    padding-bottom: 100%;
-} */
+
+.manage-review-main-section-mv .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
 
 .manage-rreevvu-main-bboox-mmainn {
-    margin-top: 13px;
+    margin-top: 10px;
 }
 .manage-rreevvu-main-pgg-bbox {
     background-color: #fff;
@@ -48,7 +60,7 @@
 
 .manage-revvu-singgle-product-sec {
     margin-top: 4px;
-    padding: 4px;
+    margin-bottom: 4px;
 }
 .row.manng-rev-snn-immg-eezx-pdd .col-8 {
     padding-left: 0px;
@@ -108,6 +120,10 @@
 .manage-revvu-color-sz {
     margin-top: -9px;
 }
+.manage-revv-wrt-bbtn {
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 10px;
+}
 .manage-revv-wrt-bbtn button{
     width: 100%;
     background-color: #F14747;
@@ -119,8 +135,12 @@
     font-weight: 600;
     font-size: 15px;
     border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    /* border-bottom-right-radius: 4px;
+    margin-left: -7px; */
 }
+/* .manage-rrvu-single-immg {
+    margin-left: -10px;
+} */
 
 /* Modal Custom Text */
 .hyperCloseIcon___14vht {
@@ -171,15 +191,69 @@
 }
 /* Modal Inside Text */
 
-/* Previous Review */
+/* Previous Review start */
+
+/* user review sec star */
+.manage-rev-prev-xcv-rpp-rt-bx {
+    border-bottom: 1px solid #e4e4e4;
+}
+.manage-review-user-rrvew-prv-rev p span {
+    color: #ffa500;
+}
+.manage-review-user-rrvew-prv-rev p span {
+    color: #ffa500;
+    font-size: 11px;
+}
+.manage-rev-prev-xcv-rpp-ttext-sec h4 {
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4px;
+}
+.manage-rev-prev-xcv-rpp-ttext-sec {
+    padding: 7px;
+    padding-bottom: 3px;
+}
+.manage-rev-prev-xcv-rpp-ttext-sec p {
+    color: #424242;
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.row.manage-rev-prev-xcv-ex-pdd {
+    position: relative;
+}
+.manage-review-user-rrvew-prv-rev {
+    position: absolute;
+    top: -2px;
+    right: 24px;
+}
+/* user review sec star end */
 .manage-rreevvu-main-pgg-bbox-revvu {
     background-color: #fff;
     padding-bottom: 1px;
     border-radius: 4px;
 }
-.manage-revvu-color-sz h5 {
-    color: #0336c5;
-    font-size: 12px;
-    margin-top: 11px;
+.manage-rrvu-single-immg-prev-star img {
+    width: 100%;
+    height: 85px;
+    border-radius: 4px;
+    margin-left: 3px;
 }
+.manage-revvu-singgle-product-sec-prevx-star {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.row.manng-rev-snn-immg-eezx-pdd-prevx .col-8 {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.manage-revvuu-single-tteexct-prev-revvz p {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Previous Review */

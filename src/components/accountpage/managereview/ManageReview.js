@@ -38,7 +38,7 @@ export default class ManageReview extends Component {
             <div className="manage-review-toopp-coll-section">
                 <div className="manage-review-main-section-mv">
                     <div className="container">
-                        <div className="row">
+                        <div className="row manage-revv-mmain-ex-padd">
                             <div className="col-12">
                                 <div className="need-rev-and-prevv-rev-sec-main-content-bbox">
                                     <Tabs defaultActiveKey="nedrev" id="uncontrolled-tab-example">
@@ -214,20 +214,41 @@ export default class ManageReview extends Component {
                                              <div className="manage-rreevvu-main-bboox-mmainn">
                                                 <div className="manage-rreevvu-main-pgg-bbox-revvu">
 
-                                                    <div className="manage-revvu-singgle-product-sec">
-                                                        <div className="row manng-rev-snn-immg-eezx-pdd">
+                                                {/* user review sec star */}
+                                                    <div className="manage-rev-prev-xcv-rpp-rt-bx">
+                                                        <div className="row manage-rev-prev-xcv-ex-pdd">
+                                                            <div className="col-12">
+                                                                <div className="manage-rev-prev-xcv-rpp-ttext-sec">
+                                                                    <h4>Date: 2/09/2020</h4>
+                                                                    <p>user review text, user review text user review text, user review text..</p>
+                                                                </div>
+                                                                <div className="manage-review-user-rrvew-prv-rev">
+                                                                    <p> 
+                                                                        <span className="manage-revvu-prov-prev-rattng-bbox">
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                        </span>
+                                                                    </p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    {/* user review sec star */}
+
+                                                    <div className="manage-revvu-singgle-product-sec-prevx-star">
+                                                        <div className="row manng-rev-snn-immg-eezx-pdd-prevx">
                                                             <div className="col-4">
-                                                                <div className="manage-rrvu-single-immg">
+                                                                <div className="manage-rrvu-single-immg-prev-star">
                                                                     <img src={require('../../../assets/product-6.jpg')} alt="orponbd global collections"/>
                                                                 </div>
                                                             </div>
                                                             <div className="col-8">
-                                                                <div className="manage-revvuu-single-tteexct">
-                                                                    <p>product review details text, product review details text..</p>
-                                                                    <h4>1250 TK <span>X3</span></h4>
-                                                                    <div className="manage-revvu-color-sz">
-                                                                        <h5>User Name</h5>
-                                                                    </div>
+                                                                <div className="manage-revvuu-single-tteexct-prev-revvz">
+                                                                    <p>product details text, product details text..</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -239,20 +260,41 @@ export default class ManageReview extends Component {
                                              <div className="manage-rreevvu-main-bboox-mmainn">
                                                 <div className="manage-rreevvu-main-pgg-bbox-revvu">
 
-                                                    <div className="manage-revvu-singgle-product-sec">
-                                                        <div className="row manng-rev-snn-immg-eezx-pdd">
+                                                   {/* user review sec star */}
+                                                   <div className="manage-rev-prev-xcv-rpp-rt-bx">
+                                                        <div className="row manage-rev-prev-xcv-ex-pdd">
+                                                            <div className="col-12">
+                                                                <div className="manage-rev-prev-xcv-rpp-ttext-sec">
+                                                                    <h4>Date: 2/09/2020</h4>
+                                                                    <p>user review text, user review text user review text, user review text..</p>
+                                                                </div>
+                                                                <div className="manage-review-user-rrvew-prv-rev">
+                                                                    <p> 
+                                                                        <span className="manage-revvu-prov-prev-rattng-bbox">
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                            <span class="fa fa-star checked"></span>
+                                                                        </span>
+                                                                    </p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    {/* user review sec star */}
+                                                    
+                                                    <div className="manage-revvu-singgle-product-sec-prevx-star">
+                                                        <div className="row manng-rev-snn-immg-eezx-pdd-prevx">
                                                             <div className="col-4">
-                                                                <div className="manage-rrvu-single-immg">
-                                                                    <img src={require('../../../assets/product-2.jpg')} alt="orponbd global collections"/>
+                                                                <div className="manage-rrvu-single-immg-prev-star">
+                                                                    <img src={require('../../../assets/product-6.jpg')} alt="orponbd global collections"/>
                                                                 </div>
                                                             </div>
                                                             <div className="col-8">
-                                                                <div className="manage-revvuu-single-tteexct">
+                                                                <div className="manage-revvuu-single-tteexct-prev-revvz">
                                                                     <p>product details text, product details text..</p>
-                                                                    <h4>1250 TK <span>X3</span></h4>
-                                                                    <div className="manage-revvu-color-sz">
-                                                                        <h5>User Name</h5>
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>

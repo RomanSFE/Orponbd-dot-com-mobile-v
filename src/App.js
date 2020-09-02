@@ -92,6 +92,9 @@ import ManageReview from './components/accountpage/managereview/ManageReview.js'
 // Address Book Page
 import AddressBook from './components/accountpage/addressbook/AddressBook.js'
 
+// Bkash payment Page
+import BkashPayment from './components/mycartpage/bkashpayment/BkashPayment.js'
+
 
 function App() {
   return (
@@ -133,6 +136,7 @@ function App() {
         <Route path="/pre-order" component={PreOrderPage}/>
         <Route path="/manage-review" component={ManageReview}/>
         <Route path="/address-book" component={AddressBook}/>
+        <Route path="/bkash-payment" component={BkashPayment}/>
       </Switch>
 
     </>
