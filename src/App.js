@@ -95,6 +95,18 @@ import AddressBook from './components/accountpage/addressbook/AddressBook.js'
 // Bkash payment Page
 import BkashPayment from './components/mycartpage/bkashpayment/BkashPayment.js'
 
+// Order Confirm Successful Page
+import OrderConfirmSuccesful from './components/mycartpage/orderconfirmsuccessfulpage/OrderConfirmSuccesful.js'
+
+// Cancel Order Page
+import CancelOrderPage from './components/mycartpage/cancelorderpage/CancelOrderPage.js'
+
+// All Orders Products Page
+import AllOrdersProduct from './components/accountpage/allorderspage/allorders/AllOrdersProduct.js'
+
+// Pending Orders Page
+import PendingsOrders from './components/accountpage/allorderspage/pendingorders/PendingsOrders.js'
+
 
 function App() {
   return (
@@ -137,6 +149,10 @@ function App() {
         <Route path="/manage-review" component={ManageReview}/>
         <Route path="/address-book" component={AddressBook}/>
         <Route path="/bkash-payment" component={BkashPayment}/>
+        <Route path="/order-confirm-successful" component={OrderConfirmSuccesful}/>
+        <Route path="/cancel-order-page" component={CancelOrderPage}/>
+        <Route path="/all-orders-product" component={AllOrdersProduct}/>
+        <Route path="/pending-orders" component={PendingsOrders}/>
       </Switch>
 
     </>

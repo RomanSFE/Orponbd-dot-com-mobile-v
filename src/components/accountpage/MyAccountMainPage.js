@@ -65,7 +65,7 @@ export default class MyAccountMainPage extends Component {
                                     <div className="row my-account-page-may-order-expdd-rww">
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/#">
+                                            <Link to="/all-orders-product">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     {/* <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/> */}
                                                     <span><i class="fa fa-th" aria-hidden="true"></i></span>
@@ -78,7 +78,7 @@ export default class MyAccountMainPage extends Component {
                                         {/* single item */}
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/#">
+                                            <Link to="/pending-orders">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     {/* <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/> */}
                                                     <span><i class="far fa-clone"></i></span>
@@ -132,7 +132,7 @@ export default class MyAccountMainPage extends Component {
                                     <div className="row my-account-page-may-order-expdd-rww">
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/#">
+                                            <Link to="/all-orders-product">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     {/* <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/> */}
                                                     <span><i class="fa fa-th" aria-hidden="true"></i></span>

@@ -1,0 +1,94 @@
+.orderplaced-confirmation-successful-main-mv-secttn .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.orderplaced-confirmation-successful.top-cclr-mv-sec {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.order-placed-confirmmn-hedd-ttxt {
+    margin-top: 13px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.order-placed-confirmmn-hedd-ttxt h4 {
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.order-placed-suvvess-fll-succ-mv-txt {
+    margin-top: 15px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.order-placed-suvvess-fll-succ-mv-txt p {
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.order-placed-succfl-number-and-payable-ammnt-sec p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #171717;
+    margin-bottom: 5px;
+}
+.order-placed-succfl-number-and-payable-ammnt-sec {
+    position: relative;
+}
+span.order-ppls-succfl-amnt-right-ttxt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+}
+.order-placed-succs-mv-mnttxt-sec-bbox {
+    padding: 5px 56px 5px 55px;
+}
+.confirm-order-successful-immg-txtt-sec-mv img {
+    width: 64%;
+    margin-top: 20px;
+}
+.confirm-order-successful-immg-txtt-sec-mv h5 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.confirm-order-successful-immg-txtt-sec-mv p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1px;
+    margin-top: -6px;
+}
+.confirm-order-successful-immg-txtt-sec-mv h6 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+.confirm-order-successful-immg-txtt-sec-mv h6 span {
+    font-weight: 700;
+}
+.order-placed-confirm-succs-backto-hmm-buttn {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 60px;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+}
+.order-placed-confirm-succs-backto-hmm-buttn a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 42px;
+}

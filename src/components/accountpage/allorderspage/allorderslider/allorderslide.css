@@ -1,0 +1,25 @@
+.all-ordrs-single-slide-text a {
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.all-ordrs-single-slide-text a p {
+    color: #dc0000;
+    text-align: center;
+    border-bottom: 2px solid #dc0000;
+    padding: 0px 1px 5px 1px;
+    width: 65px;
+    margin: 0px;
+}
+
+.all-orders-slider-main-line-sect-mvv {
+    background-color: #fff;
+    padding-bottom: 11px;
+    margin-top: 5px;
+    margin-bottom: -9px;
+}
+
+.all-orders-slidessc-main-bbooxx {
+    padding-top: 9px;
+}

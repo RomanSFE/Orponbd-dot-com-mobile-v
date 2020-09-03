@@ -1,0 +1,73 @@
+.cancel-order-page-mv-topp-collr-sec {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
+.cancell-order-secttn-mv-mn-bbox {
+    margin-top: 25px;
+}
+.cancel-order-raddox input {
+    margin-right: 7px;
+}
+.cancel-order-raddox input {
+    margin-right: 7px;
+}
+.cancell-order-secttn-mv-mn-bbox {
+    background-color: #efefef;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 10px;
+}
+.cancell-order-secttn-mv-mn-choos-rxs-hed h4 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333;
+    padding-top: 9px;
+}
+.cancel-order-raddox {
+    margin-left: 10px;
+    margin-bottom: -3px;
+}
+.cancel-order-raddox label {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Cancel subb btn */
+.cancel-order-cancel-submt-bbtnn-mvv {
+    border-top: 1px solid #b1b1b1;
+}
+.cancel-order-cancel-submt-bbtnn-bbx {
+    border-right: 1px solid #a9a9a9;
+}
+.row.cancel-order-cancel-submt-bbtnn-exx-pdd .col-6 {
+    margin: 0px;
+    padding: 0px;
+}
+.cancel-order-cancel-submt-bbtnn-mvv {
+    background: #efefef;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cancel-order-cancel-submt-bbtnn-bbx button {
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 46px;
+    color: #f94040;
+    outline: none;
+}
+.cancel-order-cancel-submt-bbtnn-bbxx button {
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 46px;
+    color: #333;
+    outline: none;
+}
+/* Cancel subb btn */
