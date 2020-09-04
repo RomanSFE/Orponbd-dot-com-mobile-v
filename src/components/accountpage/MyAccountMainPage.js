@@ -78,7 +78,7 @@ export default class MyAccountMainPage extends Component {
                                         {/* single item */}
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/pending-orders">
+                                            <Link to="/all-orders-product">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     {/* <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/> */}
                                                     <span><i class="far fa-clone"></i></span>
@@ -91,31 +91,31 @@ export default class MyAccountMainPage extends Component {
                                         {/* single item */}
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/#">
+                                            <Link to="/all-orders-product">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     <span><i class="fas fa-recycle"></i></span>
                                                 </div>
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-ttxt">
-                                                    <p>Processing</p>
+                                                    <p>Awaiting Payment</p>
                                                 </div>
                                             </Link>
                                         </div>
                                         {/* single item */}
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/#">
+                                            <Link to="/all-orders-product">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     <span><i class="fas fa-shuttle-van"></i></span>
                                                 </div>
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-ttxt">
-                                                    <p>Delivered</p>
+                                                    <p>Ready to Ship</p>
                                                 </div>
                                             </Link>
                                         </div>
                                         {/* single item */}
                                         {/* single item */}
                                         <div className="my-account-page-mobb-lv-snnggl-prodct text-center">
-                                            <Link to="/#">
+                                            <Link to="/all-orders-product">
                                                 <div className="my-account-page-mobb-lv-snnggl-prodct-img">
                                                     <span><i class="fas fa-window-close"></i></span>
                                                 </div>

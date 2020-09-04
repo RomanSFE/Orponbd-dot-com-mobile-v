@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './pendingsorders.css';
+import './awaitingpage.css';
 
 import SingleProductTopMenu from '../../../../components/singleproductpage/SingleProductTopMenu.js';
 
 import AllOrderSlide from '../allorderslider/AllOrderSlide.js'
 
-export default class PendingsOrders extends Component {
+export default class AwaitingPage extends Component {
     render() {
         return (
             <>
@@ -16,7 +16,6 @@ export default class PendingsOrders extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-
                             {/* Single Pre Order Item */}
                             <div className="all-orderssxz-main-bboox-mmainn">
                                 <div className="all-orders-cx-ppag-main-bbox">
@@ -28,8 +27,8 @@ export default class PendingsOrders extends Component {
                                                 </div>
                                             </div>
                                             <div className="col-4">
-                                                <div className="all-oordzr-ttop-order-id-pending-pending-page">
-                                                    <p>Pending</p>
+                                                <div className="all-oordzr-ttop-order-id-pending">
+                                                    <p>Awaiting</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,8 +51,8 @@ export default class PendingsOrders extends Component {
                                                             <li><p>Size: M</p></li>
                                                         </ul>
                                                     </div>
-                                                    <div className="all-order-pendngpartially-paid-mv">
-                                                        <p>Paid</p>
+                                                    <div className="all-order-pendngpartially-paid-unpaid-mv">
+                                                        <p>Due</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,8 +90,8 @@ export default class PendingsOrders extends Component {
                                                 </div>
                                             </div>
                                             <div className="col-4">
-                                                <div className="all-oordzr-ttop-order-id-pending-pending-page">
-                                                    <p>Pending</p>
+                                                <div className="all-oordzr-ttop-order-id-pending">
+                                                    <p>Awaiting</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +142,6 @@ export default class PendingsOrders extends Component {
                                 </div>
                             </div>
                             {/* Single Pre Order Item */}
-
                         </div>
                     </div>
                 </div>

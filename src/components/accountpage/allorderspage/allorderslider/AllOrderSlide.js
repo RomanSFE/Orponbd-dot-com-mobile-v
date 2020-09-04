@@ -9,7 +9,7 @@ export default class AllOrderSlide extends Component {
     render() {
         var allproductss = {
             dots: false,
-            infinite: true,
+            infinite: false,
             speed: 500,
             autoplay: false,
             slidesToShow: 4,
@@ -47,21 +47,21 @@ export default class AllOrderSlide extends Component {
                                 {/* Single slide Text */}
                                 {/* Single slide Text */}
                                 <div className="all-ordrs-single-slide-text">
-                                    <Link to="/">
-                                        Processing
+                                    <Link to="/awaiting-page">
+                                        Awaiting
                                     </Link>
                                 </div>
                                 {/* Single slide Text */}
                                 {/* Single slide Text */}
                                 <div className="all-ordrs-single-slide-text">
-                                    <Link to="/">
-                                        Delivered
+                                    <Link to="/ready-to-ship">
+                                        Ready to Ship
                                     </Link>
                                 </div>
                                 {/* Single slide Text */}
                                 {/* Single slide Text */}
                                 <div className="all-ordrs-single-slide-text">
-                                    <Link to="/">
+                                    <Link to="/cancel-orders">
                                         Cancelled
                                     </Link>
                                 </div>

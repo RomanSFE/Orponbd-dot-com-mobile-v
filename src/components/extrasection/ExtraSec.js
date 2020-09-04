@@ -34,6 +34,7 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/privacy-policy">Privacy and Policy</Link></li>
                                     <li><Link to="/terms-conditions">Terms and Conditions</Link></li>
                                     <li><Link to="/about-us">About Us</Link></li>
+                                    <li><Link to="/forget-password-email-phone">Forget Password Email Send</Link></li>
                                     <li><Link to="/forget-password">Forget Password</Link></li>
                                     <li><Link to="/accounts-settings">Account Settings</Link></li>
                                     <li><Link to="/pre-order">Pre Order</Link></li>
@@ -45,6 +46,11 @@ export default class ExtraSec extends Component {
 
                                     <li><Link to="/all-orders-product">All Orders Products</Link></li>
                                     <li><Link to="/pending-orders">Pending Orders</Link></li>
+                                    <li><Link to="/awaiting-page">Awaiting Page</Link></li>
+                                    <li><Link to="/ready-to-ship">Ready to Ship</Link></li>
+                                    <li><Link to="/cancel-orders">Cancelled Order</Link></li>
+
+                                    <li><Link to="/invoice-page">Invoice Page</Link></li>
                                 </ul>
                             </div>
                         </div>

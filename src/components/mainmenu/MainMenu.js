@@ -15,7 +15,7 @@ export default class MainMenu extends Component {
                                         <Link to="/">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                    <img src={require('../../assets/home-icon-red.svg')} alt="orponbd global collection"/>
+                                                    <img src={require('../../assets/home-icon-red.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name text-center">Home</p>
                                             </div>
@@ -25,7 +25,7 @@ export default class MainMenu extends Component {
                                         <Link to="/main-category">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx category-exx-ccls-vc">
-                                                    <img src={require('../../assets/list.svg')} alt="orponbd global collection"/>
+                                                    <img src={require('../../assets/catt-list.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name text-center">Category</p>
                                             </div>
@@ -35,7 +35,7 @@ export default class MainMenu extends Component {
                                         <Link to="/my-cart">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                    <img src={require('../../assets/supermarket.svg')} alt="orponbd global collection"/>
+                                                    <img src={require('../../assets/supermarket.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name crrtxtx text-center">Cart</p>
                                             </div>
@@ -45,7 +45,7 @@ export default class MainMenu extends Component {
                                         <Link to="/signup-registration">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                    <img src={require('../../assets/user.svg')} alt="orponbd global collection"/>
+                                                    <img src={require('../../assets/user.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name text-center">Account</p>
                                             </div>

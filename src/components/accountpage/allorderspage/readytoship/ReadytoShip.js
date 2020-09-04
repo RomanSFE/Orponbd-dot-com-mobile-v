@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './pendingsorders.css';
+import './readytoship.css';
 
 import SingleProductTopMenu from '../../../../components/singleproductpage/SingleProductTopMenu.js';
 
 import AllOrderSlide from '../allorderslider/AllOrderSlide.js'
 
-export default class PendingsOrders extends Component {
+export default class ReadytoShip extends Component {
     render() {
         return (
             <>
@@ -24,12 +24,12 @@ export default class PendingsOrders extends Component {
                                         <div className="row all-oorder-ttp-id-ex-pdd">
                                             <div className="col-8">
                                                 <div className="all-orderxc-ttop-order-id-sec">
-                                                    <h4>Order No: <span>021458</span></h4>
+                                                    <h4>Order No: <span>475125</span></h4>
                                                 </div>
                                             </div>
                                             <div className="col-4">
-                                                <div className="all-oordzr-ttop-order-id-pending-pending-page">
-                                                    <p>Pending</p>
+                                                <div className="all-oordzr-ttop-order-id-deliveredd">
+                                                    <p>Ready to Ship</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -39,7 +39,7 @@ export default class PendingsOrders extends Component {
                                         <div className="row all-oodercr-snn-immg-eezx-pdd">
                                             <div className="col-4">
                                                 <div className="all-ordxer-single-immg">
-                                                    <img src={require('../../../../assets/product-2.jpg')} alt="orponbd global collections"/>
+                                                    <img src={require('../../../../assets/product-5.jpg')} alt="orponbd global collections"/>
                                                 </div>
                                             </div>
                                             <div className="col-8">
@@ -91,8 +91,8 @@ export default class PendingsOrders extends Component {
                                                 </div>
                                             </div>
                                             <div className="col-4">
-                                                <div className="all-oordzr-ttop-order-id-pending-pending-page">
-                                                    <p>Pending</p>
+                                                <div className="all-oordzr-ttop-order-id-deliveredd">
+                                                    <p>Ready to Ship</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -116,7 +116,7 @@ export default class PendingsOrders extends Component {
                                                         </ul>
                                                     </div>
                                                     <div className="all-order-pendngpartially-paid-unpaid-mv">
-                                                        <p>Due</p>
+                                                        <p>Paid</p>
                                                     </div>
                                                 </div>
                                             </div>

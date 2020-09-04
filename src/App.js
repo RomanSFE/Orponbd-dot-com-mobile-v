@@ -77,6 +77,9 @@ import TermsAndConditions from './components/accountpage/privacyandterms/TermsAn
 // About Us Page
 import AboutUs from './components/accountpage/aboutus/AboutUs.js'
 
+// Forget Password Email Phone Page
+import ForgetPasswordEmailOrPhone from './components/signupandregistration/forgotpassword/ForgetPasswordEmailOrPhone'
+
 // Forget Password Page
 import ForgetPassword from './components/signupandregistration/forgotpassword/ForgetPassword.js'
 
@@ -106,6 +109,18 @@ import AllOrdersProduct from './components/accountpage/allorderspage/allorders/A
 
 // Pending Orders Page
 import PendingsOrders from './components/accountpage/allorderspage/pendingorders/PendingsOrders.js'
+
+// Awaiting Payment Page
+import AwaitingPage from './components/accountpage/allorderspage/awaitingpage/AwaitingPage.js'
+
+// Ready to Ship Page
+import ReadytoShip from './components/accountpage/allorderspage/readytoship/ReadytoShip.js'
+
+// Cancelled Order Page
+import CancelledOrders from './components/accountpage/allorderspage/cancelled/CancelledOrders.js'
+
+// Invoice Page
+import InvoicePage from './components/invoicepage/InvoicePage.js'
 
 
 function App() {
@@ -143,6 +158,7 @@ function App() {
         <Route path="/privacy-policy" component={PrivacyAndPolicy}/>
         <Route path="/terms-conditions" component={TermsAndConditions}/>
         <Route path="/about-us" component={AboutUs}/>
+        <Route path="/forget-password-email-phone" component={ForgetPasswordEmailOrPhone}/>
         <Route path="/forget-password" component={ForgetPassword}/>
         <Route path="/accounts-settings" component={AccountSettings}/>
         <Route path="/pre-order" component={PreOrderPage}/>
@@ -153,6 +169,10 @@ function App() {
         <Route path="/cancel-order-page" component={CancelOrderPage}/>
         <Route path="/all-orders-product" component={AllOrdersProduct}/>
         <Route path="/pending-orders" component={PendingsOrders}/>
+        <Route path="/awaiting-page" component={AwaitingPage}/>
+        <Route path="/ready-to-ship" component={ReadytoShip}/>
+        <Route path="/cancel-orders" component={CancelledOrders}/>
+        <Route path="/invoice-page" component={InvoicePage}/>
       </Switch>
 
     </>

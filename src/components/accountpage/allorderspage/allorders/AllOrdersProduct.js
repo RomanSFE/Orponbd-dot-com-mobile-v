@@ -52,8 +52,8 @@ export default class AllOrdersProduct extends Component {
                                                             <li><p>Size: M</p></li>
                                                         </ul>
                                                     </div>
-                                                    <div className="all-order-pendngpartially-paid-mv">
-                                                        <p>Paid</p>
+                                                    <div className="all-order-pendngpartially-paid-unpaid-mv">
+                                                        <p>Due</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,7 +91,7 @@ export default class AllOrdersProduct extends Component {
                                                 </div>
                                             </div>
                                             <div className="col-4">
-                                                <div className="all-oordzr-ttop-order-id-pending">
+                                                <div className="all-oordzr-ttop-order-id-deliveredd">
                                                     <p>Delivered</p>
                                                 </div>
                                             </div>

@@ -50,6 +50,15 @@
     font-size: 14px;
     color: #f16a6a;
 }
+.all-oordzr-ttop-order-id-deliveredd p {
+    position: absolute;
+    right: 23px;
+    top: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3ad32c;
+}
 
 .all-oordexr-singgle-product-sec {
     margin-top: 2px;
@@ -111,6 +120,18 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     background-color: #55bf2e;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+}
+.all-order-pendngpartially-paid-unpaid-mv p {
+    position: absolute;
+    right: 4px;
+    top: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    background-color: #f9374a;
     padding: 2px 10px 2px 10px;
     border-radius: 10px;
 }
