@@ -194,15 +194,15 @@ export default class InvoicePage extends Component {
                                                                 {/* Single item */}
                                                                 <VerticalTimelineElement
                                                                     className="vertical-timeline-element--work"
-                                                                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    contentStyle={{ backgroundColor: '#f88422', color: '#fff' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  #f88422' }}
                                                                     // date="2011 - present"
-                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    iconStyle={{ backgroundColor: '#f88422', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
                                                                     icon={<i class="fas fa-cart-plus"></i>}
                                                                 >
                                                                     <div className="invoice-timeline-mv-content-text">
                                                                         <h4>Order Placed</h4>
-                                                                        <p>Your order placed on <span>06/09/2020</span> </p>
+                                                                        <p>Your order placed on <br/> <span>06/09/2020</span> </p>
                                                                     </div>
                                                                 </VerticalTimelineElement>
                                                                 {/* Single item */}
@@ -210,14 +210,14 @@ export default class InvoicePage extends Component {
                                                                 {/* Single item */}
                                                                 <VerticalTimelineElement
                                                                     className="vertical-timeline-element--work"
-                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  #E52900' }}
                                                                     // date="2011 - present"
-                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    iconStyle={{ backgroundColor: '#f88422', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
                                                                     icon={<i class="fas fa-money-check-alt"></i>}
                                                                 >
                                                                     <div className="invoice-timeline-mv-content-text">
                                                                         <h4>Payment Completed</h4>
-                                                                        <p>Your payment completed on <span>06/09/2020</span> </p>
+                                                                        <p>Your payment completed on <br/> <span>06/09/2020</span> </p>
                                                                     </div>
                                                                 </VerticalTimelineElement>
                                                                 {/* Single item */}
@@ -225,14 +225,14 @@ export default class InvoicePage extends Component {
                                                                 {/* Single item */}
                                                                 <VerticalTimelineElement
                                                                     className="vertical-timeline-element--work"
-                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  #E52900' }}
                                                                     // date="2011 - present"
-                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    iconStyle={{ backgroundColor: '#f88422', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
                                                                     icon={<i class="fas fa-shopping-basket"></i>}
                                                                 >
                                                                     <div className="invoice-timeline-mv-content-text">
                                                                         <h4>Order Purchased</h4>
-                                                                        <p>Your order purchased on <span>06/09/2020</span> </p>
+                                                                        <p>Your order purchased on <br/> <span>06/09/2020</span> </p>
                                                                     </div>
                                                                 </VerticalTimelineElement>
                                                                 {/* Single item */}
@@ -240,14 +240,14 @@ export default class InvoicePage extends Component {
                                                                 {/* Single item */}
                                                                 <VerticalTimelineElement
                                                                     className="vertical-timeline-element--work"
-                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  #E52900' }}
                                                                     // date="2011 - present"
-                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    iconStyle={{ backgroundColor: '#f88422', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
                                                                     icon={<i class="fas fa-shipping-fast"></i>}
                                                                 >
                                                                     <div className="invoice-timeline-mv-content-text">
                                                                         <h4>Order Shipped</h4>
-                                                                        <p>Your order shipped on <span>06/09/2020</span> </p>
+                                                                        <p>Your order shipped on <br/> <span>06/09/2020</span> </p>
                                                                     </div>
                                                                 </VerticalTimelineElement>
                                                                 {/* Single item */}
@@ -255,14 +255,14 @@ export default class InvoicePage extends Component {
                                                                 {/* Single item */}
                                                                 <VerticalTimelineElement
                                                                     className="vertical-timeline-element--work"
-                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  #E52900' }}
                                                                     // date="2011 - present"
-                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    iconStyle={{ backgroundColor: '#f88422', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
                                                                     icon={<i class="fas fa-store-alt"></i>}
                                                                 >
                                                                     <div className="invoice-timeline-mv-content-text">
                                                                         <h4>Order Arrived</h4>
-                                                                        <p>Your order arrived on <span>06/09/2020</span> </p>
+                                                                        <p>Your order arrived on <br/> <span>06/09/2020</span> </p>
                                                                     </div>
                                                                 </VerticalTimelineElement>
                                                                 {/* Single item */}
@@ -270,9 +270,9 @@ export default class InvoicePage extends Component {
                                                                 {/* Single item */}
                                                                 <VerticalTimelineElement
                                                                     className="vertical-timeline-element--work"
-                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  #E52900' }}
                                                                     // date="2011 - present"
-                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    iconStyle={{ backgroundColor: '#f88422', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
                                                                     icon={<i class="fas fa-pause-circle"></i>}
                                                                 >
                                                                     <div className="invoice-timeline-mv-content-text">

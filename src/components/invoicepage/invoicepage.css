@@ -354,6 +354,28 @@ span.invoice-order-amntt-ind-itm-rt-sec {
 .vertical-timeline-element-content.bounce-in {
     padding: 6px !important;
 }
+.invoice-timeline-mv-content-text h4 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -10px;
+    padding-top: 8px;
+}
+.invoice-timeline-mv-content-text p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.invoice-timeline-mv-content-text p span {
+    font-weight: 600;
+}
+.invoice-timeline-mv-content-text {
+    margin-left: 7px;
+}
+.invoice-timeline-mv-content-text p {
+    margin-bottom: -13px;
+}
 /* Timeline */
 /* History Page */
 
