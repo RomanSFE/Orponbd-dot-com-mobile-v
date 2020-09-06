@@ -8,7 +8,7 @@
     border: 1px solid transparent;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-    margin-left: 6%;
+    margin-left: 5%;
     color: #737373;
 }
 .nav-tabs {
@@ -53,4 +53,182 @@
     font-size: 16px;
     width: 54%;
     text-align: center;
+    /* margin-left: 8px; */
 }
+
+/* Tab Content start */
+.invoice-page-mobile-vv-main-section .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.invoice-page-all-details-ittn-sec-bx-mv {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f88422;
+}
+.invoice-page-all-details-ittn-sec-bx-mv .container {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+/* name and inv no */
+.invoice-detauls-mv-namm-sec h4 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #000;
+    padding-top: 10px;
+}
+.invoice-detauls-mv-namm-sec {
+    position: relative;
+    border-bottom: 1px solid #d6d6d6;
+}
+span.invoice-dettls-nam-ino-no {
+    position: absolute;
+    right: 0px;
+    top: 9px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #444;
+}
+/* name and inv no */
+
+/* Inv Address Details */
+.invvoice-details-addrexs-sec-mvv-lft h4 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #191919;
+}
+.invvoice-details-addrexs-sec-mvv-lft p {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 19px;
+    color: #333;
+}
+.invvoice-details-addrexs-sec-mvv-lft p span {
+    font-weight: 500;
+}
+.invvoice-details-addrexs-sec-mvv-box {
+    margin-top: 10px;
+}
+span.invvice-address-dts-pay-metdx {
+    background-color: #F88422;
+    color: #fff;
+    padding: 2px 3px 2px 3px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.invvoice-details-addrexs-sec-mvv-box {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 1px;
+}
+
+.invvoice-details-addrexs-sec-mvv-right {
+    margin-left: -5px;
+}
+.invvoice-details-addrexs-sec-mvv-right h4 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.invvoice-details-addrexs-sec-mvv-right p {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+.invvoice-details-addrexs-sec-mvv-right h5 {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #7b7b7b;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
+/* Inv Address Details */
+
+/* Product List Section */
+.invoice-details-text-product-lst-sec-mn-mv-bbox {
+    margin-top: 14px;
+}
+.invoice-details-text-product-lst-sec-mn-mv-bbox {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 8px;
+}
+.row.invoice-details-text-product-lst-ex-pdd {
+    margin-top: 7px;
+}
+.invoice-details-text-product-lst-img img {
+    width: 100%;
+    height: 80px;
+}
+.invoice-mv-sec-color-sz {
+    margin-top: -9px;
+}
+.invoice-mv-sec-color-sz ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.invoice-mv-sec-color-sz ul li {
+    display: inline-block;
+    margin-right: 12px;
+    border-right: 1px solid #848383;
+    height: 13px;
+    padding-right: 10px;
+    line-height: 11px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.invoice-mv-sec-color-sz ul li:last-child {
+    border-right: none;
+}
+.invoice-details-text-product-lst-ttxt-ssc h4 span {
+    margin-left: 7px;
+    color: #cc853d;
+}
+.invoice-mv-sec-color-sz ul li p {
+    color: #5d5d5d;
+    font-weight: 500;
+}
+.invoice-details-text-product-lst-ttxt-ssc p {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+.invoice-details-text-product-lst-ttxt-ssc h4 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #ec7c3a;
+    margin-top: -11px;
+}
+.row.invoice-details-text-product-lst-ex-pdd .col-8 {
+    padding-left: 0px;
+}
+.invoice-total-text-total-item-pricee h4 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 2px;
+    color: #333;
+}
+.invoice-total-text-total-item-pricee h4 strong {
+    font-size: 17px;
+    font-weight: 700;
+}
+.invoice-total-text-total-item-pricee {
+    margin-top: 5px;
+}
+/* Product List Section */
+
+/* Tab Content start */
