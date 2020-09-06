@@ -196,6 +196,12 @@ span.invvice-address-dts-pay-metdx {
     margin-left: 7px;
     color: #cc853d;
 }
+.invoice-detauls-product-list-hed-txt-mv h4 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3px;
+}
 .invoice-mv-sec-color-sz ul li p {
     color: #5d5d5d;
     font-weight: 500;
@@ -230,5 +236,19 @@ span.invvice-address-dts-pay-metdx {
     margin-top: 5px;
 }
 /* Product List Section */
+
+/* Delivery Information section */
+.invoice-deliverry-hedd-txt-mv {
+    margin-top: 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.invoice-deliverry-hedd-txt-mv h4 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+/* Delivery Information section */
 
 /* Tab Content start */

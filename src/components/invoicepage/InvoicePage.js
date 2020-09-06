@@ -64,7 +64,9 @@ export default class InvoicePage extends Component {
                                                                     <div className="invoice-details-text-product-lst-sec-mn-mv-bbox">
                                                                         <div className="row">
                                                                             <div className="col-12">
-                                                                                <p>Some Text</p>
+                                                                                <div className="invoice-detauls-product-list-hed-txt-mv">
+                                                                                    <h4>Product List</h4>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         {/* Single Item */}
@@ -124,7 +126,13 @@ export default class InvoicePage extends Component {
 
                                                                     {/* Delivery Info */}
                                                                     <div className="invoice-page-delivery-info-mv-sec">
-
+                                                                        <div className="invoice-deliverry-hedd-txt-mv">
+                                                                            <h4>Delivery Information</h4>
+                                                                        </div>
+                                                                        <div className="invoice-deliverry-indvsl-ittm-sec">
+                                                                            <p>Delivery Courier:</p>
+                                                                            <span className="invoice-delivery-ind-itm-rt-sec">Bahok</span>
+                                                                        </div>
                                                                     </div>
                                                                     {/* Delivery Info */}
                                                                 </div>
