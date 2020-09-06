@@ -20,6 +20,7 @@
     "react-scripts": "3.4.3",
     "react-sidebar": "^3.0.2",
     "react-slick": "^0.27.8",
+    "react-vertical-timeline-component": "^3.0.2",
     "rsuite": "^4.8.1",
     "slick-carousel": "^1.8.1",
     "suggestion-react-input-search": "^1.4.0"

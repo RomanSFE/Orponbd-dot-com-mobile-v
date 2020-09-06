@@ -4,6 +4,9 @@ import './invoicepage.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 
 import SingleProductTopMenu from '../singleproductpage/SingleProductTopMenu.js';
 
@@ -133,8 +136,39 @@ export default class InvoicePage extends Component {
                                                                             <p>Delivery Courier:</p>
                                                                             <span className="invoice-delivery-ind-itm-rt-sec">Bahok</span>
                                                                         </div>
+                                                                        <div className="invoice-deliverry-indvsl-ittm-sec">
+                                                                            <p>Delivery Time:</p>
+                                                                            <span className="invoice-delivery-ind-itm-rt-sec">2-3 Days</span>
+                                                                        </div>
+                                                                        <div className="invoice-deliverry-indvsl-ittm-sec">
+                                                                            <p>Delivery Fee:</p>
+                                                                            <span className="invoice-delivery-ind-itm-rt-sec">50 TK</span>
+                                                                        </div>
                                                                     </div>
                                                                     {/* Delivery Info */}
+
+                                                                    {/* Order Amount */}
+                                                                    <div className="invoice-page-order-inffxo-info-mv-sec">
+                                                                        <div className="invoice-deliverry-hedd-txt-mv">
+                                                                            <h4>Order Amount Details</h4>
+                                                                        </div>
+                                                                        <div className="invoice-order-amnt-hedd-txt-mv">
+                                                                            <p>Product Amount:</p>
+                                                                            <span className="invoice-delivery-ind-itm-rt-sec">1250 TK</span>
+                                                                        </div>
+                                                                        <div className="invoice-order-amnt-hedd-txt-mv">
+                                                                            <p>Delivery Fee:</p>
+                                                                            <span className="invoice-order-amntt-ind-itm-rt-sec">50 TK</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    {/* Order Amount */}
+
+                                                                    {/* Invoice Total Text */}
+                                                                    <div className="invoice-total-text-last-total-item-pricee text-right">
+                                                                        <h4>Total: <strong>1270 TK</strong></h4>
+                                                                    </div>
+                                                                    {/* Invoice Total Text */}
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -146,7 +180,114 @@ export default class InvoicePage extends Component {
                                         {/* History section */}
                                         <Tab eventKey="history" title="History">
                                             <div className="invoice-page-all-coont-history-mv-sec">
-                                                <h4>History</h4>
+                                                <div className="container">
+                                                    <div className="row">
+                                                        <div className="col-12">
+                                                            {/* Invoice hedd Text */}
+                                                            <div className="invoice-page-all-coont-history-mv-hedd">
+                                                                <h4>Previous History</h4>
+                                                            </div>
+                                                            {/* Invoice hedd Text */}
+
+                                                            {/* Single History Item */}
+                                                            <VerticalTimeline>
+                                                                {/* Single item */}
+                                                                <VerticalTimelineElement
+                                                                    className="vertical-timeline-element--work"
+                                                                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    // date="2011 - present"
+                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    icon={<i class="fas fa-cart-plus"></i>}
+                                                                >
+                                                                    <div className="invoice-timeline-mv-content-text">
+                                                                        <h4>Order Placed</h4>
+                                                                        <p>Your order placed on <span>06/09/2020</span> </p>
+                                                                    </div>
+                                                                </VerticalTimelineElement>
+                                                                {/* Single item */}
+
+                                                                {/* Single item */}
+                                                                <VerticalTimelineElement
+                                                                    className="vertical-timeline-element--work"
+                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    // date="2011 - present"
+                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    icon={<i class="fas fa-money-check-alt"></i>}
+                                                                >
+                                                                    <div className="invoice-timeline-mv-content-text">
+                                                                        <h4>Payment Completed</h4>
+                                                                        <p>Your payment completed on <span>06/09/2020</span> </p>
+                                                                    </div>
+                                                                </VerticalTimelineElement>
+                                                                {/* Single item */}
+
+                                                                {/* Single item */}
+                                                                <VerticalTimelineElement
+                                                                    className="vertical-timeline-element--work"
+                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    // date="2011 - present"
+                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    icon={<i class="fas fa-shopping-basket"></i>}
+                                                                >
+                                                                    <div className="invoice-timeline-mv-content-text">
+                                                                        <h4>Order Purchased</h4>
+                                                                        <p>Your order purchased on <span>06/09/2020</span> </p>
+                                                                    </div>
+                                                                </VerticalTimelineElement>
+                                                                {/* Single item */}
+
+                                                                {/* Single item */}
+                                                                <VerticalTimelineElement
+                                                                    className="vertical-timeline-element--work"
+                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    // date="2011 - present"
+                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    icon={<i class="fas fa-shipping-fast"></i>}
+                                                                >
+                                                                    <div className="invoice-timeline-mv-content-text">
+                                                                        <h4>Order Shipped</h4>
+                                                                        <p>Your order shipped on <span>06/09/2020</span> </p>
+                                                                    </div>
+                                                                </VerticalTimelineElement>
+                                                                {/* Single item */}
+
+                                                                {/* Single item */}
+                                                                <VerticalTimelineElement
+                                                                    className="vertical-timeline-element--work"
+                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    // date="2011 - present"
+                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    icon={<i class="fas fa-store-alt"></i>}
+                                                                >
+                                                                    <div className="invoice-timeline-mv-content-text">
+                                                                        <h4>Order Arrived</h4>
+                                                                        <p>Your order arrived on <span>06/09/2020</span> </p>
+                                                                    </div>
+                                                                </VerticalTimelineElement>
+                                                                {/* Single item */}
+
+                                                                {/* Single item */}
+                                                                <VerticalTimelineElement
+                                                                    className="vertical-timeline-element--work"
+                                                                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                                                                    // date="2011 - present"
+                                                                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', textAlign: 'center', paddingTop: '7px', fontSize: '18px' }}
+                                                                    icon={<i class="fas fa-pause-circle"></i>}
+                                                                >
+                                                                    <div className="invoice-timeline-mv-content-text">
+                                                                        <h4>Order Awaiting for Delivery</h4>
+                                                                        <p>Your order is awaiting for delivery to your home </p>
+                                                                    </div>
+                                                                </VerticalTimelineElement>
+                                                                {/* Single item */}
+
+                                                                </VerticalTimeline>
+                                                            
+                                                            {/* Single History Item */}
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </Tab>
                                     </Tabs>
