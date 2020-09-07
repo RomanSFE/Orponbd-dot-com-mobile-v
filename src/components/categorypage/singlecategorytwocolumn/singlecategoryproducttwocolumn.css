@@ -6,6 +6,9 @@
     margin: 0px;
     padding: 4px 5px 4px 5px;
 }
+.singlecategory-product-two-column-top-menu {
+    margin-top: 53px;
+}
 .single-category-single-product-two-column-single-product {
     background-color: #fff;
 }
@@ -56,7 +59,7 @@ span.single-catt-pro-iit-star-two-cclm {
     top: 65px;
     outline: 0;
     transition: all 0.25s ease;
-    z-index: 999;
+    z-index: 1;
     right: 13px;
     background: none;
 }

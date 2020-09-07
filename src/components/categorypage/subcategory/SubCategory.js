@@ -2,15 +2,67 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './subcategory.css';
 
-import SingleProductTopMenu from '../../singleproductpage/SingleProductTopMenu.js';
+import classnames from "classnames";
 
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 class SubCategory extends Component {
+
+        // Top Bar Option
+        constructor(props) {
+            super(props);
+        
+            this.state = {
+              prevScrollpos: window.pageYOffset,
+              visible: true
+            };
+          }
+        
+          // Adds an event listener when the component is mount.
+          componentDidMount() {
+            window.addEventListener("scroll", this.handleScroll);
+          }
+        
+          // Remove the event listener when the component is unmount.
+          componentWillUnmount() {
+            window.removeEventListener("scroll", this.handleScroll);
+          }
+        
+          // Hide or show the menu.
+          handleScroll = () => {
+            const { prevScrollpos } = this.state;
+        
+            const currentScrollPos = window.pageYOffset;
+            const visible = prevScrollpos > currentScrollPos;
+        
+            this.setState({
+              prevScrollpos: currentScrollPos,
+              visible
+            });
+          };
+        // Top Bar Option
+
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <nav
+                className={classnames("main-category-top-nav-menu", {
+                "main-category-top-nav-menu-hidden": !this.state.visible
+                })}
+            >
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/main-category">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Sub Category</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
             <div className="sub-category-mobile-vvrsec-main-section">
                 <div className="container">
                     {/* Single Row section */}

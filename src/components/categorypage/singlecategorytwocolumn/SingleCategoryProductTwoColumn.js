@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './singlecategoryproducttwocolumn.css';
 
-// import { Button } from 'rsuite';
+import classnames from "classnames";
 
-import SingleProductTopMenu from '../../singleproductpage/SingleProductTopMenu.js';
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 class SingleCategoryProductTwoColumn extends Component {
@@ -15,6 +14,10 @@ class SingleCategoryProductTwoColumn extends Component {
         this.state = {
           style:"menu",
           menuStatus:"open",
+        //   Top bar option
+            prevScrollpos: window.pageYOffset,
+            visible: true
+        //   Top bar option
         };
         this.handleClick = this.handleClick.bind(this);
       };
@@ -39,10 +42,50 @@ class SingleCategoryProductTwoColumn extends Component {
         }        
       }
     // filter
+    // Top Bar Option
+    // Adds an event listener when the component is mount.
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    
+      // Remove the event listener when the component is unmount.
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+      // Hide or show the menu.
+      handleScroll = () => {
+        const { prevScrollpos } = this.state;
+    
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+    
+        this.setState({
+          prevScrollpos: currentScrollPos,
+          visible
+        });
+      };
+    // Top Bar Option
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <nav
+                className={classnames("main-category-top-nav-menu", {
+                "main-category-top-nav-menu-hidden": !this.state.visible
+                })}
+            >
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Single Category Product</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </nav>
             <div className="singlecategory-product-two-column-top-menu">
                 <div className="container">
                     <div className="row single-category-prod-ex-pdd">

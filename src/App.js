@@ -122,6 +122,9 @@ import CancelledOrders from './components/accountpage/allorderspage/cancelled/Ca
 // Invoice Page
 import InvoicePage from './components/invoicepage/InvoicePage.js'
 
+// Test Extra Page
+import TestExtrafile from './components/testextrafile/TestExtrafile.js'
+
 
 function App() {
   return (
@@ -173,6 +176,10 @@ function App() {
         <Route path="/ready-to-ship" component={ReadytoShip}/>
         <Route path="/cancel-orders" component={CancelledOrders}/>
         <Route path="/invoice-page" component={InvoicePage}/>
+
+        {/* Extra */}
+        <Route path="/test-extra" component={TestExtrafile}/>
+        {/* Extra */}
       </Switch>
 
     </>

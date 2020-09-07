@@ -2,14 +2,70 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './singleproductmenu.css';
 
+import classnames from "classnames";
+
 import { DropdownButton } from 'react-bootstrap';
 import { Dropdown } from 'react-bootstrap';
 
 
 class SingleProductTopMenu extends Component {
+
+    // Top Bar Option
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          prevScrollpos: window.pageYOffset,
+          visible: true
+        };
+      }
+    
+      // Adds an event listener when the component is mount.
+      componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    
+      // Remove the event listener when the component is unmount.
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+      // Hide or show the menu.
+      handleScroll = () => {
+        const { prevScrollpos } = this.state;
+    
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+    
+        this.setState({
+          prevScrollpos: currentScrollPos,
+          visible
+        });
+      };
+    // Top Bar Option
+
     render() {
         return (
-            <div className="single-product-menu-dot-cm-top-menu">
+            <>
+            <nav
+                className={classnames("single-product-menu-dot-cm-top-menu", {
+                "single-product-menu-dot-cm-top-menu-hidden": !this.state.visible
+                })}
+            >
+                {/* <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Main Category</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div> */}
+            
+
+            {/* <div className="single-product-menu-dot-cm-top-menu"> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-2">
@@ -51,7 +107,9 @@ class SingleProductTopMenu extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+                </nav>
+            {/* </div> */}
+            </>
         );
     }
 }

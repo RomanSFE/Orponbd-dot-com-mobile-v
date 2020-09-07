@@ -2,9 +2,45 @@ import React, { Component } from 'react';
 import SuggestionInputSearch from 'suggestion-react-input-search';
 import './search.css';
 
+import classnames from "classnames";
+
 
 
 export default class Search extends Component {
+
+    // Search Option
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          prevScrollpos: window.pageYOffset,
+          visible: true
+        };
+      }
+    
+      // Adds an event listener when the component is mount.
+      componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    
+      // Remove the event listener when the component is unmount.
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+      // Hide or show the menu.
+      handleScroll = () => {
+        const { prevScrollpos } = this.state;
+    
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+    
+        this.setState({
+          prevScrollpos: currentScrollPos,
+          visible
+        });
+      };
+    // Search Option
 
     handleOnSubmit(term) {
         // Do whatever you need i.e. calling API
@@ -17,7 +53,11 @@ export default class Search extends Component {
 
         return (
             <>
-            <div className="search-dd-cm-main-section">
+            <nav
+                className={classnames("search-dd-cm-main-section", {
+                "search-dd-cm-main-section-hidden": !this.state.visible
+                })}
+            >
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -35,7 +75,8 @@ export default class Search extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+
+            </nav>
             </>
         )
     }

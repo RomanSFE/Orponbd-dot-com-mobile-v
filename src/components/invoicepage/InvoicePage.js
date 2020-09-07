@@ -30,6 +30,15 @@ export default class InvoicePage extends Component {
                                                         <div className="col-12">
                                                             <div className="invoice-details-text-amm-mv-main-box">
                                                                 <div className="invoice-details-text-amm-mv-bbox">
+                                                                    {/* download and print sec */}
+                                                                     <div className="invoice-download-andprint-secp-mv text-right">
+                                                                         <ul>
+                                                                             <li><button><i class="fas fa-download"></i></button></li>
+                                                                             <li><button><i class="fas fa-print"></i></button></li>
+                                                                         </ul>
+                                                                    </div>  
+                                                                    {/* download and print sec */}
+
                                                                     {/* Name and inv no */}
                                                                     <div className="invoice-detauls-mv-namm-sec">
                                                                         <h4>Abdulla Al Roman</h4>
@@ -177,7 +186,7 @@ export default class InvoicePage extends Component {
                                             </div>
                                         </Tab>
 
-                                        {/* History section */}
+                                        {/* History section -------------------------------------------*/}
                                         <Tab eventKey="history" title="History">
                                             <div className="invoice-page-all-coont-history-mv-sec">
                                                 <div className="container">

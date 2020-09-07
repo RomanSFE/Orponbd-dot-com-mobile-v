@@ -55,3 +55,21 @@
     display: block;
     z-index: 999 !important;
 }
+
+/* search Animation */
+.search-dd-cm-main-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    height: 59px;
+    box-shadow: 0 -5px 4px -5px #c7c7c7;
+    transition: top 0.2s;
+  }
+  .search-dd-cm-main-section-hidden {
+    top: -1px;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+/* search Animation */

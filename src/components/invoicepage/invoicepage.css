@@ -57,6 +57,31 @@
 }
 
 /* Tab Content start */
+/* download print */
+.invoice-download-andprint-secp-mv ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.invoice-download-andprint-secp-mv ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.invoice-download-andprint-secp-mv {
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+.invoice-download-andprint-secp-mv ul li button {
+    border: none;
+    background: none;
+    outline: none;
+}
+.invoice-download-andprint-secp-mv ul li button i.fas {
+    font-size: 21px;
+    color: #989898;
+}
+/* download print */
+
 .invoice-page-mobile-vv-main-section .container {
     width: 100%;
     padding-right: 7px;
@@ -347,7 +372,8 @@ span.invoice-order-amntt-ind-itm-rt-sec {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #333;
-    padding-top: 7px;
+    padding-top: 14px;
+    padding-bottom: 7px;
 }
 
 /* Timeline */
@@ -374,7 +400,7 @@ span.invoice-order-amntt-ind-itm-rt-sec {
     margin-left: 7px;
 }
 .invoice-timeline-mv-content-text p {
-    margin-bottom: -13px;
+    margin-bottom: -13px !important;
 }
 /* Timeline */
 /* History Page */
