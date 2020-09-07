@@ -52,20 +52,7 @@ class SingleProductTopMenu extends Component {
                 "single-product-menu-dot-cm-top-menu-hidden": !this.state.visible
                 })}
             >
-                {/* <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <Link to="/">
-                                <div className="main-category-top-menu-iconn-sec-txt">
-                                    <span><i className="fa fa-chevron-left"></i> Main Category</span>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                </div> */}
-            
-
-            {/* <div className="single-product-menu-dot-cm-top-menu"> */}
+               
                 <div className="container">
                     <div className="row">
                         <div className="col-2">
@@ -107,8 +94,7 @@ class SingleProductTopMenu extends Component {
                         </div>
                     </div>
                 </div>
-                </nav>
-            {/* </div> */}
+            </nav>
             </>
         );
     }

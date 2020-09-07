@@ -2,15 +2,26 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './pendingsorders.css';
 
-import SingleProductTopMenu from '../../../../components/singleproductpage/SingleProductTopMenu.js';
-
 import AllOrderSlide from '../allorderslider/AllOrderSlide.js'
 
 export default class PendingsOrders extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/my-account-main">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Pending</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <AllOrderSlide/>
             <div className="all-orders-products-all-orders-pro-mainpage-sec">
                 <div className="container">

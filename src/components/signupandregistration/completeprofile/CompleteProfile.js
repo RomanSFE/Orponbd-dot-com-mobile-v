@@ -2,14 +2,24 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './completeprofile.css';
 
-
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
-
 export default class CompleteProfile extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/signup-registration">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Complete Profile</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="complete-profile-topp-serrct-continue">
                 <div className="signup-complete-your-profile-main-section">
                     <div className="container">

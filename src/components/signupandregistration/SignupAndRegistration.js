@@ -5,13 +5,24 @@ import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
 
-import SingleProductTopMenu from '../../components/singleproductpage/SingleProductTopMenu.js';
-
 export default class SignupAndRegistration extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Sign In or Registration</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="main-register-page-xxccttn">
                 <div className="singup-and-registration-page-main-section">
                     <div className="container">

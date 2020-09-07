@@ -1,3 +1,6 @@
+.mycart-all-item-check-mobile-viexw-main-section {
+    margin-top: 40px;
+}
 .my-cart-product-vvx-and-text-section span {
     display: inline-block;
     margin-top: -73px;
@@ -87,22 +90,6 @@ input[type=checkbox], input[type=radio] {
     border: 2px solid #333;
 }
 
-/* .rs-checkbox.rs-checkbox-inline.rs-checkbox-checked {
-    box-sizing: border-box;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    margin: 11px auto;
-    background: #fcfff4;
-    border-radius: 100px;
-    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgb(249 14 14 / 50%);
-    border: 2px solid #333;
-}
-.rs-checkbox.rs-checkbox-inline.rs-checkbox-checked input[type=checkbox], input[type=radio] {
-    visibility: hidden;
-} */
-/* Checkbox custom css */
 
 /* Incress Decress */
 .my-cart-dfc-single-products-options-section-quantity-bbox ul {

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './managereview.css';
+import {Link} from 'react-router-dom';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
 import HyperModal from 'react-hyper-modal';
 
 
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 export default class ManageReview extends Component {
@@ -34,7 +34,20 @@ export default class ManageReview extends Component {
 
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/my-account-main">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Manage Review</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="manage-review-toopp-coll-section">
                 <div className="manage-review-main-section-mv">
                     <div className="container">

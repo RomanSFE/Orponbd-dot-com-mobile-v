@@ -21,7 +21,7 @@ export default class PreOrder extends Component {
                                                     <h3>Pre Order</h3>
                                                 </div>
                                                 <div className="pre-ooxrd-view-mrr text-center">
-                                                    <Link to="/#">
+                                                    <Link to="/pre-order">
                                                         View More
                                                     </Link>
                                                 </div>

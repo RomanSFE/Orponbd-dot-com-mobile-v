@@ -2,14 +2,26 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './addressbook.css';
 
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 export default class AddressBook extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/my-account-main">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Address Book</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="address-book-account-settings-mv-topp-sec">
                 <div className="address-book-account-settings-mv-main-section">
                     <div className="container">

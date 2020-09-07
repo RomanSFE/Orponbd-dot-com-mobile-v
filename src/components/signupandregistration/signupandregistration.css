@@ -3,6 +3,7 @@
     background-color: #fff;
     border: none;
     border-bottom: 5px solid #ff7474;
+    z-index: 1;
 }
 .nav-tabs .nav-link {
     border: 1px solid transparent;
@@ -24,6 +25,9 @@
     margin-top: 25px;
 }
 
+.main-register-page-xxccttn {
+    margin-top: 45px;
+}
 .main-register-page-xxccttn {
     background: #fff;
     height: 100%;

@@ -4,6 +4,10 @@
     padding-bottom: 100%;
 }
 
+.address-book-account-settings-mv-main-section {
+    margin-top: 52px;
+}
+
 .address-book-add-address-rrpp-bx {
     border-bottom: 1px solid #ececec;
 }

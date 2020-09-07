@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './accountsettings.css';
 
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 import Modal from 'react-awesome-modal';
@@ -48,7 +47,20 @@ export default class AccountSettings extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/my-account-main">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Account Settings</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="account-settings-mv-toop-section">
                 <div className="account-settings-mob-vv-main-sections">
                     <div className="container">

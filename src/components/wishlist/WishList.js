@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './wishlist.css';
 
-import SingleProductTopMenu from '../singleproductpage/SingleProductTopMenu.js'
 import MainMenu from '../mainmenu/MainMenu.js'
 
 // Modal
@@ -54,7 +53,26 @@ export default class WishList extends Component {
 
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/my-account-main">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Wishlist</span>
+                                    <div className="maincategory-topmenu-wishlist-mv-ccrt-bbx text-right">
+                                        <Link to="/my-cart">
+                                            <img src={require('../../assets/supermarket.svg')} alt="orponbd Online Shop"/>
+                                            <span className="maincategory-topmenu-wishlist-mv-ccrt-item-nmbr">4</span>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="mywishlist-page-main-mobile-v-sec">
                 <div className="container">
                     {/* Single Wishlist Item */}

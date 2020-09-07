@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 export default class AboutUs extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/my-account-main">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> About Us</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="privacy-and-policy-main-toop-sections">
                 <div className="pricacy-and-policy-main-section-mm-v">
                     <div className="container">

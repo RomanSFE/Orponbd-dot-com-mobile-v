@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SingleProductTopMenu from '../SingleProductTopMenu.js'
+import {Link} from 'react-router-dom';
 import './morereviewpage.css';
 
 import Modal from 'react-awesome-modal';
@@ -28,8 +28,18 @@ export default class MoreReviewPage extends Component {
     render() {
         return (
             <>
-            <div className="single-product-page-more-review-top-menu-vbf">
-                <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/singleproductpage">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> More Reviews</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="singge-product-more-review-page-mobile-main-section">
                 <div className="container">

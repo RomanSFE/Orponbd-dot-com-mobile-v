@@ -28,7 +28,9 @@
     padding: 8px;
   }
   /* progress skill */
-
+.singge-product-more-review-page-mobile-main-section {
+    margin-top: 50px;
+}
   .singge-product-more-review-page-mobile-main-section-total-rat-ccnt {
     border-right: 1px solid #bdbdbd;
     padding: 8px;
