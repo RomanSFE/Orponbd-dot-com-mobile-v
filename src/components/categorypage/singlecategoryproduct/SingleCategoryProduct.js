@@ -90,19 +90,35 @@ class SingleCategoryProduct extends Component {
         // Modal
         return (
             <>
+            <div className="single-acllttgory-cclr-ppdr">
             <nav
-                className={classnames("main-category-top-nav-menu", {
-                "main-category-top-nav-menu-hidden": !this.state.visible
+                className={classnames("main-category-top-nav-menu-ex", {
+                "main-category-top-nav-menu-ex-hidden": !this.state.visible
                 })}
             >
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Link to="/sub-category">
+                            {/* <Link to="/sub-category">
                                 <div className="main-category-top-menu-iconn-sec-txt">
                                     <span><i className="fa fa-chevron-left"></i> Single Category Product</span>
                                 </div>
-                            </Link>
+                            </Link> */}
+
+                            <div className="main-category-top-menu-iconn-sec-txt">
+                                <Link to="/sub-category">
+                                    <span><i className="fa fa-chevron-left"></i></span>
+                                </Link>
+                                    <span>Single Category Product</span>
+                            </div>
+                        
+                            <div className="main-category-proddct-serrch-boox">
+                                <form action="" id="demo-2">
+                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
+                                    <input type="search" placeholder="search"/>
+                                </form>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -123,7 +139,7 @@ class SingleCategoryProduct extends Component {
                         <div className="col-3">
                             <div className="single-category-product-right-filter-sec-mobli">
                                 <ul>
-                                    <li className="single-cat-prr-iitm-left-icn"><Link to="/single-category-product-two-column"><span className="sing-pro-sing-pro-icon-two-box"><i class="fas fa-grip-horizontal"></i></span></Link></li>
+                                    <li className="single-cat-prr-iitm-left-icn"><Link to="/single-category-product-two-column"><span className="sing-pro-sing-pro-icon-two-box"><img src={require('../../../assets/sngle-cat.png')} alt="OrponBD Online shop"/></span></Link></li>
                                     {/* <li className="single-cat-prr-iitm-filter-iicn"><span><i class="fas fa-filter"></i></span></li> */}
                                     
                                 </ul>
@@ -145,17 +161,19 @@ class SingleCategoryProduct extends Component {
                 <div className="container">
                     {/* single product item */}
                     <Link to="/">
-                        <div className="row single-catt-prood-ex0pdd">
-                            <div className="col-5">
-                                <div className="single-category-single-product-immxg-sec">
-                                    <img src={require('../../../assets/slide-1.jpg')} alt="orponbd Online shop"/>
+                        <div className="single-category-proo-mv-ez-bbox">
+                            <div className="row single-catt-prood-ex0pdd">
+                                <div className="col-5">
+                                    <div className="single-category-single-product-immxg-sec">
+                                        <img src={require('../../../assets/slide-1.jpg')} alt="orponbd Online shop"/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-7">
-                                <div className="single-category-single-product-texxtt-sec">
-                                    <p>Product details text, text details-text..</p>
-                                    <h3>1270 TK</h3>
-                                    <h6>4.5 <span className="single-catt-pro-iit-star"><i className="fas fa-star"></i></span> <span>190 sold</span></h6>
+                                <div className="col-7">
+                                    <div className="single-category-single-product-texxtt-sec">
+                                        <p>Product details text, text details-text.....</p>
+                                        <h3>1270 TK</h3>
+                                        <h6>4.5 <span className="single-catt-pro-iit-star"><i className="fas fa-star"></i></span> <span>190 sold</span></h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +189,7 @@ class SingleCategoryProduct extends Component {
                             </div>
                             <div className="col-7">
                                 <div className="single-category-single-product-texxtt-sec">
-                                    <p>Product details text, product details-text..</p>
+                                    <p>Product details text, product details-text......</p>
                                     <h3>1270 TK</h3>
                                     <h6>4.5 <span className="single-catt-pro-iit-star"><i className="fas fa-star"></i></span> <span>190 sold</span></h6>
                                 </div>
@@ -189,7 +207,7 @@ class SingleCategoryProduct extends Component {
                             </div>
                             <div className="col-7">
                                 <div className="single-category-single-product-texxtt-sec">
-                                    <p>Product details text, text details-text..</p>
+                                    <p>Product details text, text details-text.....</p>
                                     <h3>1270 TK</h3>
                                     <h6>4.5 <span className="single-catt-pro-iit-star"><i className="fas fa-star"></i></span> <span>190 sold</span></h6>
                                 </div>
@@ -207,7 +225,7 @@ class SingleCategoryProduct extends Component {
                             </div>
                             <div className="col-7">
                                 <div className="single-category-single-product-texxtt-sec">
-                                    <p>Product details text, text details-text..</p>
+                                    <p>Product details text, text details-text......</p>
                                     <h3>1270 TK</h3>
                                     <h6>4.5 <span className="single-catt-pro-iit-star"><i className="fas fa-star"></i></span> <span>190 sold</span></h6>
                                 </div>
@@ -305,6 +323,7 @@ class SingleCategoryProduct extends Component {
             {/* Modal */}
 
             <MainMenu/>
+            </div>
             </>
         );
     }

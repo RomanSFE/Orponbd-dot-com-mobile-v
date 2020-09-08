@@ -1,3 +1,6 @@
+.payment-proceed-courier-mob-sec {
+    margin-top: 40px;
+}
 /* Courier section */
 .payment-proceed-courerr-sec-bboox-mv {
     background-color: #fff;
@@ -101,6 +104,9 @@
 /* Payment Method */
 
 /* Proceed Total */
+.payment-proceed-payment-option-mob-sec {
+    padding-bottom: 50px;
+}
 .select-courier-total-proceed-mmxml-section {
     bottom: 0px;
     position: fixed;

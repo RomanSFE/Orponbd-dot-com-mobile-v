@@ -2,14 +2,24 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './paymentproceed.css';
 
-
-import SingleProductTopMenu from '../../singleproductpage/SingleProductTopMenu.js';
-
 export default class PaymentProceed extends Component {
     render() {
         return (
             <>
-              <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/payment-product-page">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Payment Information</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
               <div className="payment-proceed-courier-mob-sec">
                   <div className="container">
                       <div className="row">

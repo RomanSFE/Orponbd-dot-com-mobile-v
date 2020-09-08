@@ -2,14 +2,24 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './orderconfirmsuccessful.css';
 
-
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
-
 export default class OrderConfirmSuccesful extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Order Successful</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="orderplaced-confirmation-successful top-cclr-mv-sec">
                 <div className="orderplaced-confirmation-successful-main-mv-secttn">
                     <div className="container">

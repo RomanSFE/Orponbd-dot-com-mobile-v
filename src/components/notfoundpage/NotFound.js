@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './notfound.css';
-import SingleProductTopMenu from '../singleproductpage/SingleProductTopMenu.js'
 
 import MainMenu from '../mainmenu/MainMenu.js'
 
@@ -9,7 +8,20 @@ class NotFound extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+             <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Product Not Found</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="product-not-found-page-mobile-v-main-sec">
                 <div className="container">
                     <div className="row">

@@ -7,6 +7,9 @@
     overflow: hidden;
 }
 .orderplaced-confirmation-successful.top-cclr-mv-sec {
+    margin-top: 48px;
+}
+.orderplaced-confirmation-successful.top-cclr-mv-sec {
     background-color: #fff;
     height: 100%;
     padding-bottom: 100%;

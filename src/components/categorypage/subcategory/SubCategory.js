@@ -53,11 +53,25 @@ class SubCategory extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Link to="/main-category">
+                            {/* <Link to="/main-category">
                                 <div className="main-category-top-menu-iconn-sec-txt">
                                     <span><i className="fa fa-chevron-left"></i> Sub Category</span>
                                 </div>
+                            </Link> */}
+                            <div className="main-category-top-menu-iconn-sec-txt">
+                            <Link to="/main-category">
+                                <span><i className="fa fa-chevron-left"></i></span>
                             </Link>
+                                <span>Sub Category</span>
+                            </div>
+                        
+                            <div className="main-category-proddct-serrch-boox">
+                                <form action="" id="demo-2">
+                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
+                                    <input type="search" placeholder="search"/>
+                                </form>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

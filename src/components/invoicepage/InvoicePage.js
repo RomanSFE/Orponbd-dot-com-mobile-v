@@ -8,13 +8,24 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 
-import SingleProductTopMenu from '../singleproductpage/SingleProductTopMenu.js';
-
 export default class InvoicePage extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Invoice Page</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="invoice-page-main-section-top-color-section">
                 <div className="invoice-page-mobile-vv-main-section">
                     <div className="container">
@@ -30,19 +41,17 @@ export default class InvoicePage extends Component {
                                                         <div className="col-12">
                                                             <div className="invoice-details-text-amm-mv-main-box">
                                                                 <div className="invoice-details-text-amm-mv-bbox">
-                                                                    {/* download and print sec */}
-                                                                     <div className="invoice-download-andprint-secp-mv text-right">
-                                                                         <ul>
-                                                                             <li><button><i class="fas fa-download"></i></button></li>
-                                                                             <li><button><i class="fas fa-print"></i></button></li>
-                                                                         </ul>
-                                                                    </div>  
-                                                                    {/* download and print sec */}
 
                                                                     {/* Name and inv no */}
                                                                     <div className="invoice-detauls-mv-namm-sec">
                                                                         <h4>Abdulla Al Roman</h4>
-                                                                        <span className="invoice-dettls-nam-ino-no">24781571</span>
+                                                                        <span><p>2147856</p></span>
+
+                                                                        <div className="invoice-download-andprint-secp-mv">
+                                                                            <ul>
+                                                                                <li><button><img src={require('../../assets/downloadcc.svg')} alt="orponbd online shop"/> </button></li>
+                                                                            </ul>
+                                                                        </div>
                                                                     </div>
                                                                     {/* Name and inv no */}
 
@@ -55,6 +64,7 @@ export default class InvoicePage extends Component {
                                                                                     <p>Order Time: 09/06/2020</p>
                                                                                     <p>Status: <span>pending</span></p>
                                                                                     <p>Payment Method: <span className="invvice-address-dts-pay-metdx">Bkash</span></p>
+                                                                                    <p>2548812</p>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="col-6">
@@ -84,12 +94,12 @@ export default class InvoicePage extends Component {
                                                                         {/* Single Item */}
                                                                         <Link to="/">
                                                                             <div className="row invoice-details-text-product-lst-ex-pdd">
-                                                                                <div className="col-4">
+                                                                                <div className="col-3">
                                                                                     <div className="invoice-details-text-product-lst-img">
                                                                                         <img src={require('../../assets/product-3.jpg')} alt="orponbd Online shop"/>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div className="col-8">
+                                                                                <div className="col-9">
                                                                                     <div className="invoice-details-text-product-lst-ttxt-ssc">
                                                                                         <p>Product details text, product details text, details text...</p>
                                                                                         <h4>1250 TK <span>X 3</span></h4>
@@ -107,12 +117,12 @@ export default class InvoicePage extends Component {
                                                                         {/* Single Item */}
                                                                         <Link to="/">
                                                                             <div className="row invoice-details-text-product-lst-ex-pdd">
-                                                                                <div className="col-4">
+                                                                                <div className="col-3">
                                                                                     <div className="invoice-details-text-product-lst-img">
                                                                                         <img src={require('../../assets/product-2.jpg')} alt="orponbd Online shop"/>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div className="col-8">
+                                                                                <div className="col-9">
                                                                                     <div className="invoice-details-text-product-lst-ttxt-ssc">
                                                                                         <p>Product details text, product details text, details text...</p>
                                                                                         <h4>1250 TK <span>X 3</span></h4>
@@ -194,7 +204,7 @@ export default class InvoicePage extends Component {
                                                         <div className="col-12">
                                                             {/* Invoice hedd Text */}
                                                             <div className="invoice-page-all-coont-history-mv-hedd">
-                                                                <h4>Previous History</h4>
+                                                                <h4>Order History</h4>
                                                             </div>
                                                             {/* Invoice hedd Text */}
 

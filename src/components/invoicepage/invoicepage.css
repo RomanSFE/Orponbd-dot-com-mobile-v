@@ -25,13 +25,14 @@
 }
 
 .invoice-all-contt-mv-main-content-bbox nav.nav.nav-tabs {
-    background-color: #fff;
-    width: 100%;
+    background: #fff;
+    width: 104%;
     padding-top: 6px;
+    margin-left: -7px;
 }
 
 .invoice-all-contt-mv-main-content-bbox .tab-content {
-    margin-top: 25px;
+    margin-top: 8px;
     width: 100%;
     background: #fff;
 }
@@ -43,7 +44,6 @@
     margin-top: 10px;
     text-transform: uppercase;
     padding-bottom: 7px;
-    border-radius: 10px;
 }
 .invoice-all-contt-mv-main-content-bbox .nav-tabs .nav-link.active {
     background-color: #F88422;
@@ -57,6 +57,9 @@
 }
 
 /* Tab Content start */
+.invoice-page-main-section-top-color-section {
+    margin-top: 48px;
+}
 /* download print */
 .invoice-download-andprint-secp-mv ul {
     list-style: none;
@@ -65,11 +68,6 @@
 }
 .invoice-download-andprint-secp-mv ul li {
     display: inline-block;
-    margin-left: 10px;
-}
-.invoice-download-andprint-secp-mv {
-    padding-top: 10px;
-    padding-bottom: 2px;
 }
 .invoice-download-andprint-secp-mv ul li button {
     border: none;
@@ -79,6 +77,11 @@
 .invoice-download-andprint-secp-mv ul li button i.fas {
     font-size: 21px;
     color: #989898;
+}
+.invoice-download-andprint-secp-mv {
+    position: absolute;
+    right: 0px;
+    top: 15px;
 }
 /* download print */
 
@@ -102,6 +105,10 @@
     margin-left: auto;
     overflow: hidden;
 }
+
+.invoice-download-andprint-secp-mv ul li button img {
+    width: 17px;
+}
 /* name and inv no */
 .invoice-detauls-mv-namm-sec h4 {
     font-size: 15px;
@@ -123,11 +130,19 @@ span.invoice-dettls-nam-ino-no {
     font-weight: 600;
     color: #444;
 }
+.invoice-detauls-mv-namm-sec span p {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: -4px;
+    color: #333;
+    margin-bottom: 10px;
+}
 /* name and inv no */
 
 /* Inv Address Details */
 .invvoice-details-addrexs-sec-mvv-lft h4 {
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #191919;
@@ -163,7 +178,7 @@ span.invvice-address-dts-pay-metdx {
     margin-left: -5px;
 }
 .invvoice-details-addrexs-sec-mvv-right h4 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -193,8 +208,9 @@ span.invvice-address-dts-pay-metdx {
     margin-top: 7px;
 }
 .invoice-details-text-product-lst-img img {
-    width: 100%;
+    width: 85px;
     height: 80px;
+    border-radius: 5px;
 }
 .invoice-mv-sec-color-sz {
     margin-top: -9px;
@@ -219,10 +235,11 @@ span.invvice-address-dts-pay-metdx {
 }
 .invoice-details-text-product-lst-ttxt-ssc h4 span {
     margin-left: 7px;
-    color: #cc853d;
+    color: #d46606;
+    font-size: 12px;
 }
 .invoice-detauls-product-list-hed-txt-mv h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 3px;
@@ -230,32 +247,33 @@ span.invvice-address-dts-pay-metdx {
 .invoice-mv-sec-color-sz ul li p {
     color: #5d5d5d;
     font-weight: 500;
+    font-size: 10.5px;
 }
 .invoice-details-text-product-lst-ttxt-ssc p {
-    font-size: 13px;
+    font-size: 11.5px;
     font-family: 'Montserrat', sans-serif;
     color: #333;
 }
 .invoice-details-text-product-lst-ttxt-ssc h4 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #ec7c3a;
+    color: #f88922;
     margin-top: -11px;
 }
-.row.invoice-details-text-product-lst-ex-pdd .col-8 {
-    padding-left: 0px;
+.row.invoice-details-text-product-lst-ex-pdd .col-9 {
+    padding-left: 14px;
 }
 .invoice-total-text-total-item-pricee h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-right: 2px;
     color: #333;
 }
 .invoice-total-text-total-item-pricee h4 strong {
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
 }
 .invoice-total-text-total-item-pricee {
     margin-top: 5px;
@@ -272,7 +290,7 @@ span.invvice-address-dts-pay-metdx {
     border-bottom: 1px solid #d6d6d6;
 }
 .invoice-deliverry-hedd-txt-mv h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #333;
@@ -306,7 +324,7 @@ span.invoice-delivery-ind-itm-rt-sec {
     border-bottom: 1px solid #d6d6d6;
 }
 .invoice-page-order-inffxo-info-mv-sec h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #333;
@@ -342,7 +360,7 @@ span.invoice-order-amntt-ind-itm-rt-sec {
     color: #333;
 }
 .invoice-total-text-last-total-item-pricee h4 strong {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
 }
 .invoice-total-text-last-total-item-pricee {
@@ -381,7 +399,7 @@ span.invoice-order-amntt-ind-itm-rt-sec {
     padding: 6px !important;
 }
 .invoice-timeline-mv-content-text h4 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: -10px;

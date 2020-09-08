@@ -5,8 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import './paymentproductpage.css';
 
-import SingleProductTopMenu from '../../singleproductpage/SingleProductTopMenu.js';
-
 export default class PaymentProductPage extends Component {
     render() {
         // Address slider
@@ -32,7 +30,20 @@ export default class PaymentProductPage extends Component {
         // Address slider
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/singleproductpage">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Order Information</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* Address carousel section */}
             <div className="product-page-address-carousel-section">
                 <div className="container">

@@ -3,6 +3,14 @@
 .preordee-page-main-section {
     margin-top: 43px;
 }
+.preordee-page-main-section .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
 .pre-order-main-bboox-mmainn {
     margin-top: 13px;
 }

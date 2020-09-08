@@ -70,18 +70,33 @@ class SingleCategoryProductTwoColumn extends Component {
         return (
             <>
             <nav
-                className={classnames("main-category-top-nav-menu", {
-                "main-category-top-nav-menu-hidden": !this.state.visible
+                className={classnames("main-category-top-nav-menu-ex", {
+                "main-category-top-nav-menu-hidden-ex": !this.state.visible
                 })}
             >
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Link to="/">
+                            {/* <Link to="/">
                                 <div className="main-category-top-menu-iconn-sec-txt">
                                     <span><i className="fa fa-chevron-left"></i> Single Category Product</span>
                                 </div>
-                            </Link>
+                            </Link> */}
+                            
+                            <div className="main-category-top-menu-iconn-sec-txt">
+                                <Link to="/sub-category">
+                                    <span><i className="fa fa-chevron-left"></i></span>
+                                </Link>
+                                    <span>Single Category Product</span>
+                            </div>
+                        
+                            <div className="main-category-proddct-serrch-boox">
+                                <form action="" id="demo-2">
+                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
+                                    <input type="search" placeholder="search"/>
+                                </form>
+                            </div>
+
                         </div>
                     </div>
                 </div>

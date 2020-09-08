@@ -1,14 +1,27 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './forgetpassword.css';
 
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
 import MainMenu from '../../mainmenu/MainMenu.js';
 
 export default class ForgetPassword extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/signup-registration">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Forget Password</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="forget-password-main-toop-sec-mv">
                 <div className="forget-password-main-section-mv">
                     <div className="container">

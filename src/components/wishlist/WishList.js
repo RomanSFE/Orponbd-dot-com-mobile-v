@@ -76,6 +76,7 @@ export default class WishList extends Component {
             <div className="mywishlist-page-main-mobile-v-sec">
                 <div className="container">
                     {/* Single Wishlist Item */}
+                    <Link to="/">
                     <div className="row my-wishlisst-ex-ppdnfg">
                         <div className="col-4">
                             <div className="hgffhhfg">
@@ -88,7 +89,9 @@ export default class WishList extends Component {
                                 <h5>Shoe</h5>
                                 <h4>1250 TK</h4>
 
-                                <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                <div className="wishlstt-delete-iconn">
+                                    <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                </div>
                                 <button onClick={this.onOpenModalWishlist}><h5>Add To Cart</h5></button>
 
                                 {/* Modal section */}
@@ -176,7 +179,7 @@ export default class WishList extends Component {
                                             <div className="row">
                                                 <div className="col-12">
                                                     <div className="wishlist-bvf-product-buy-now-open-modal-mobile-section-box text-center">
-                                                        <button>Buy Now</button>
+                                                        <button>Add To Cart</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -189,8 +192,10 @@ export default class WishList extends Component {
                             </div>
                         </div>
                     </div>
+                    </Link>
                     {/* Single Wishlist Item */}
                     {/* Single Wishlist Item */}
+                    <Link to="/">
                     <div className="row my-wishlisst-ex-ppdnfg">
                         <div className="col-4">
                             <div className="hgffhhfg">
@@ -203,13 +208,18 @@ export default class WishList extends Component {
                                 <h5>Shoe</h5>
                                 <h4>1250 TK</h4>
 
-                                <span><i class="far fa-trash-alt"></i></span>
+                                <div className="wishlstt-delete-iconn">
+                                    <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                </div>
                                 <Link to="/">Add To Cart</Link>
                             </div>
                         </div>
                     </div>
+                    </Link>
                     {/* Single Wishlist Item */}
+
                     {/* Single Wishlist Item */}
+                    <Link to="/">
                     <div className="row my-wishlisst-ex-ppdnfg">
                         <div className="col-4">
                             <div className="hgffhhfg">
@@ -222,11 +232,14 @@ export default class WishList extends Component {
                                 <h5>Shoe</h5>
                                 <h4>1250 TK</h4>
 
-                                <span><i class="far fa-trash-alt"></i></span>
+                                <div className="wishlstt-delete-iconn">
+                                    <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                </div>
                                 <Link to="/">Add To Cart</Link>
                             </div>
                         </div>
                     </div>
+                    </Link>
                     {/* Single Wishlist Item */}
                 </div>
             </div>

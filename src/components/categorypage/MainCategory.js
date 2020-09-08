@@ -14,9 +14,10 @@ class MainCategory extends Component {
     
         this.state = {
           prevScrollpos: window.pageYOffset,
-          visible: true
+          visible: true,
         };
       }
+
     
       // Adds an event listener when the component is mount.
       componentDidMount() {
@@ -53,11 +54,21 @@ class MainCategory extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
+                            
+                            <div className="main-category-top-menu-iconn-sec-txt">
                             <Link to="/">
-                                <div className="main-category-top-menu-iconn-sec-txt">
-                                    <span><i className="fa fa-chevron-left"></i> Main Category</span>
-                                </div>
+                                <span><i className="fa fa-chevron-left"></i></span>
                             </Link>
+                                <span>Main Category</span>
+                            </div>
+                        
+                            <div className="main-category-proddct-serrch-boox">
+                                <form action="" id="demo-2">
+                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
+                                    <input type="search" placeholder="search"/>
+                                </form>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -67,6 +78,7 @@ class MainCategory extends Component {
                 <div className="container">
                     {/* Single main category item Item */}
                     <Link to="/sub-category">
+                        <div className="main-category-ex-ppdnfg-exx-secc">
                         <div className="row main-category-ex-ppdnfg">
                             <div className="col-3">
                                 <div className="main-category-immgbg">
@@ -85,14 +97,16 @@ class MainCategory extends Component {
                                 </div>
                             </div>
                         </div>
+                        </div>
                     </Link>
                     {/* Single main category item Item */}
                     {/* Single main category item Item */}
                     <Link to="/sub-category">
+                        <div className="main-category-ex-ppdnfg-exx-secc">
                         <div className="row main-category-ex-ppdnfg">
                             <div className="col-3">
                                 <div className="main-category-immgbg">
-                                    <img src={require('../../assets/slide-3.jpg')} alt="OrponBD Online shop"/>
+                                    <img src={require('../../assets/product-5.jpg')} alt="OrponBD Online shop"/>
                                 </div>
                             </div>
                             <div className="col-8">
@@ -107,14 +121,16 @@ class MainCategory extends Component {
                                 </div>
                             </div>
                         </div>
+                        </div>
                     </Link>
                     {/* Single main category item Item */}
                     {/* Single main category item Item */}
                     <Link to="/sub-category">
+                        <div className="main-category-ex-ppdnfg-exx-secc">
                         <div className="row main-category-ex-ppdnfg">
                             <div className="col-3">
                                 <div className="main-category-immgbg">
-                                    <img src={require('../../assets/slide-2.jpg')} alt="OrponBD Online shop"/>
+                                    <img src={require('../../assets/product-2.jpg')} alt="OrponBD Online shop"/>
                                 </div>
                             </div>
                             <div className="col-8">
@@ -128,6 +144,7 @@ class MainCategory extends Component {
                                     <span><i class="fas fa-angle-right"></i></span>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </Link>
                     {/* Single main category item Item */}

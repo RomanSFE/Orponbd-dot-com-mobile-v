@@ -1,13 +1,29 @@
 .single-cattgr-product-two-cclm-img img {
     width: 100%;
-    height: 155px;
+    height: 172px;
+}
+.single-category-single-product-two-column-single-product {
+    border-radius: 8px;
+}
+.single-cattgr-product-two-cclm-img img {
+    border-radius: 8px;
+}
+.single-category-single-product-two-column .container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
 }
 .row.single-catt-two-cllm-ex-pdd .col-6 {
     margin: 0px;
     padding: 4px 5px 4px 5px;
 }
 .singlecategory-product-two-column-top-menu {
-    margin-top: 53px;
+    margin-top: 48px;
+    background-color: #fff;
+    height: 70px;
 }
 .single-category-single-product-two-column-single-product {
     background-color: #fff;
@@ -22,11 +38,11 @@
 .single-cattgr-product-two-cclm-texxt-secc p {
     color: #333;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 11.5px;
 }
 .single-cattgr-product-two-cclm-texxt-secc h3 {
-    color: #f33d3d;
-    font-size: 17px;
+    color: #f88922;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-top: -13px;
@@ -34,7 +50,7 @@
 .single-cattgr-product-two-cclm-texxt-secc h6 {
     color: #a0a0a0;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 10.5px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 3px;
 }
@@ -49,14 +65,14 @@ span.single-catt-pro-iit-star-two-cclm {
 }
 
 .single-category-single-product-two-column {
-    margin-top: 14px;
+    margin-top: -11px;
 }
 
 /* Sidebar */
 .row.single-category-prod-ex-pdd button {
     border: none;
     position: absolute;
-    top: 65px;
+    top: 59px;
     outline: 0;
     transition: all 0.25s ease;
     z-index: 1;

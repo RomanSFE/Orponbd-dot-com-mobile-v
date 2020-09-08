@@ -1,5 +1,11 @@
 .main-category-section-page-mobile-v-section {
     margin-top: 56px;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.main-category-ex-ppdnfg-exx-secc {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 7px;
 }
 .main-category-mmobl-text-section span {
     display: inline-block;
@@ -8,7 +14,7 @@
 }
 .main-category-immgbg img {
     width: 100%;
-    height: 50px;
+    height: 53px;
 }
 .row.main-category-ex-ppdnfg .col-8 {
     margin: 0px;
@@ -33,8 +39,6 @@
 }
 .row.main-category-ex-ppdnfg {
     margin-top: 11px;
-    border-bottom: 1px solid #efefef;
-    padding-bottom: 4px;
 }
 .row.main-category-ex-ppdnfg .col-1 {
     margin: 0px;
@@ -60,6 +64,7 @@
     color: #373737;
     font-size: 16px;
 }
+/* hhggh */
 .main-category-top-nav-menu {
     position: fixed;
     top: 0;
@@ -76,4 +81,121 @@
     background-color: #fff;
     border-bottom: 1px solid #d4d4d4;
 }
+/* ghfg */
+
+/* Exx */
+.main-category-ex-ppdnfg-exx-secc {
+    background-color: #fff;
+}
+
+.main-category-section-page-mobile-v-section .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+/* Exx */
 /* Top Main Category */
+
+
+/* Search */
+form#demo-2 {
+    margin-top: 5px;
+}
+ input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+    background: #fcfcfc url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px rgb(252, 252, 252);
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: rgb(243, 243, 243);
+	border-color: #f3f3f3;
+	
+	/* -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5); */
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+} 
+
+#demo-2 input[type=search] {
+	width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+    height: 16px;
+}
+#demo-2 input[type=search]:hover {
+	background-color: rgb(241, 241, 241);
+}
+#demo-2 input[type=search]:focus {
+	width: 150px;
+	padding-left: 32px;
+	color: #000;
+	background-color: rgb(240, 240, 240);
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+
+
+.main-category-top-menu-iconn-sec-txt {
+    position: relative;
+}
+.main-category-proddct-serrch-boox {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+}
+button.main-cattgry-serrxcg-ixn {
+    position: absolute;
+    top: 6px;
+    background: none;
+    border: none;
+    color: #989898;
+    font-size: 20px;
+}
+
+button.main-cattgry-serrxcg-ixn:focus input[type=search] {
+    width: 130px;
+}
+/* Search */

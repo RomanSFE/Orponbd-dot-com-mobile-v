@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './bkashpayment.css';
-
-import SingleProductTopMenu from '../../../components/singleproductpage/SingleProductTopMenu.js';
 
 export default class BkashPayment extends Component {
     render() {
         return (
             <>
-            <SingleProductTopMenu/>
+            <div className="main-category-top-nav-menu">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <Link to="/payment-proceed">
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                    <span><i className="fa fa-chevron-left"></i> Bkash Payment</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="bkash-payment-mobbl-vvrsn-top-cclr-sect">
                 <div className="bkash-paymeny-mov-v-main-section">
                     <div className="container">
