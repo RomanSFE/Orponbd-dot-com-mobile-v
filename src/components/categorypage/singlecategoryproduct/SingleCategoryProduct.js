@@ -126,7 +126,7 @@ class SingleCategoryProduct extends Component {
             <div className="single-category-product-item-mobile-top-section">
                 <div className="container">
                     <div className="row single-category-prod-ex-pdd">
-                        <div className="col-9">
+                        <div className="col-8">
                             <div className="single-category-product-left-best-match-section">
                                 <select>
                                     <option value="" selected>Best match</option>
@@ -136,7 +136,7 @@ class SingleCategoryProduct extends Component {
                                 </select>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-4">
                             <div className="single-category-product-right-filter-sec-mobli">
                                 <ul>
                                     <li className="single-cat-prr-iitm-left-icn"><Link to="/single-category-product-two-column"><span className="sing-pro-sing-pro-icon-two-box"><img src={require('../../../assets/sngle-cat.png')} alt="OrponBD Online shop"/></span></Link></li>
@@ -147,7 +147,7 @@ class SingleCategoryProduct extends Component {
                         </div>
                         {/* Sidebar section */}
                         {/* <button onClick={this.handleClick}><span><i class="fas fa-filter"></i></span></button> */}
-                        <button onClick={() => this.toggleShow(true)}><span><i class="fas fa-filter"></i></span></button>
+                        <button onClick={() => this.toggleShow(true)}><span><i class="fas fa-filter"></i> Filter</span></button>
                         {/* <div className={this.state.style}> 
                             <p>Lorem, ipsum dolor.</p>              
                         </div> */}

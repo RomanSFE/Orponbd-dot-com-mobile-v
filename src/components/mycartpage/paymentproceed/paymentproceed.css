@@ -10,7 +10,7 @@
     padding: 0px 4px 8px 4px;
 }
 .select-courier-service-hed-mob h4 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
@@ -20,7 +20,7 @@
 }
 .select-courier-service-name-box {
     position: relative;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: #5f5f5f;
     font-family: 'Montserrat', sans-serif;
@@ -59,7 +59,7 @@
     padding: 0px 4px 8px 4px;
 }
 .payment-option-secc-service-hed-mob h4 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-top: 30px;
@@ -99,7 +99,7 @@
     margin-left: 10px;
 }
 .payment-option-name-service-name-box span {
-    font-size: 14px;
+    font-size: 13px;
 }
 /* Payment Method */
 
@@ -123,9 +123,9 @@
     line-height: 50px;
 }
 .select-courier-total-proceed-mmxml-section-ttxt-mv p span {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    color: #f88422;
+    color: #f88922;
 }
 .select-courier-total-proceed-mmxml-section-ttxt-mv-procceed-ffn-btn {
     background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);

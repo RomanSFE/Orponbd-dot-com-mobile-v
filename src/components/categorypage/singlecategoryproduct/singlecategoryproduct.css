@@ -43,6 +43,8 @@ li.single-cat-prr-iitm-left-icn span {
     border: none;
     font-weight: 500;
     outline: none;
+    background-color: #f7f7f7;
+    border-radius: 10px;
 }
 .single-category-product-left-best-match-section select option {
     font-size: 14px;
@@ -73,7 +75,7 @@ span.sing-pro-sing-pro-icon-two-box {
 /* single category product item */
 .single-category-single-product-immxg-sec img {
     width: 100%;
-    height: 95px;
+    height: 109px;
     border-radius: 4px;
 }
 .row.single-catt-prood-ex0pdd .col-7 {

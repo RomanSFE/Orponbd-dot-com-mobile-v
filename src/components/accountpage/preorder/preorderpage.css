@@ -28,7 +28,7 @@
 }
 .pre-order-ttop-order-id-sec h4 {
     color: #1b1b1b;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding: 4px;
@@ -40,7 +40,7 @@
 .pre-order-ttop-order-id-sec p {
     font-family: 'Montserrat', sans-serif;
     color: #888;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -14px;
     padding: 4px;
     margin-bottom: 1px;
@@ -72,19 +72,20 @@
 }
 .pre-order-single-tteexct p {
     color: #333;
-    font-size: 13px;
+    font-size: 11.5px !important;
     font-family: 'Montserrat', sans-serif;
 }
 
 .pre-order-single-tteexct h4 {
-    color: #e80d0d;
+    color: #f88922 !important;
     font-size: 16px;
     font-weight: 600;
     margin-top: -12px;
 }
 .pre-order-single-tteexct h4 span {
-    color: #ff9f9f;
+    color: #da8c2c !important;
     margin-left: 10px;
+    font-size: 11px;
 }
 .pre-order-single-tteexct p {
     color: #333;
@@ -148,7 +149,7 @@
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 40px;
 }
 /* Preorder single product */

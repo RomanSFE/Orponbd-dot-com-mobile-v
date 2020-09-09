@@ -75,7 +75,10 @@ export default class WishList extends Component {
 
             <div className="mywishlist-page-main-mobile-v-sec">
                 <div className="container">
+
                     {/* Single Wishlist Item */}
+                    <div className="gfsfddd">
+
                     <Link to="/">
                     <div className="row my-wishlisst-ex-ppdnfg">
                         <div className="col-4">
@@ -92,108 +95,114 @@ export default class WishList extends Component {
                                 <div className="wishlstt-delete-iconn">
                                     <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
                                 </div>
-                                <button onClick={this.onOpenModalWishlist}><h5>Add To Cart</h5></button>
-
-                                {/* Modal section */}
-                                <div className="sfsjgfj">
-                                <Modal open={WishlistOptionOpen} onClose={this.onCloseModalWishlist} >
-                                    {/* Image and price section */}
-                                    <div className="wishlist-ffg-mob-product-imgg-section">
-                                        <div className="container">
-                                            <div className="row">
-                                                <div className="col-4">
-                                                    <div className="wishlist-product-open-modal-image-immg-mbl">
-                                                        <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/>
-                                                    </div>
-                                                </div>
-                                                <div className="col-7">
-                                                    <div className="wishlistt-pp-product-open-modal-image-txctt">
-                                                        <h3>1750 TK <del><span className="single-pro-pr-old-pprc-xs">2100 TK</span></del></h3>
-                                                        <p>Selected: <span>Black</span></p>
-                                                    </div>
-                                                    <div className="wishlist-instock-and-offer-box">
-                                                        <ul>
-                                                            <li><h6>In Stock</h6></li>
-                                                            <li><p>17% off</p></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Image and price section */}
-
-                                    {/* single product options section */}
-                                    <div className="wishlist-ppx-products-options-section-size-color-quant">
-                                        {/* color with img */}
-                                        <div className="wishlist-products-options-section-color-with-immg">
-                                            <div className="wishlist-products-options-section-color-ttxtt">
-                                                <p>Color: <span>Black</span></p>
-                                            </div>
-                                            <div className="wishlist-ppcx-products-options-section-iimmg-bbox">
-                                                <ul>
-                                                   <li><Link to="#"><img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/></Link></li>   
-                                                   <li><Link to="#"><img src={require('../../assets/slide-2.jpg')} alt="orponbd global collections"/></Link></li>   
-                                                   <li><Link to="#"><img src={require('../../assets/slide-3.jpg')} alt="orponbd global collections"/></Link></li>   
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        {/* color with img */}
-
-                                        {/* Size */}
-                                        <div className="wishlist-ppr-products-options-section-sizexx">
-                                            <div className="wishlist-ppr-products-options-section-sizeext-ttxtt">
-                                                <p>Size: <span>M</span></p>
-                                            </div>
-                                            <div className="wishlist-ppr-products-options-section-sizzx-bbox">
-                                                <ul>
-                                                   <li><Link to="#"><p>M</p></Link></li>
-                                                   <li><Link to="#"><p>L</p></Link></li>
-                                                   <li><Link to="#"><p>XL</p></Link></li>
-                                                   <li><Link to="#"><p>XXL</p></Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        {/* Size */}
-
-                                        {/* Quantity */}
-                                        <div className="wishlist-ppr-products-options-section-quantity">
-                                            <div className="wishlist-ppxc-products-options-section-quantity-ttxtt">
-                                                <p>Quantity:</p>
-                                            </div>
-                                            <div className="wishlist-ppr-products-options-section-quantity-bbox">
-                                                <ul>
-                                                    <li><button onClick={this.DecreaseItem}>-</button></li>
-                                                    <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
-                                                    <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        {/* Quantity */}
-                                    </div>
-                                    {/* single product options section */}
-
-                                    {/* Single product  Buy Now section button */}
-                                    <div className="wishlist-ppxc-product-buy-now-open-modal-mobile-section">
-                                        <div className="container">
-                                            <div className="row">
-                                                <div className="col-12">
-                                                    <div className="wishlist-bvf-product-buy-now-open-modal-mobile-section-box text-center">
-                                                        <button>Add To Cart</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Single product  Buy Now section button */}
-                                </Modal>
-                                </div>
-                                {/* Modal section */}
+                                
                             </div>
                         </div>
                     </div>
                     </Link>
+
+                    <div className="hhhhhh">
+                        <button onClick={this.onOpenModalWishlist}><h5>Add To Cart</h5></button>
+
+                        {/* Modal section */}
+                        <div className="sfsjgfj">
+                        <Modal open={WishlistOptionOpen} onClose={this.onCloseModalWishlist} >
+                            {/* Image and price section */}
+                            <div className="wishlist-ffg-mob-product-imgg-section">
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-4">
+                                            <div className="wishlist-product-open-modal-image-immg-mbl">
+                                                <img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/>
+                                            </div>
+                                        </div>
+                                        <div className="col-7">
+                                            <div className="wishlistt-pp-product-open-modal-image-txctt">
+                                                <h3>1750 TK <del><span className="single-pro-pr-old-pprc-xs">2100 TK</span></del></h3>
+                                                <p>Selected: <span>Black</span></p>
+                                            </div>
+                                            <div className="wishlist-instock-and-offer-box">
+                                                <ul>
+                                                    <li><h6>In Stock</h6></li>
+                                                    <li><p>17% off</p></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Image and price section */}
+
+                            {/* single product options section */}
+                            <div className="wishlist-ppx-products-options-section-size-color-quant">
+                                {/* color with img */}
+                                <div className="wishlist-products-options-section-color-with-immg">
+                                    <div className="wishlist-products-options-section-color-ttxtt">
+                                        <p>Color: <span>Black</span></p>
+                                    </div>
+                                    <div className="wishlist-ppcx-products-options-section-iimmg-bbox">
+                                        <ul>
+                                        <li><Link to="#"><img src={require('../../assets/slide-1.jpg')} alt="orponbd global collections"/></Link></li>   
+                                        <li><Link to="#"><img src={require('../../assets/slide-2.jpg')} alt="orponbd global collections"/></Link></li>   
+                                        <li><Link to="#"><img src={require('../../assets/slide-3.jpg')} alt="orponbd global collections"/></Link></li>   
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* color with img */}
+
+                                {/* Size */}
+                                <div className="wishlist-ppr-products-options-section-sizexx">
+                                    <div className="wishlist-ppr-products-options-section-sizeext-ttxtt">
+                                        <p>Size: <span>M</span></p>
+                                    </div>
+                                    <div className="wishlist-ppr-products-options-section-sizzx-bbox">
+                                        <ul>
+                                        <li><Link to="#"><p>M</p></Link></li>
+                                        <li><Link to="#"><p>L</p></Link></li>
+                                        <li><Link to="#"><p>XL</p></Link></li>
+                                        <li><Link to="#"><p>XXL</p></Link></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* Size */}
+
+                                {/* Quantity */}
+                                <div className="wishlist-ppr-products-options-section-quantity">
+                                    <div className="wishlist-ppxc-products-options-section-quantity-ttxtt">
+                                        <p>Quantity:</p>
+                                    </div>
+                                    <div className="wishlist-ppr-products-options-section-quantity-bbox">
+                                        <ul>
+                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* Quantity */}
+                            </div>
+                            {/* single product options section */}
+
+                            {/* Single product  Buy Now section button */}
+                            <div className="wishlist-ppxc-product-buy-now-open-modal-mobile-section">
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <div className="wishlist-bvf-product-buy-now-open-modal-mobile-section-box text-center">
+                                                <button>Add To Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Single product  Buy Now section button */}
+                        </Modal>
+                        </div>
+                        {/* Modal section */}
+                        </div>
+                    </div>
                     {/* Single Wishlist Item */}
+
                     {/* Single Wishlist Item */}
                     <Link to="/">
                     <div className="row my-wishlisst-ex-ppdnfg">

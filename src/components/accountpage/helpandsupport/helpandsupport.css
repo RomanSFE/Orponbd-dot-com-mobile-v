@@ -4,7 +4,7 @@
 .my-account-help-and-support-page-top-sectiom {
     background: #fff;
     height: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 10px;
 }
 .my-account-help-and-suttort-immg {
     width: 50px;
@@ -34,7 +34,7 @@ span.acc-help-supp-right-icn {
     color: #7b7b7b;
 }
 .my-avccount-help-and-supp-ttxtt h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: #333;
     font-family: 'Montserrat', sans-serif;
@@ -43,7 +43,7 @@ span.acc-help-supp-right-icn {
 .my-avccount-help-and-supp-ttxtt p {
     color: #8c8c8c;
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: -5px;
 }
 
@@ -77,14 +77,14 @@ span.acc-help-supp-right-icn {
     position: relative;
 }
 .my-avccount-help-and-supp-ttxtt-call-center h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: #333;
     font-family: 'Montserrat', sans-serif;
     margin-top: -1px;
 }
 .my-avccount-help-and-supp-ttxtt-call-center h6 {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: -5px;
     color: #ec5454;
     font-weight: 600;
@@ -92,7 +92,7 @@ span.acc-help-supp-right-icn {
 .my-avccount-help-and-supp-ttxtt-call-center p {
     color: #8c8c8c;
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: -5px;
     margin-bottom: 9px;
 }
@@ -139,12 +139,12 @@ span.acc-help-supp-right-icn {
     position: relative;
     color: #333;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 .account-settings-terms-and-condition-link-sections-mv-single span.acc-terms-coond-icn-cls {
     position: absolute;
-    font-size: 21px;
+    font-size: 20px;
     color: #a2a2a2;
     top: -5px;
 }

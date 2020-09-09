@@ -1,3 +1,8 @@
+.product-page-full-wrp-collzr-sec {
+    background-color: #fff;
+    height: 100%;
+    padding-top: 1px;
+}
 /* Address Carousel */
 .row.pro-ppgg-add-seectt .col-1 {
     margin: 0px;
@@ -87,10 +92,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 .order-summary-sinng-pro-ittm-ttext h5 {
-    color: #F88422;
+    color: #f88922;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     margin-top: -16px;
 }
 .single-product-itwm-summary-color-option ul {
@@ -101,7 +106,7 @@
 .single-product-itwm-summary-color-option ul li {
     display: inline-block;
     margin-right: 7px;
-    font-size: 13px;
+    font-size: 10.5px;
     font-family: 'Montserrat', sans-serif;
     color: #afafaf;
     border-right: 1px solid #afafaf;
@@ -134,9 +139,9 @@
 }
 .product-summary-item-total-price-box p strong {
     font-family: 'Montserrat', sans-serif;
-    color: #F88422;
+    color: #f88922;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
 }
 .product-summary-item-total-del-chrrg-bxbx-ttxt p {
     font-size: 16px;
@@ -163,7 +168,7 @@
     margin-top: 10px;
 }
 .order-summary-hedd-ttxt h3 {
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #333;
@@ -254,9 +259,9 @@
 }
 .product-summary-item-total-payable-amt p strong {
     font-family: 'Montserrat', sans-serif;
-    color: #F88422;
+    color: #f88922;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
 }
 .product-summary-item-total-payable-amt {
     padding-bottom: 55px;
@@ -280,9 +285,9 @@
     line-height: 50px;
 }
 .product-summary-total-confirm-section-total-ttxt p span {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    color: #f88422;
+    color: #f88922;
 }
 .product-summary-total-confirm-section-con-ffn-btn {
     background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);

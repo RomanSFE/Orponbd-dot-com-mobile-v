@@ -1,7 +1,7 @@
 .address-book-account-settings-mv-topp-sec {
     background-color: #fff;
     height: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 10px;
 }
 
 .address-book-account-settings-mv-main-section {
@@ -18,7 +18,7 @@
     width: 70%;
     background-color: #F8AB1F;
     margin-left: 15%;
-    height: 70px;
+    height: 59px;
     border: 1px solid #F8AB1F;
     margin-top: 15px;
 }
@@ -27,7 +27,7 @@
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    line-height: 70px;
+    line-height: 60px;
     padding: 20px 35px 20px 35px;
 }
 .address-pbbok-buttn-section a span {
@@ -35,7 +35,7 @@
 }
 .address-book-acc-sett-address-boxx-ttext {
     background-color: #F9F9F9;
-    border-radius: 4px;
+    border-radius: 10px;
     border-bottom: 1px solid #d8d8d8;
     margin-top: 12px;
 }
@@ -47,17 +47,17 @@
     margin-top: 2px;
 }
 .address-book-acc-sett-address-boxx-ttext h5 {
-    font-size: 14px;
-    color: #333;
+    font-size: 13px;
+    color: #525252;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-top: -3px;
 }
 .address-book-acc-sett-address-boxx-ttext {
-    padding: 5px;
+    padding: 11px;
 }
 .address-book-acc-sett-address-boxx-ttext p {
-    font-size: 13px;
+    font-size: 12px;
     color: #4a4a4a;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0px;
@@ -92,8 +92,8 @@ li.address-bbock-def-radio-tbtn {
 }
 .address-book-add-settngs-edit-ttxt a {
     position: absolute;
-    right: 8px;
-    top: 3px;
+    right: 11px;
+    top: 13px;
     color: #ff7f24;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;

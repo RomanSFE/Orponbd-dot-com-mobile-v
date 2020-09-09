@@ -10,6 +10,24 @@
     width: 100%;
     height: 74px;
 }
+
+/* .my-cart-select-all-ex-ppdnfg-mn-bbox {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.mycart-all-item-check-mobile-viexw-main-section .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+} */
+.mycart-all-item-check-mobile-viexw-main-section {
+    background-color: #fff;
+    height: 100%;
+    padding-bottom: 100%;
+}
 .row.my-cart-select-all-ex-ppdnfg .col-8 {
     margin: 0px;
     padding-right: 10px;
@@ -27,20 +45,20 @@
     margin-top: -38px;
 }
 .my-cart-product-vvx-and-text-section h4 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
-    color: #de3030;
+    color: #f88922;
     margin-top: -4px;
     font-family: 'Montserrat', sans-serif;
 }
 .my-cart-product-vvx-and-text-section h5 {
-    font-size: 12px;
+    font-size: 10.5px;
     color: #adadad;
     margin-top: -13px;
     font-family: 'Montserrat', sans-serif;
 }
 .my-cart-product-vvx-and-text-section p {
-    font-size: 14px;
+    font-size: 11.5px;
     color: #333;
     font-family: 'Montserrat', sans-serif;
     margin-top: 4px;
@@ -57,7 +75,7 @@
 }
 .row.my-cart-select-all-ex-ppdnfg {
     border-bottom: 1px solid #d8d8d8;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
     margin-top: 10px;
 }
 span.my-cart-select-all-x-txtt {
@@ -186,9 +204,13 @@ input[type=checkbox], input[type=radio] {
     margin-top: 14px;
 }
 .my-cart-total-price-section-bbox p strong {
-    color: #f14444;
+    color: #f88922;
     font-weight: 600;
     font-size: 17px;
     margin-left: 10px;
 }
 /* Total price section */
+
+/* span.rs-checkbox-wrapper {
+    margin-left: 7px;
+} */

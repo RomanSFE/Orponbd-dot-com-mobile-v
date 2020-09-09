@@ -13,7 +13,7 @@
     color: #737373;
 }
 .nav-tabs {
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #000;
@@ -31,8 +31,7 @@
 .main-register-page-xxccttn {
     background: #fff;
     height: 100%;
-    bottom: 0;
-    padding-bottom: 100%;
+    padding-bottom: 10px;
 }
 /* sign in */
 .singin-reg-signin-secrion-mob-vv-input-bboox input {
@@ -41,7 +40,7 @@
     border: none;
     outline: none;
     color: #333;
-    font-size: 16px;
+    font-size: 14px !important;
     background: none;
 }
 .singin-reg-signin-secrion-mob-vv-input-bboox {
@@ -62,7 +61,7 @@
     height: 45px;
     border: none;
     background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
@@ -86,7 +85,7 @@
     height: 45px;
     border: none;
     background-color: #3A63BF;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
@@ -98,7 +97,7 @@
     height: 45px;
     border: none;
     background-color: #C94131;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
@@ -143,7 +142,7 @@
     border: none;
     outline: none;
     color: #333;
-    font-size: 16px;
+    font-size: 14px;
     background: none;
 }
 .singin-reg-registerxx-secrion-mob-vv-input-bboox {
@@ -186,7 +185,7 @@
     height: 45px;
     border: none;
     background-color: #AAAAAA;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;

@@ -1,6 +1,10 @@
 .payment-with-shipping-button-button-section {
     margin-top: 42px;
 }
+.payment-with-shipping-button-button-section-collr-wrp {
+    background-color: #fff;
+    height: 100%;
+}
 .payment-with-shipping-button-button-box a {
     background-image: linear-gradient(0deg, #F8B31F 0%, #F88422 100%);
     border: none;
@@ -20,6 +24,7 @@
 .row.order-summary-singgl-product-ex-pdd .col-8 {
     margin: 0px;
     padding: 0px;
+    padding-right: 5px !important;
 }
 .row.order-summary-singgl-product-ex-pdd {
     margin-top: 8px;
@@ -29,16 +34,16 @@
     height: 82px;
 }
 .order-summary-sinng-pro-ittm-ttext p {
-    font-size: 15px;
+    font-size: 11.5px !important;
     color: #333;
     font-family: 'Montserrat', sans-serif;
 }
 .order-summary-sinng-pro-ittm-ttext h5 {
-    color: #F88422;
+    color: #f88922 !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 17px;
-    margin-top: -16px;
+    font-size: 16px !important;
+    margin-top: -14px !important;
 }
 .single-product-itwm-summary-color-option ul {
     list-style: none;
@@ -48,7 +53,7 @@
 .single-product-itwm-summary-color-option ul li {
     display: inline-block;
     margin-right: 7px;
-    font-size: 13px;
+    font-size: 10.5px !important;
     font-family: 'Montserrat', sans-serif;
     color: #afafaf;
     border-right: 1px solid #afafaf;
@@ -74,19 +79,19 @@
 }
 .product-summary-item-total-price-box p {
     color: #101010;
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 600;
     line-height: 45px;
     font-family: 'Montserrat', sans-serif;
 }
 .product-summary-item-total-price-box p strong {
     font-family: 'Montserrat', sans-serif;
-    color: #F88422;
+    color: #f88922 !important;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px !important;
 }
 .product-summary-item-total-del-chrrg-bxbx-ttxt p {
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     color: #333;
@@ -100,9 +105,9 @@
     margin-top: -14px;
 }
 .product-summary-item-total-del-chrrg-bxbx-ttxt-quntty p {
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 600;
-    color: #F88422;
+    color: #f88922 !important;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
 }
@@ -110,7 +115,7 @@
     margin-top: 10px;
 }
 .order-summary-hedd-ttxt h3 {
-    font-size: 19px;
+    font-size: 17px !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #333;
@@ -201,9 +206,9 @@
 }
 .product-summary-item-total-payable-amt p strong {
     font-family: 'Montserrat', sans-serif;
-    color: #F88422;
+    color: #f88922 !important;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px !important;
 }
 /* Order Total */
 
@@ -224,9 +229,9 @@
     line-height: 50px;
 }
 .product-summary-total-confirm-section-total-ttxt p span {
-    font-size: 17px;
+    font-size: 16px !important;
     font-weight: 600;
-    color: #f88422;
+    color: #f88922 !important;
 }
 .product-summary-total-confirm-section-con-ffn-btn {
     background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);

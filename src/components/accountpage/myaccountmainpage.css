@@ -1,7 +1,24 @@
-.myaccount-mainpage-ttop-sectioon {
+/* .myaccount-mainpage-ttop-sectioon {
     background: #fff;
     height: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 10px;
+} */
+
+.my-account-page-may-order-main-sectionx .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.my-account-my-wallet-main-section-mv .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
 }
 /* account profile image */
 .myaccount-main-page-vv-mm-profile-img-section-immg img {
@@ -11,11 +28,11 @@
     border-radius: 100%;
 }
 .myaccount-main-page-vv-mm-profile-img-section {
-    background-color: #F88822;
-    height: 95px;
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    height: 150px;
 }
 .myaccount-main-page-vv-mm-profile-img-section-name-ttxt h4 {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #fff;
@@ -24,7 +41,7 @@
     color: #f1f1f1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: -2px;
 }
 .myaccount-main-page-vv-mm-profile-img-section-name-ttxt {
@@ -34,18 +51,30 @@
 /* account profile image */
 
 /* My Orders Section */
+.my-account-page-may-order-main-hed {
+    position: relative;
+}
+.my-order-view-all-b-text-vbx a {
+    position: absolute;
+    right: 26px;
+    top: 3px;
+    font-size: 12px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .my-account-page-may-order-main-sectionx {
-    margin-top: 27px;
+    margin-top: -38px;
 }
 .my-account-page-may-order-main-mob-sectionx-bboxx {
-    background: #F9F9F9;
+    background: #ffffff;
     border-radius: 7px;
     padding: 0px;
 }
 
 
 .my-account-page-may-order-main-hed p {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: #10100F;
     margin-left: 8px;
@@ -53,12 +82,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 .my-account-page-mobb-lv-snnggl-prodct {
-    width: 18.6%;
+    width: 23.6%;
+}
+.my-account-page-mobb-lv-snnggl-prodct-img {
+    margin-left: 7px;
 }
 .my-account-page-mobb-lv-snnggl-prodct-img img {
-    width: 80%;
-    padding: 0px;
-    height: 29px;
+    width: 42px;
 }
 .my-account-page-mobb-lv-snnggl-prodct-img span i.fa {
     font-size: 18px;
@@ -73,7 +103,7 @@
     color: #828282;
 }
 .my-account-page-mobb-lv-snnggl-prodct {
-    background-color: #F9F9F9;
+    background-color: #ffffff;
     margin-right: 4px;
     border-radius: 5px;
 }
@@ -89,7 +119,7 @@
 .my-account-page-mobb-lv-snnggl-prodct-ttxt p {
     color: #1A1A1A;
     font-family: 'Montserrat', sans-serif;
-    font-size: 9px;
+    font-size: 10.5px;
     margin-top: 1px;
 }
 .my-account-page-mobb-lv-snnggl-prodct-ttxt {
@@ -99,18 +129,30 @@
 
 /* Wallet section */
 .my-account-my-wallet-main-section-mv {
-    margin-top: 15px;
+    margin-top: 15px; 
+}
+.my-account-my-wallet-mv-ttxt {
+    position: relative;
+}
+.my-accnt-recennxt-view-recent-sec a {
+    position: absolute;
+    right: 26px;
+    top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #333;
 }
 .my-account-my-wallet-mv-ttxt h4 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-left: 9px;
     padding-top: 10px;
 }
 .my-account-my-wallet-mv-ttxt {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     height: 68px;
+    border-radius: 5px;
 }
 .my-account-my-wallet-mv-ttxt p {
     font-family: 'Montserrat', sans-serif;
@@ -120,7 +162,7 @@
     font-size: 15px;
 }
 .my-account-my-wallet-mv-ttxt p span {
-    color: #f56906;
+    color: #f88922;
     font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -130,6 +172,7 @@
 /* Account and wishlist all link sec */
 .account-settings-wishlist-all-link-sections-mv-main {
     margin-top: 15px;
+    background-color: #fff;
 }
 .account-settings-wishlist-all-link-sections-mv-single {
     position: relative;
@@ -143,20 +186,26 @@
     font-size: 17px;
     color: #333;
 }
+span.acc-wisshlst-icn-cls img {
+    width: 20px;
+}
+span.my-accny-logout-bbsf img {
+    width: 20px;
+}
 
 .account-settings-wishlist-all-link-sections-mv-single p {
-    margin-left: 32px;
+    margin-left: 30px;
     position: relative;
     color: #333;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 .account-settings-wishlist-all-link-sections-mv-single span.acc-wisshlst-icn-cls {
     position: absolute;
-    font-size: 21px;
+    font-size: 20px;
     color: #a2a2a2;
-    top: -5px;
+    top: -6px;
 }
 /* Logout btn */
 span.my-accny-logout-bbsf i.fas {
@@ -206,9 +255,9 @@ span.my-accny-logout-bbsf {
     position: relative;
   }
   .main-acc-sec-loggoout-sec-moddl {
-    border-bottom: 1px solid #d0d0d0;
     padding-bottom: 13px;
     position: relative;
+    border: none;
   }
   .main-acc-sec-loggoout-sec-moddl button {
     background: none;

@@ -55,7 +55,7 @@ export default class PreOrderPage extends Component {
                                                 </div>
                                                 <div className="col-8">
                                                     <div className="pre-order-single-tteexct">
-                                                        <p>product details text, product details text..</p>
+                                                        <p>product details text, details text product details text..</p>
                                                         <h4>1250 TK <span>X3</span></h4>
                                                         <div className="pre-oordr-color-sz">
                                                             <ul>
@@ -74,7 +74,7 @@ export default class PreOrderPage extends Component {
                                     <div className="row">
                                         <div className="col-12">
                                             <div className="preorder-vied-details-bbtn text-center">
-                                                <Link to="/">
+                                                <Link to="/invoice-page">
                                                     View Details
                                                 </Link>
                                             </div>
@@ -111,7 +111,7 @@ export default class PreOrderPage extends Component {
                                                 </div>
                                                 <div className="col-8">
                                                     <div className="pre-order-single-tteexct">
-                                                        <p>product details text, product details text..</p>
+                                                        <p>product details text, details text product details text..</p>
                                                         <h4>1250 TK <span>X3</span></h4>
                                                         <div className="pre-oordr-color-sz">
                                                             <ul>
@@ -130,7 +130,7 @@ export default class PreOrderPage extends Component {
                                     <div className="row">
                                         <div className="col-12">
                                             <div className="preorder-vied-details-bbtn text-center">
-                                                <Link to="/">
+                                                <Link to="/invoice-page">
                                                     View Details
                                                 </Link>
                                             </div>

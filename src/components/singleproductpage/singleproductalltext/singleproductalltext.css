@@ -12,9 +12,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 .single-product-price-xtt-left-sec p span {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 17px;
-    color: #d41a1a;
+    color: #f88922;
 }
 .single-product-price-xtt-left-sec p del span.old-price-xxc {
     color: #989898;
@@ -29,7 +29,7 @@
     margin-top: 12px;
 }
 .single-product-price-xtt-right-sec-offer p {
-    background: #e02a2a;
+    background: #ff7a00;
     width: 55px;
     color: #fff;
     font-weight: 600;
@@ -44,7 +44,7 @@
 
 /* Product details text section and review */
 .single-product-page-mobile-product-details-text-box p {
-    font-size: 13px;
+    font-size: 11.5px;
     font-weight: 500;
     color: #585858;
     font-family: 'Montserrat', sans-serif;
@@ -69,11 +69,12 @@
     border-right: 1px solid rgb(114, 114, 114);
     display: inline-block;
     margin-right: 9px;
-    height: 17px;
+    height: 12px;
 }
 .single-product-page-mobile-product-details-text-box-review ul li p {
     margin-right: 8px;
-    line-height: 14px;
+    line-height: 6px;
+    font-size: 12px;
 }
 li.singll-pro-rat-revvx-no-rev-txt p {
     color: #808080;
@@ -97,7 +98,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     border: none;
     color: #333;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 4px;
     margin-left: -7px;
@@ -106,13 +107,13 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 .single-product-select-color-sizzx button p {
     font-size: 11px;
     color: #ababab;
-    margin-left: -76px;
+    margin-left: -68px;
 }
 
 .single-product-select-color-sizzx button h5 {
-    color: #de2121;
+    color: #e46d00;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     margin-left: 38px;
 }
@@ -383,7 +384,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     border: none;
     color: #333;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 4px;
     margin-left: -7px;
@@ -396,9 +397,9 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 }
 
 .single-product-highlight-section-mobile-main-booxs button h5 {
-    color: #de2121;
+    color: #e46d00;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     margin-left: 38px;
 }
@@ -502,19 +503,19 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     font-size: 11px;
 }
 .customer-review-provide-by-customer-revvxu-sec-rating-name p strong {
-    font-size: 14px;
+    font-size: 13px;
     margin-right: 7px;
 }
 .customer-review-provide-by-customer-revvxu-sec-rating-name h6 {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
     color: #848484;
-    margin-top: -12px;
+    margin-top: -15px;
 }
 .customer-review-provide-by-customer-revvxu-sec-texxtc p {
     padding: 4px 10px 4px 14px;
     color: #6d6d6d;
-    font-size: 13px;
+    font-size: 11.5px;
     font-family: 'Montserrat', sans-serif;
 }
 .customer-review-provide-by-customer-revvxu-sec-texxt-social-likke ul {

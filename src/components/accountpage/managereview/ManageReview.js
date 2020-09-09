@@ -69,7 +69,7 @@ export default class ManageReview extends Component {
                                                             </div>
                                                             <div className="col-8">
                                                                 <div className="manage-revvuu-single-tteexct">
-                                                                    <p>product details text, product details text..</p>
+                                                                    <p>product details text, details text product details text..</p>
                                                                     <h4>1250 TK <span>X3</span></h4>
                                                                     <div className="manage-revvu-color-sz">
                                                                         <ul>
@@ -123,7 +123,7 @@ export default class ManageReview extends Component {
                                                             </div>
                                                             <div className="col-8">
                                                                 <div className="manage-revvuu-single-tteexct">
-                                                                    <p>product details text, product details text..</p>
+                                                                    <p>product details text, details text product details text..</p>
                                                                     <h4>1250 TK <span>X4</span></h4>
                                                                     <div className="manage-revvu-color-sz">
                                                                         <ul>
@@ -262,6 +262,13 @@ export default class ManageReview extends Component {
                                                             <div className="col-8">
                                                                 <div className="manage-revvuu-single-tteexct-prev-revvz">
                                                                     <p>product details text, product details text..</p>
+                                                                    <h4>1250 TK <span>X4</span></h4>
+                                                                    <div className="manage-revvu-color-sz-preevx-rv">
+                                                                        <ul>
+                                                                            <li><p>Color: Black</p></li>
+                                                                            <li><p>Size: M</p></li>
+                                                                        </ul>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -308,6 +315,13 @@ export default class ManageReview extends Component {
                                                             <div className="col-8">
                                                                 <div className="manage-revvuu-single-tteexct-prev-revvz">
                                                                     <p>product details text, product details text..</p>
+                                                                    <h4>1250 TK <span>X4</span></h4>
+                                                                    <div className="manage-revvu-color-sz-preevx-rv">
+                                                                        <ul>
+                                                                            <li><p>Color: Black</p></li>
+                                                                            <li><p>Size: M</p></li>
+                                                                        </ul>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -55,7 +55,7 @@ export default class AllOrdersProduct extends Component {
                                             </div>
                                             <div className="col-8">
                                                 <div className="all-oorpdervc-single-tteexct">
-                                                    <p>product details text, product details text..</p>
+                                                    <p>product details text, details text product details text..</p>
                                                     <h4>1250 TK <span>X3</span></h4>
                                                     <div className="all-order-oordr-color-sz">
                                                         <ul>
@@ -118,7 +118,7 @@ export default class AllOrdersProduct extends Component {
                                             </div>
                                             <div className="col-8">
                                                 <div className="all-oorpdervc-single-tteexct">
-                                                    <p>product details text, product details text..</p>
+                                                    <p>product details text, details text product details text..</p>
                                                     <h4>1250 TK <span>X3</span></h4>
                                                     <div className="all-order-oordr-color-sz">
                                                         <ul>

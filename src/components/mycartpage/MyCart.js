@@ -97,97 +97,103 @@ export default class MyCart extends Component {
                                 >
                                 <div className="mycart-selectt-all-sec-bbzxc">
                                     {/* Single Cart Item */}
-                                    <div className="row my-cart-select-all-ex-ppdnfg">
-                                        <div className="col-2">
-                                            <div className="my-carrtt-only-single-chect">
-                                                <Checkbox value="A"></Checkbox>
-                                            </div>
-                                        </div>
-                                        <div className="col-3">
-                                            <div className="my-cart-select-vvb-immxg">
-                                                <img src={require('../../assets/slide-1.jpg')} alt="OrponBD Online shop"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-7">
-                                            <div className="my-cart-product-vvx-and-text-section">
-                                                <p>Product details text...</p>
-                                                <h5>Color: Black</h5>
-                                                <h4>1250 TK</h4>
-
-                                                <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
-                                                {/* incress decress */}
-                                                <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
-                                                    <ul>
-                                                        <li><button onClick={this.DecreaseItem}>-</button></li>
-                                                        <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
-                                                        <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
-                                                    </ul>
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="A"></Checkbox>
                                                 </div>
-                                                {/* incress decress */}
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-1.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     {/* Single Cart Item */}
                                     {/* Single Cart Item */}
-                                    <div className="row my-cart-select-all-ex-ppdnfg">
-                                        <div className="col-2">
-                                            <div className="my-carrtt-only-single-chect">
-                                                <Checkbox value="B"></Checkbox>
-                                            </div>
-                                        </div>
-                                        <div className="col-3">
-                                            <div className="my-cart-select-vvb-immxg">
-                                                <img src={require('../../assets/slide-2.jpg')} alt="OrponBD Online shop"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-7">
-                                            <div className="my-cart-product-vvx-and-text-section">
-                                                <p>Product details text...</p>
-                                                <h5>Color: Black</h5>
-                                                <h4>1250 TK</h4>
-
-                                                <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
-                                                {/* incress decress */}
-                                                <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
-                                                    <ul>
-                                                        <li><button onClick={this.DecreaseItem}>-</button></li>
-                                                        <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
-                                                        <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
-                                                    </ul>
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="B"></Checkbox>
                                                 </div>
-                                                {/* incress decress */}
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-2.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     {/* Single cart Item */}
                                     {/* Single Cart Item */}
-                                    <div className="row my-cart-select-all-ex-ppdnfg">
-                                        <div className="col-2">
-                                            <div className="my-carrtt-only-single-chect">
-                                                <Checkbox value="C"></Checkbox>
-                                            </div>
-                                        </div>
-                                        <div className="col-3">
-                                            <div className="my-cart-select-vvb-immxg">
-                                                <img src={require('../../assets/slide-3.jpg')} alt="OrponBD Online shop"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-7">
-                                            <div className="my-cart-product-vvx-and-text-section">
-                                                <p>Product details text...</p>
-                                                <h5>Color: Black</h5>
-                                                <h4>1250 TK</h4>
-
-                                                <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
-                                                {/* incress decress */}
-                                                <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
-                                                    <ul>
-                                                        <li><button onClick={this.DecreaseItem}>-</button></li>
-                                                        <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
-                                                        <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
-                                                    </ul>
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="C"></Checkbox>
                                                 </div>
-                                                {/* incress decress */}
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-3.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
