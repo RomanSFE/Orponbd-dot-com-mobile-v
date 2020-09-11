@@ -1,3 +1,7 @@
+.singge-product-more-review-page-mobile-main-section-color-wrp {
+  background-color: #fff;
+  height: 100%;
+}
 /* progress skill */
 .progress-bar {
     background-color: #ebebeb !important;
@@ -116,6 +120,7 @@
 .customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg p strong {
   font-size: 12px;
   margin-right: 7px;
+  font-weight: 500;
 }
 .customer-review-provide-by-customer-revvxu-sec-rating-name-details-ppg h6 {
   font-size: 11px;
@@ -126,7 +131,7 @@
 .customer-review-provide-by-customer-revvxu-sec-texxtc-details-ppg p {
   padding: 4px 10px 4px 14px;
   color: #6d6d6d;
-  font-size: 13px;
+  font-size: 11.5px;
   font-family: 'Montserrat', sans-serif;
 }
 .customer-review-provide-by-customer-revvxu-sec-texxt-social-likke-detl-pgg ul {

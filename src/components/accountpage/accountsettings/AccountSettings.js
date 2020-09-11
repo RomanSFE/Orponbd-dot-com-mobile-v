@@ -17,9 +17,10 @@ export default class AccountSettings extends Component {
         }
     }
  
-    openModal() {
+    openModalName() {
         this.setState({
-            visible : true
+            visible : true,
+            is_mobile : 0,
         });
     }
  
@@ -31,20 +32,33 @@ export default class AccountSettings extends Component {
     // Modal Name
 
     // Modal Mobile Number
-    // openModalMob() {
-    //     this.setState({
-    //         show : true
-    //     });
-    // }
+    openModalMob() {
+        this.setState({
+            visible : true,
+            is_mobile : 1,
+           
+        });
+    }
  
-    // closeModalMob() {
-    //     this.setState({
-    //         show : false
-    //     });
-    // }
+    closeModalMob() {
+        this.setState({
+            visible : false,
+        });
+    }
     // Modal Mobile Number
     
     render() {
+        const is_mobile = this.state.is_mobile;
+        let button;
+        if (is_mobile===1) {
+             button =  <div><input type="text" placeholder="Type your mobile number"/><div className="avccount-sett-subbmt-bbtn"><button type="submit">Save</button></div></div>;
+        } else {
+            button =  <div><input type="text" placeholder="Type your name"/><div className="avccount-sett-subbmt-bbtn"><button type="submit">Save</button></div></div>;
+        } 
+        // elseif {
+        //     button =  <div><input type="text" placeholder="Type your Gender"/><div className="avccount-sett-subbmt-bbtn"><button type="submit">Save</button></div></div>;
+        // }
+
         return (
             <>
             <div className="main-category-top-nav-menu">
@@ -77,9 +91,10 @@ export default class AccountSettings extends Component {
                                 {/* Single item */}
 
                                 {/* Single item */}
-                                <div className="acc-sett-proffl-sec-moddl">
-                                    <button onClick={() => this.openModal()}>Name</button>
+                                {/* <div className="acc-sett-proffl-sec-moddl">
+                                    <button type="button"  value="Open" onClick={() => this.openModalName()}>Name</button>
                                     <Modal visible={this.state.visible} width="320" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                                        {this.state.content} 
                                         <div className="acc-sett-modal-secvc text-center">
                                             <input type="text" placeholder="your name..."/>
                                             <div className="avccount-sett-subbmt-bbtn">
@@ -91,21 +106,25 @@ export default class AccountSettings extends Component {
                                         </div>
                                     </Modal>
                                     <span className="acc-sett-moddl-ang-rr"><i className="fas fa-angle-right"></i></span>
-                                </div>
+                                </div> */}
                                 {/* Single item */}
 
                                 {/* Single item */}
                                 <div className="acc-sett-proffl-sec-moddl">
-                                    <button onClick={() => this.openModal()}>Mobile Number</button>
-                                    <Modal show={this.state.show} width="320" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                                    <button type="button"  value="Open" onClick={() => this.openModalName()}>Name</button>
+                                </div>
+                                {/* Single item */}
+                                
+                                {/* Single item */}
+                                <div className="acc-sett-proffl-sec-moddl">
+                                    <button onClick={() => this.openModalMob()}>Mobile Number</button>
+                                    <Modal visible={this.state.visible} width="320" height="300" effect="fadeInUp" onClickAway={() => this.closeModalMob()}>
+                                   
                                         <div className="acc-sett-modal-secvc text-center">
-                                            <input type="text" placeholder="your mobile number"/>
-                                            <div className="avccount-sett-subbmt-bbtn">
-                                                <button type="submit">Save</button>
-                                            </div>
-                                            <div className="acc-setxt-close-bbxtn">
-                                                <button onClick={() => this.closeModal()}><i class="fa fa-times-circle" aria-hidden="true"></i></button>
-                                            </div>
+                                            {button}
+                                                <div className="acc-setxt-close-bbxtn">
+                                                    <button onClick={() => this.closeModalMob()}><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+                                                </div>
                                         </div>
                                     </Modal>
                                     <span className="acc-sett-moddl-ang-rr"><i className="fas fa-angle-right"></i></span>
@@ -113,8 +132,9 @@ export default class AccountSettings extends Component {
                                 {/* Single item */}
 
                                 {/* Single item */}
-                                <div className="acc-sett-proffl-sec-moddl">
+                                {/* <div className="acc-sett-proffl-sec-moddl">
                                     <button onClick={() => this.openModal()}>Gender</button>
+                                    
                                     <Modal visible={this.state.visible} width="320" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                                         <div className="acc-sett-modal-secvc text-center">
                                             <div className="acc-seet-mdl-gender text-left">
@@ -129,7 +149,6 @@ export default class AccountSettings extends Component {
                                                 <p className="acc-secct-ml-ttxt">Female</p>
                                             </div>
                                             <div className="avccount-sett-subbmt-bbtn">
-
                                             <button type="submit">Save</button>
                                             </div>
                                             <div className="acc-setxt-close-bbxtn">
@@ -138,8 +157,9 @@ export default class AccountSettings extends Component {
                                         </div>
                                     </Modal>
                                     <span className="acc-sett-moddl-ang-rr"><i className="fas fa-angle-right"></i></span>
-                                </div>
+                                </div> */}
                                 {/* Single item */}
+
                                 <Link to="/forget-password">
                                     <div className="account-settings-modal-change">
                                         <p>Change Password</p>

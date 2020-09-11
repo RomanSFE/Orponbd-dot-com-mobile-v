@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 .topb-brandxs-wexv-dot-main-sec-bboxx {
-    background: #F6F5F5;
+    background: #ffffff;
     border-radius: 7px;
     padding: 4px;
 }
@@ -29,7 +29,7 @@
 .topbv-brandx-web-ddot-cmm-snnggl-prodct {
     width: 100%;
     height: 124px;
-    background-color: #fff;
+    background-color: #f9f9f9;
     margin-bottom: 3px;
     border-radius: 4px;
 }
@@ -63,15 +63,15 @@
     position: relative;
 }
 .top-brand-iimgx {
-    width: 40px;
-    height: 40px;
+    width: 45%;
+    height: 35px;
     background: #fff;
     border: 1px solid #e4e4e4;
 }
 
 .top-brand-iimgx img {
-    width: 38px;
-    height: 38px;
+    width: 100%;
+    height: 35px;
     padding: 1px;
 }
 
@@ -81,7 +81,7 @@
 
 .top-brand-iimgx {
     position: absolute;
-    left: 24px;
+    left: 29%;
     top: 53px;
 }
 /* New */

@@ -46,18 +46,19 @@
 .single-product-wishlist-boxzx {
     position: absolute;
     z-index: 99;
-    right: -8px;
+    right: 14px;
     bottom: 35px;
-    width: 89px;
+    width: 68px;
     height: 43px;
     background: #fff;
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 .single-product-wishlist-boxzx span i.fas {
     font-size: 28px;
     margin-top: 9px;
     color: #a5a5a5;
-    margin-left: -40px;
+    margin-left: -27px;
     position: relative;
 }
 span.wish-count-mobile-xexe {

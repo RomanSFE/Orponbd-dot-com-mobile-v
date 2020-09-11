@@ -55,6 +55,16 @@
     margin-top: 9px;
 }
 
+.single-product-menu-dot-cm-top-menu-right-icon-dropdown a {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+}
+.single-product-menu-dot-cm-top-menu-right-icon-dropdown a span {
+    margin-right: 5px;
+    color: #f88a24;
+}
+
 /* Animation Sec */
 .single-product-menu-dot-cm-top-menu {
     position: fixed;

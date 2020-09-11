@@ -13,7 +13,7 @@ export default class RecommendedProducts extends Component {
                             <div className="recommended-products-single-pg-products-mobile-v-booxcx">
                                 <div className="recommended-products-single-pg-products-mobile-v-headdng">
                                     <p>Recommended for you</p>
-                                    <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
+                                    {/* <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link> */}
                                 </div>
                                 {/* Single item */}
                                 <div className="row recommended-products-extr-pdd-products-ext">

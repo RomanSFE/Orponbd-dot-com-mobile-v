@@ -154,7 +154,7 @@ export default class SingleProductAllText extends Component {
                                 </div>
                                 {/* <button onClick={this.onOpenModal}>Products Options <p>Color, Size</p></button>
                                 <button onClick={this.onOpenModal}><h5>Select</h5></button> */}
-                                <Modal open={ProductOptionOpen} onClose={this.onCloseModal} >
+                                <Modal open={ProductOptionOpen} onClose={this.onCloseModal}>
                                     {/* Image and price section */}
                                     <div className="modal-singg-mob-product-imgg-section">
                                         <div className="container">
@@ -190,11 +190,20 @@ export default class SingleProductAllText extends Component {
                                             </div>
                                             <div className="single-products-options-section-iimmg-bbox">
                                                 <ul>
-                                                   <li><Link to="#"><img src={require('../../../assets/slide-1.jpg')} alt="orponbd global collections"/></Link></li>   
-                                                   <li><Link to="#"><img src={require('../../../assets/slide-2.jpg')} alt="orponbd global collections"/></Link></li>   
-                                                   <li><Link to="#"><img src={require('../../../assets/slide-3.jpg')} alt="orponbd global collections"/></Link></li>   
+                                                   <li><img src={require('../../../assets/slide-1.jpg')} alt="orponbd online shop"/></li>   
+                                                   <li><img src={require('../../../assets/slide-2.jpg')} alt="orponbd online shop"/></li>   
+                                                   <li><img src={require('../../../assets/slide-3.jpg')} alt="orponbd online shop"/></li>   
                                                 </ul>
                                             </div>
+                                            {/* OR */}
+                                            <div className="single-products-options-section-var-colr-bbox">
+                                                <ul>
+                                                   <li><p>Color Opt 1</p></li>  
+                                                   <li><p>Color Opt 2</p></li>  
+                                                   <li><p>Color Opt 3</p></li>  
+                                                </ul>
+                                            </div>
+                                            {/* OR */}
                                         </div>
                                         {/* color with img */}
 
@@ -205,10 +214,10 @@ export default class SingleProductAllText extends Component {
                                             </div>
                                             <div className="single-products-options-section-sizzx-bbox">
                                                 <ul>
-                                                   <li><Link to="#"><p>M</p></Link></li>
-                                                   <li><Link to="#"><p>L</p></Link></li>
-                                                   <li><Link to="#"><p>XL</p></Link></li>
-                                                   <li><Link to="#"><p>XXL</p></Link></li>
+                                                   <li><p>M</p></li>
+                                                   <li><p>L</p></li>
+                                                   <li><p>XL</p></li>
+                                                   <li><p>XXL</p></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -300,6 +309,22 @@ export default class SingleProductAllText extends Component {
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/* Single product  Buy Now section button */}
+                                    <div className="single-product-buy-now-open-modal-mobile-section">
+                                        <div className="container">
+                                            <div className="row">
+                                                <div className="col-12">
+                                                    <div className="single-product-buy-now-open-modal-mobile-section-box text-center">
+                                                        <Link to="/payment-with-shipping-button">
+                                                            <button>Buy Now</button>
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Single product  Buy Now section button */}
                                 </Modal>
                             </div>                    
                         </div>
@@ -380,12 +405,14 @@ export default class SingleProductAllText extends Component {
                         <li>5</li>
                     </ul>
                 </div>
-            </div>
-            <div className="customer-review-provide-by-customer-revvxu-view-more-review text-center">
+
+                <div className="customer-review-provide-by-customer-revvxu-view-more-review text-center">
                 {/* View More Review Content */}
                     <Link to="/more-review-page">More Review</Link>
                 {/* View More Review Content */}
+                </div>
             </div>
+            
             {/* Customer Review Provide by customer section end */}
 
             {/* Products Details Section */}
@@ -399,6 +426,7 @@ export default class SingleProductAllText extends Component {
                             <div className="single-products-product-details-immgg-prt">
                                 <img src={require('../../../assets/slide-1.jpg')} alt="orponbd online shop"/>
                             </div>
+                            <div className="singlle-mrr-whiitt-space-seexctn"></div>
                             <div className="single-products-product-details-view-mmortc-bbtx text-center">
                                 {/* View More Button Content */}
                                 { this.state.ViewMore ?
@@ -429,6 +457,8 @@ export default class SingleProductAllText extends Component {
             </div>
             {/* Products Details Section */}
 
+            <div className="after-product-details-exx-ddv-mv"></div>
+
             {/* Recommended for you section */}
             <div className="single-products-recommended-peoodect-sec">
                 <RecommendedProducts/>
@@ -448,7 +478,7 @@ export default class SingleProductAllText extends Component {
                         </div>
                         <div className="col-5">
                             <div className="buy-now-and-add-to-cart-page-mobile-addto-ccrt-bbtn text-center">
-                               <Link to="#">
+                               <Link to="/my-cart">
                                     Add To Cart
                                </Link>
                             </div>

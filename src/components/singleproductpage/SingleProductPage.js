@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './singleproductpage.css'
 
 import SingleProductTopMenu from './SingleProductTopMenu.js'
 import SingleProductSlide from './singleproductslide/SingleProductSlide.js'

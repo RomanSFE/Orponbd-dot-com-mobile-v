@@ -94,6 +94,19 @@ span.my-cart-select-all-x-txtt {
     margin-left: -10px;
 }
 
+/* Delete Icon  */
+.my-cartproduct-vvx-delete-iixcn img {
+    width: 16px;
+    position: absolute;
+    right: 1px;
+    top: 0px;
+}
+.my-cart-product-vvx-and-text-section {
+    position: relative;
+}
+/* Delete Icon  */
+
+
 /* Checkbox custom css */
 input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
@@ -127,19 +140,21 @@ input[type=checkbox], input[type=radio] {
 
 .my-cart-dfc-single-products-options-section-quantity-bbox ul li button {
     border: 1px solid #dcdcdc;
-    padding: 0px 10px 0px 10px;
-    background-color: #f7f7f7;
-    font-size: 16px;
+    padding: 0px 7px 1px 7px;
+    background-color: #ffffff;
+    font-size: 12px;
     border-radius: 15px 0px 0px 15px;
     margin-right: -1px;
+    outline: none;
 }
 .my-cart-dfc-single-products-options-section-quantity-bbox ul li.plusxsxts-bbtn button {
     border: 1px solid #dcdcdc;
-    padding: 0px 10px 0px 10px;
-    background-color: #f7f7f7;
-    font-size: 16px;
+    padding: 0px 6px 1px 4px;
+    background-color: #ffffff;
+    font-size: 12px;
     border-radius: 0px 15px 15px 0px;
     margin-left: -3px;
+    outline: none;
 }
 .my-cart-dfc-single-products-options-section-quantity-bbox ul li h2 {
     font-size: 17px;
@@ -149,12 +164,12 @@ input[type=checkbox], input[type=radio] {
     font-weight: 500;
 }
 .my-cart-dfc-single-products-options-section-quantity-bbox ul li.incrementhhtwo-ttxt h2 {
-    font-size: 17px;
+    font-size: 12px;
     margin-top: 4px;
     margin-bottom: 6px;
-    padding: 1px 13px 3px 11px;
-    font-weight: 500;
-    background-color: #f7f7f7;
+    padding: 2px 11px 3px 8px;
+    font-weight: 400;
+    background-color: #ffffff;
     border: 1px solid #dcdcdc;
 }
 /* Incress Decress */
@@ -210,7 +225,3 @@ input[type=checkbox], input[type=radio] {
     margin-left: 10px;
 }
 /* Total price section */
-
-/* span.rs-checkbox-wrapper {
-    margin-left: 7px;
-} */

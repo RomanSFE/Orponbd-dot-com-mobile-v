@@ -17,7 +17,7 @@ export default class MainMenu extends Component {
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/home-icon-red.svg')} alt="orponbd Online Shop"/>
                                                 </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Home</p>
+                                                <p className="main-cx-meny-dd-bbox-cct-name-homm">Home</p>
                                             </div>
                                         </Link>
                                     </li>
@@ -27,17 +27,18 @@ export default class MainMenu extends Component {
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx category-exx-ccls-vc">
                                                     <img src={require('../../assets/catt-list.svg')} alt="orponbd Online Shop"/>
                                                 </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Category</p>
+                                                <p className="main-cx-meny-dd-bbox-cct-name-cattx text-center">Category</p>
                                             </div>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/my-cart">
-                                            <div className="main-menu-xccx-boxc">
+                                            <div className="main-menu-xccx-boxc extra-cczxrt-ic">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/supermarket.svg')} alt="orponbd Online Shop"/>
                                                 </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name crrtxtx text-center">Cart</p>
+                                                <p className="main-cx-meny-dd-bbox-cct-name-ccvrt crrtxtx text-center">Cart</p>
+                                                {/* <span><p>10</p></span> */}
                                             </div>
                                         </Link>
                                     </li>
@@ -47,7 +48,7 @@ export default class MainMenu extends Component {
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/user.svg')} alt="orponbd Online Shop"/>
                                                 </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name text-center">Account</p>
+                                                <p className="main-cx-meny-dd-bbox-cct-name-aacnxt text-center">Account</p>
                                             </div>
                                         </Link>
                                     </li>

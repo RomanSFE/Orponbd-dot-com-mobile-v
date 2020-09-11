@@ -65,7 +65,7 @@ export default class MyCart extends Component {
                         <div className="col-12">
                             <Link to="/">
                                 <div className="main-category-top-menu-iconn-sec-txt">
-                                    <span><i className="fa fa-chevron-left"></i> My Cart(5)</span>
+                                    <span><i className="fa fa-chevron-left"></i> My Cart (5)</span>
                                 </div>
                             </Link>
                         </div>
@@ -115,7 +115,9 @@ export default class MyCart extends Component {
                                                     <h5>Color: Black</h5>
                                                     <h4>1250 TK</h4>
 
-                                                    <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
                                                     {/* incress decress */}
                                                     <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
                                                         <ul>
@@ -149,7 +151,9 @@ export default class MyCart extends Component {
                                                     <h5>Color: Black</h5>
                                                     <h4>1250 TK</h4>
 
-                                                    <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
                                                     {/* incress decress */}
                                                     <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
                                                         <ul>
@@ -183,7 +187,9 @@ export default class MyCart extends Component {
                                                     <h5>Color: Black</h5>
                                                     <h4>1250 TK</h4>
 
-                                                    <span><i class="far fa-trash-alt" aria-hidden="true"></i></span>
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
                                                     {/* incress decress */}
                                                     <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
                                                         <ul>
@@ -219,7 +225,7 @@ export default class MyCart extends Component {
                         </div>
                         <div className="col-6">
                             <div className="my-cart-total-price-buttxcn-section-bbox">
-                                <Link to="/">Checkout(10)</Link>
+                                <Link to="/">Checkout (10)</Link>
                             </div>
                         </div>
                     </div>

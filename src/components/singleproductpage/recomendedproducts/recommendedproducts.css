@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 .recommended-products-single-pg-products-mobile-v-booxcx {
-    background: #f5f5f5;
+    background: #ffffff;
     border-radius: 7px;
     padding: 4px;
 }
@@ -24,13 +24,14 @@
     font-size: 14px;
     font-weight: 500;
     color: #333;
+    margin-left: 4px;
 }
 .recommended-products-single-pg-products-mobile-v-headdng p {
     position: relative;
 }
 .recommended-products-single-pg-products-mobile-v-headdng a {
     position: absolute;
-    right: 19px;
+    right: 24px;
     top: 6px;
     font-size: 13px;
     color: #696969;
@@ -55,7 +56,7 @@
     border-radius: 4px;
 }
 .recommended-products-single-proxc-products-mob-sing-xxc {
-    background-color: #F8F8F8;
+    background-color: #f9f9f9;
     border-radius: 5px;
 }
 .recommended-products-single-pg-products-mobile-v-texxtct p {
@@ -64,7 +65,7 @@
     line-height: 12px;
 }
 .recommended-products-single-pg-products-mobile-v-texxtct h4 {
-    color: #EC4949;
+    color: #f88922;
     font-size: 11px;
     font-weight: 600;
     margin-top: -13px;

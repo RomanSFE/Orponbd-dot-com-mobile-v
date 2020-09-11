@@ -83,9 +83,8 @@ class SingleProductTopMenu extends Component {
                                         <div className="single-product-menu-dot-cm-top-menu-right-icon-dropdown">
                                             <img src={require('../../assets/drop-menu.svg')} alt="orponbd global collection"/>
                                             <DropdownButton id="dropdown-basic-button" title="">
-                                                <Dropdown.Item><Link to="/link">Link 1</Link></Dropdown.Item>
-                                                <Dropdown.Item><Link to="/link">Link 2</Link></Dropdown.Item>
-                                                <Dropdown.Item><Link to="/link">Link 3</Link></Dropdown.Item>
+                                                <Dropdown.Item><Link to="/my-account-main"><span><i class="far fa-user"></i></span> Account</Link></Dropdown.Item>
+                                                <Dropdown.Item><Link to="/wishlist"><span><i class="far fa-heart"></i></span> Wishlist</Link></Dropdown.Item>
                                             </DropdownButton>
                                         </div>
                                     </li>

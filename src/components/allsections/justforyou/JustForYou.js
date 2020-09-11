@@ -13,7 +13,7 @@ export default class JustForYou extends Component {
                             <div className="just-for-you-main-secccton-web-ddt-ccm-bbooxcx">
                                 <div className="just-for-yooxuu-hedd-txt-web-ddxdt-cm">
                                     <p>Just for you</p>
-                                    <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
+                                    {/* <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link> */}
                                 </div>
                                 {/* Single item */}
                                 <div className="row just-for-ex-padd-web-ddt-ccom">
