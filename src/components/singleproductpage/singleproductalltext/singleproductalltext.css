@@ -167,6 +167,11 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     border-top-right-radius: 10px;
     top: 96%;
 }
+button.react-responsive-modal-closeButton {
+    width: 18px !important;
+    height: 10px;
+    opacity: .7;
+}
 /* .react-responsive-modal-modal {
     width: 100% !important;
     position: relative;
@@ -195,8 +200,9 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 }
 .single-product-open-modal-image-immg-mbl img {
     width: 100%;
-    height: 68px;
+    height: 75px;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 .single-product-open-modal-image-txctt h3 {
     color: #f88922;
@@ -219,7 +225,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     font-size: 12px;
     font-weight: 400;
     margin-left: -13px;
-    margin-top: -8px;
+    margin-top: -7px;
     color: #949393;
 }
 .instock-and-offer-box ul li p {
@@ -262,6 +268,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     width: 58px;
     height: 50px;
     padding: 1px;
+    border-radius: 5px;
 }
 .single-products-options-section-iimmg-bbox ul li img:hover {
     border: 1px solid #f88622;
@@ -500,13 +507,15 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     border-top: 1px solid #d6d6d6;
 }
 .products-highlights-prod-details-txztxt-heading {
-    border-bottom: 1px solid #ababab;
+    border-bottom: 1px solid #d6d6d6;
 }
 .products-highlights-prod-details-txztxt-heading h5 {
     color: #333;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 11px;
 }
 .products-highlights-prod-details-txztxt-bboxc ul {
     margin-top: 7px;
@@ -518,9 +527,10 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 }
 .products-highlights-prod-details-txztxt-bboxc ul li p {
     color: #545454;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    margin-bottom: 9px;
 }
 .single-product-highlight-section-mobile-main-booxs {
     margin-top: 11px;
@@ -739,7 +749,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
 
 /* Recommended Section */
 .single-products-recommended-peoodect-sec {
-    margin-top: -21px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 /* Recommended Section */
@@ -749,6 +759,7 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     background-color: #ffffff;
     width: 100%;
     height: 60px;
+    border-top: 1px solid #d6d6d6;
 }
 .buy-now-and-add-to-cart-page-mobile-v-single-prodcpg {
     position: fixed;
@@ -834,3 +845,94 @@ li.singll-pro-rat-revvx-one-orrdr-ttxt p {
     padding-top: 7px;
 }
 /* exxx bbox color chng */
+
+/* View More Button Product Details */
+button.app__toggle {
+    /* background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%); */
+    text-transform: none;
+    height: 27px;
+    width: 100%;
+    margin-left: 7%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 4px;
+}
+button.app__toggle span {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+}
+.app.hhgbcvc {
+    padding-bottom: 8px;
+    padding-top: 44px;
+    width: 104%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+button.app__toggle.app__toggle--active {
+    opacity: 0;
+}
+.app__content {
+    margin-top: -26px;
+}
+button.app__toggle {
+    margin-top: -36px;
+    box-shadow: 0 -15px 16px 23px #f2f2f2;
+    background-color: #f0f1f2;
+}
+.app__content p {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.app__content img {
+    width: 100%;
+    margin-bottom: 7px;
+}
+.jjhhgggff {
+    padding-right: 5px;
+}
+
+button.app__button {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    text-transform: none;
+    height: 27px;
+    width: 33%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-left: 34%;
+    margin-bottom: -59px;
+    margin-top: 7px;
+}
+
+
+
+button.app__toggle span p {
+    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    width: 33%;
+    margin-left: 34%;
+    border-radius: 5px;
+    padding: 3px 0px 3px 0px;
+}
+/* View More Button Product Details */

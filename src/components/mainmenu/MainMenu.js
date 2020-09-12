@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './mainmenu.css';
 
+// import { NavLink } from 'react-router-dom';
+
 export default class MainMenu extends Component {
     render() {
         return (
@@ -38,7 +40,7 @@ export default class MainMenu extends Component {
                                                     <img src={require('../../assets/supermarket.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name-ccvrt crrtxtx text-center">Cart</p>
-                                                {/* <span><p>10</p></span> */}
+                                                <span><p>10</p></span>
                                             </div>
                                         </Link>
                                     </li>
@@ -51,6 +53,29 @@ export default class MainMenu extends Component {
                                                 <p className="main-cx-meny-dd-bbox-cct-name-aacnxt text-center">Account</p>
                                             </div>
                                         </Link>
+
+                                            {/* <NavLink
+                                            to="/my-cart"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: "red"
+                                            }}
+                                            
+                                            >
+                                            <img src={require('../../assets/slide-2.jpg')} alt="orponbd online shop"/>
+                                            FAQs
+                                            </NavLink>
+
+                                            <NavLink
+                                            to="/main-category"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: "red"
+                                            }}
+                                            >
+                                            FAQs 22
+                                            </NavLink> */}
+
                                     </li>
                                 </ul>
                             </div>

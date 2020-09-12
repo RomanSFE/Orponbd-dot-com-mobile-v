@@ -20,10 +20,10 @@
     margin-left: auto;
     overflow: hidden;
   }
-.slick-dots li.slick-active button:before {
+/* .slick-dots li.slick-active button:before {
     opacity: .75;
     color: rgb(45, 219, 45) !important;
-}
+} */
 .slide-single-prod-xdot-cmm-section-box {
     border-radius: 0px;
     overflow: hidden;

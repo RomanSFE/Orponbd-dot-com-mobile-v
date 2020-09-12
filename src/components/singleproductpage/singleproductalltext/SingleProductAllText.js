@@ -7,6 +7,11 @@ import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 // Modal
 
+// View More Button Product
+import cx from "classnames";
+import Collapse from "@kunukn/react-collapse";
+// View More Button Product
+
 // Recommended component
 import RecommendedProducts from '../recomendedproducts/RecommendedProducts.js'
 
@@ -24,8 +29,24 @@ export default class SingleProductAllText extends Component {
         //   More Review Button
           MoreReviewButton: false,
         //   More Review Button
+
+        // View More Button Products
+            isOpen1: false,
+            isOpen2: false,
+            isOpen3: false,
+            toggle: false,
+            spy3: {}
+        // View More Button Products
         };
       }
+
+    //   View More Button Products
+        toggle = index => {
+        let collapse = "isOpen" + index;
+    
+        this.setState(prevState => ({ [collapse]: !prevState[collapse] }));
+      };
+    //   View More Button Products
     
       IncrementItem = () => {
         this.setState({ clicks: this.state.clicks + 1 });
@@ -426,9 +447,10 @@ export default class SingleProductAllText extends Component {
                             <div className="single-products-product-details-immgg-prt">
                                 <img src={require('../../../assets/slide-1.jpg')} alt="orponbd online shop"/>
                             </div>
-                            <div className="singlle-mrr-whiitt-space-seexctn"></div>
-                            <div className="single-products-product-details-view-mmortc-bbtx text-center">
-                                {/* View More Button Content */}
+                            {/* <div className="singlle-mrr-whiitt-space-seexctn"></div> */}
+
+                            {/* <div className="single-products-product-details-view-mmortc-bbtx text-center">
+                                
                                 { this.state.ViewMore ?
                                 <>
                                 <div className="view-more-bbtn-inside-ttxxtx-mmobbl">
@@ -444,13 +466,56 @@ export default class SingleProductAllText extends Component {
                                 </div>
                                 </>
                                 : '' }
-                                {/* View More Button Content */}
 
                                 <button onClick={this.ToggleClick}>
                                     { this.state.ViewMore ? 'View Less' : 'View More' }
                                 </button>
 
+                            </div> */}
+
+                            {/* view More Content */}
+                            <div className="app hhgbcvc">
+                            <button
+                                className={cx("app__toggle", {
+                                    "app__toggle--active": this.state.isOpen1
+                                })}
+                                onClick={() => this.toggle(1)}
+                                >
+                                <span className="app__toggle-text"><p>View More</p></span>
+                                
+                                </button>
+                                <Collapse
+                                isOpen={this.state.isOpen1}
+                                className={
+                                    "app__collapse app__collapse--gradient " +
+                                    (this.state.isOpen1 ? "app__collapse--active" : "")
+                                }
+                                >
+                                <div className="jjhhgggff">
+                                    <div className="app__content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat.</p>
+                                        
+                                        <img src={require('../../../assets/slide-2.jpg')} alt="orponbd online shop"/>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nostrum
+                                        vel repellat error maiores! Sit culpa
+                                        quos tenetur sapiente consequatur.</p>
+
+                                        <img src={require('../../../assets/product-2.jpg')} alt="orponbd online shop"/>
+
+                                        <button onClick={() => this.toggle(1)} className="app__button">
+                                        View Less
+                                        </button>
+                                    </div>
+                                </div>
+                                </Collapse>
                             </div>
+                            {/* view More Content */}
+
+
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
 }
 ul.slick-dots {
     position: absolute;
-    top: 115px !important;
+    top: 120px !important;
 }
 .slider-main-dot-com-section .container {
     width: 100%;
@@ -20,9 +20,9 @@ ul.slick-dots {
     margin-left: auto;
     overflow: hidden;
   }
-.slick-dots li.slick-active button:before {
+  .slick-dots li.slick-active button:before {
     opacity: .75;
-    color: rgb(45, 219, 45) !important;
+    color: rgb(255 86 21) !important;
 }
 .slide-dot-cmm-section-box {
     border-radius: 15px;
@@ -38,3 +38,19 @@ ul.slick-dots {
     cursor: pointer;
     margin-right: -10px !important;
 }
+
+/* Ex Color */
+ul.slick-dots {
+    background-color: rgb(224 224 224 / 30%);
+    width: 18%;
+    margin-left: 41%;
+    height: 12px;
+    padding-right: 11px;
+    border-radius: 10px;
+}
+ul.slick-dots li {
+    padding-top: 12px;
+    margin-left: 2px;
+    margin-top: -5px !important;
+}
+/* Ex Color */
