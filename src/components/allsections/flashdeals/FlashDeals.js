@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../flashdeals/flashdeals.css';
+import TimeCount from '../../preorderpagesec/timecounter/TimeCount.js';
 
 export default class FlashDeals extends Component {
     render() {
@@ -13,6 +14,7 @@ export default class FlashDeals extends Component {
                             <div className="flash-deal-wexv-dot-main-sec-bboxx">
                                 <div className="flash-dott-ccm-dealmmnnff-bb">
                                     <p>Flash Deals</p>
+                                    <span className="timmmcnt-bbox-ex-sec"><TimeCount/></span>
                                     <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
                                 </div>
 

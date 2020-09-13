@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './mainmenu.css';
 
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default class MainMenu extends Component {
     render() {
@@ -14,27 +14,61 @@ export default class MainMenu extends Component {
                             <div className="mainementu-meny-dd-bbox text-center">
                                 <ul>
                                     <li>
-                                        <Link to="/">
+                                        {/* <Link to="/">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/home-icon-red.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name-homm">Home</p>
                                             </div>
-                                        </Link>
+                                        </Link> */}
+                                        <NavLink
+                                            tag={Link}
+                                            d="navResume"
+                                            className="text-dark inactive resumeImageHome"
+                                            activeClassName="activestyleclasshome"
+                                            to="/"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: "red"
+                                            }}
+                                        >   
+                                        <span>Account</span>
+                                            
+                                        </NavLink>
+                                        <div className="hhgfgzzz">
+                                            <p>Home</p>
+                                        </div>
                                     </li>
                                     <li>
-                                        <Link to="/main-category">
+                                        {/* <Link to="/main-category">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx category-exx-ccls-vc">
                                                     <img src={require('../../assets/catt-list.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name-cattx text-center">Category</p>
                                             </div>
-                                        </Link>
+                                        </Link> */}
+                                        <NavLink
+                                            tag={Link}
+                                            d="navResume"
+                                            className="text-dark inactive resumeImageList"
+                                            activeClassName="activestyleclasslist"
+                                            to="/main-category"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: "red"
+                                            }}
+                                        >   
+                                        <span>Account</span>
+                                            
+                                        </NavLink>
+                                        <div className="hhgfgzzz">
+                                            <p>Category</p>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <Link to="/my-cart">
+                                    <li className="cart-wish-iitm-ex">
+                                        {/* <Link to="/my-cart">
                                             <div className="main-menu-xccx-boxc extra-cczxrt-ic">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/supermarket.svg')} alt="orponbd Online Shop"/>
@@ -42,40 +76,59 @@ export default class MainMenu extends Component {
                                                 <p className="main-cx-meny-dd-bbox-cct-name-ccvrt crrtxtx text-center">Cart</p>
                                                 <span><p>10</p></span>
                                             </div>
-                                        </Link>
+                                        </Link> */}
+                                        <NavLink
+                                            tag={Link}
+                                            d="navResume"
+                                            className="text-dark inactive resumeImageCart"
+                                            activeClassName="activestyleclasscart"
+                                            to="/my-cart"
+                                            activeStyle={{
+                                                fontWeight: "bold",
+                                                color: "red"
+                                            }}
+                                        >   
+                                        <span>Account</span>
+                                        <div className="cartt-addd-ittwm-nmbr">
+                                            <span><p>10</p></span>
+                                        </div>
+                                            
+                                        </NavLink>
+                                        <div className="hhgfgzzz">
+                                            <p>Cart</p>
+                                        </div>
                                     </li>
                                     <li>
-                                        <Link to="/signup-registration">
+                                        {/* <Link to="/signup-registration">
                                             <div className="main-menu-xccx-boxc">
                                                 <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
                                                     <img src={require('../../assets/user.svg')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <p className="main-cx-meny-dd-bbox-cct-name-aacnxt text-center">Account</p>
                                             </div>
-                                        </Link>
+                                        </Link> */}
 
-                                            {/* <NavLink
-                                            to="/my-cart"
-                                            activeStyle={{
-                                                fontWeight: "bold",
-                                                color: "red"
-                                            }}
-                                            
-                                            >
-                                            <img src={require('../../assets/slide-2.jpg')} alt="orponbd online shop"/>
-                                            FAQs
-                                            </NavLink>
+                                            {/* <NavLink tag={Link} d="navResume" className="text-dark inactive resumeImage" to="/main-category">
+                                                Resume
+                                            </NavLink>; */}
 
                                             <NavLink
-                                            to="/main-category"
-                                            activeStyle={{
-                                                fontWeight: "bold",
-                                                color: "red"
-                                            }}
-                                            >
-                                            FAQs 22
-                                            </NavLink> */}
-
+                                                tag={Link}
+                                                d="navResume"
+                                                className="text-dark inactive resumeImage"
+                                                activeClassName="activestyleclass"
+                                                to="/my-account-without-login"
+                                                activeStyle={{
+                                                    fontWeight: "bold",
+                                                    color: "red"
+                                                }}
+                                            >   
+                                            <span>Account</span>
+                                                
+                                            </NavLink>
+                                            <div className="hhgfgzzz">
+                                                <p>Account</p>
+                                            </div>
                                     </li>
                                 </ul>
                             </div>

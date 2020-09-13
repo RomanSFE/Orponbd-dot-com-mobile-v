@@ -1,0 +1,199 @@
+.use-points-sec-mainnf-sectiond .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.use-points-sec-mainnf-sectiond {
+    margin-top: 10px;
+}
+.use-points-sec-maingfx-bboxc {
+    background: #fff;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+
+.use-points-maingf-headingxs p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+.use-points-maingf-headingxs p {
+    position: relative;
+}
+.use-points-maingf-headingxs a {
+    position: absolute;
+    right: 19px;
+    top: 6px;
+    font-size: 13px;
+    color: #696969;
+    font-weight: 400;
+}
+.use-points-maingf-headingxs a i.fa {
+    color: #545454;
+    font-size: 12px;
+}
+li.useppntx-uend-yttx {
+    color: #F53434;
+    font-size: 9px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+.use-points-single-itmm-mn-right-ttxtec-time-count ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: -8px;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count ul li {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+
+.use-points-single-itemx-main-box {
+    background-color: #EBEBEB;
+    border-radius: 4px;
+}
+.use-points-single-itmm-mn-img img {
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+}
+.use-points-single-itemx-main-box {
+    padding: 4px;
+}
+
+
+.row.extra-pafdngd {
+    margin: 0;
+}
+.row.extra-pafdngd .col-6 {
+    padding: 2px;
+}
+.use-points-single-itmm-mn-right-ttxtec {
+    background-color: #fff;
+    height: 175px;
+    border-radius: 4px;
+    padding: 7px;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count p {
+    color: #F53434;
+    font-size: 9px;
+    font-weight: 700;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count p span {
+    color: #333;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count p {
+    color: #F53434;
+    font-size: 9px;
+    font-weight: 700;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count p span {
+    color: #333;
+}
+.use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #2A2A2A;
+    line-height: 12px;
+}
+.use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider {
+    margin-top: -11px;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count p {
+    color: #F53434;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.use-points-single-itmm-mn-right-ttxtec-time-count p span {
+    color: #333;
+}
+
+.use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #2A2A2A;
+    line-height: 12px;
+}
+
+.use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider {
+    margin-top: -11px;
+}
+.use-points-left-rrtv-total-ttxzc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.use-points-left-rrtv-total-ttxzc ul li {
+    display: inline-block;
+}
+li.use-points-left-rrtv-total-ttxzc-extracx {
+    margin-left: 35px;
+}
+.use-points-left-rrtv-total-ttxzc ul li p {
+    color: #F93333;
+    font-size: 10px;
+}
+.use-points-left-rrtv-total-ttxzc ul li p span {
+    color: #333;
+}
+.use-points-left-rrtv-total-ttxzc {
+    margin-top: -16px;
+}
+.use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider h4 {
+    color: #f88922;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 9px;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count {
+    margin-top: 16px;
+}
+.use-points-buy-now-bxtnnz a {
+    background-color: #F94F4F;
+    border-radius: 4px;
+    color: #fff;
+    padding: 3px 38px 3px 38px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.use-points-buy-now-bxtnnz {
+    padding-bottom: 5px;
+}
+
+/* slider progress */
+.progress-bar {
+    background-color: #ebebeb;
+    height: 7px;
+    width: 95%; 
+
+}
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;    
+}
+.blue span { 
+    /* background-image: linear-gradient(-86deg, #5151e5 0%, #72edf2 100%); */
+    background-color: #F14444;
+}
+/* slider progress */
+.use-points-leftt-rrtxc-slider-box {
+    margin-top: -13px;
+}
+.use-points-maingf-headingxs {
+    margin-bottom: -13px;
+}
+.use-points-single-itemx-main-box {
+    margin-top: 7px;
+}

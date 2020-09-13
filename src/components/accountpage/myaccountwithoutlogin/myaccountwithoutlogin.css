@@ -1,0 +1,22 @@
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt ul li {
+    display: inline-block;
+    margin-right: 9px;
+}
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt ul li a {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.myaccount-main-page-vv-mm-profile-img-section-name-ttxt ul li span {
+    color: #777474;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -122,6 +122,13 @@ import CancelledOrders from './components/accountpage/allorderspage/cancelled/Ca
 // Invoice Page
 import InvoicePage from './components/invoicepage/InvoicePage.js'
 
+// Invoice Page
+import MyAccountWithoutLogin from './components/accountpage/myaccountwithoutlogin/MyAccountWithoutLogin.js'
+
+// PreOrder Page Section
+import PreHomePage from './components/preorderpagesec/home/PreHomePage.js'
+// PreOrder Page Section
+
 // Test Extra Page
 import TestExtrafile from './components/testextrafile/TestExtrafile.js'
 
@@ -176,6 +183,12 @@ function App() {
         <Route path="/ready-to-ship" component={ReadytoShip}/>
         <Route path="/cancel-orders" component={CancelledOrders}/>
         <Route path="/invoice-page" component={InvoicePage}/>
+
+        <Route path="/my-account-without-login" component={MyAccountWithoutLogin}/>
+
+        {/* PreOrder Page Section */}
+        <Route path="/pre-order-home-page" component={PreHomePage}/>
+        {/* PreOrder Page Section */}
 
         {/* Extra */}
         <Route path="/test-extra" component={TestExtrafile}/>

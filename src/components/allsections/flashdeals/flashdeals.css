@@ -27,7 +27,7 @@
 .flash-dott-ccm-dealmmnnff-bb a {
     position: absolute;
     right: 19px;
-    top: 6px;
+    top: 3px;
     font-size: 13px;
     color: #696969;
     font-weight: 400;
@@ -88,3 +88,21 @@
     padding: 3px;
     margin-top: -5px;
 }
+
+/* Time Count */
+span.timmmcnt-bbox-ex-sec {
+    color: #ff5615;
+    position: absolute;
+    top: 5px;
+    left: 87px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+.flash-dott-ccm-dealmmnnff-bb {
+    position: relative;
+}
+/* .flash-dott-ccm-dealmmnnff-bb p {
+    position: relative;
+} */
+/* Time Count */

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './singlecategoryproduct.css';
 
+import Search from '../../search/Search.js'
+
 import classnames from "classnames";
 
 import MainMenu from '../../mainmenu/MainMenu.js';
@@ -98,27 +100,38 @@ class SingleCategoryProduct extends Component {
             >
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
+                        {/* <div className="col-1"> */}
                             {/* <Link to="/sub-category">
                                 <div className="main-category-top-menu-iconn-sec-txt">
                                     <span><i className="fa fa-chevron-left"></i> Single Category Product</span>
                                 </div>
                             </Link> */}
 
-                            <div className="main-category-top-menu-iconn-sec-txt">
+                            {/* <div className="main-category-top-menu-iconn-sec-txt">
                                 <Link to="/sub-category">
                                     <span><i className="fa fa-chevron-left"></i></span>
                                 </Link>
-                                    <span>Single Category Product</span>
-                            </div>
-                        
-                            <div className="main-category-proddct-serrch-boox">
+                            </div> */}
+                            
+                            
+                            {/* <div className="main-category-proddct-serrch-boox">
                                 <form action="" id="demo-2">
-                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
                                     <input type="search" placeholder="search"/>
                                 </form>
-                            </div>
+                            </div> */}
 
+                        {/* </div> */}
+                        <div className="col-12">
+
+                        <div className="main-category-top-menu-iconn-sec-txt-exttxra">
+                            <Link to="/sub-category">
+                                <span><i className="fa fa-chevron-left"></i></span>
+                            </Link>
+                        </div>
+
+                        <div className="sin-cct-ser-ttp">
+                                <Search/>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -869,10 +869,13 @@ button.app__toggle span {
 }
 .app.hhgbcvc {
     padding-bottom: 8px;
-    padding-top: 44px;
+    padding-top: 0px;
     width: 104%;
     padding-left: 0px;
     padding-right: 0px;
+}
+button.app__toggle {
+    border: none;
 }
 button.app__toggle.app__toggle--active {
     opacity: 0;

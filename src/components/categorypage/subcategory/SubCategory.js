@@ -65,12 +65,11 @@ class SubCategory extends Component {
                                 <span>Sub Category</span>
                             </div>
                         
-                            <div className="main-category-proddct-serrch-boox">
+                            {/* <div className="main-category-proddct-serrch-boox">
                                 <form action="" id="demo-2">
-                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
                                     <input type="search" placeholder="search"/>
                                 </form>
-                            </div>
+                            </div> */}
                             
                         </div>
                     </div>

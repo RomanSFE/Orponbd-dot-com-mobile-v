@@ -50,7 +50,13 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/ready-to-ship">Ready to Ship</Link></li>
                                     <li><Link to="/cancel-orders">Cancelled Order</Link></li>
 
+                                    <li><Link to="/my-account-without-login">My Account Without Login</Link></li>
+
                                     <li><Link to="/invoice-page">Invoice Page</Link></li>
+
+                                    {/* PreOrder Page Section */}
+                                    <li><Link to="/pre-order-home-page">Pre Order Home</Link></li>
+                                    {/* PreOrder Page Section */}
 
                                     {/* Extra */}
                                     <li><Link to="/test-extra">Test Extra</Link></li>
