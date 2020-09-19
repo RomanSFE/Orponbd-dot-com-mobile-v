@@ -21,7 +21,7 @@ ul.slick-dots {
   }
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color: rgb(45, 219, 45) !important;
+    /* color: rgb(45, 219, 45) !important; */
 }
 .slider-mobile-section-box {
     border-radius: 15px;

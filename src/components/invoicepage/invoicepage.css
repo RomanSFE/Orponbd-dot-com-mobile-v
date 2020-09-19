@@ -369,7 +369,7 @@ span.invoice-order-amntt-ind-itm-rt-sec {
 /* Invoice Total Text */
 
 
-/* History Page */
+/* Order History Page */
 .invoice-page-all-coont-history-mv-hedd {
     border-bottom: 1px solid #d6d6d6;
 }
@@ -402,7 +402,7 @@ span.invoice-order-amntt-ind-itm-rt-sec {
     font-size: 15px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: -10px;
+    margin-bottom: -7px;
     padding-top: 8px;
 }
 .invoice-timeline-mv-content-text p {

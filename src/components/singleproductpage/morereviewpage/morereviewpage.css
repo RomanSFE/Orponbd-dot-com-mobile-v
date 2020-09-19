@@ -3,20 +3,20 @@
   height: 100%;
 }
 /* progress skill */
-.progress-bar {
+.progress-bar-ex-cclss .progress-bar {
     background-color: #ebebeb !important;
     height: 2px;
     width: 102px;
     margin-bottom: 10px;
   }
-  .progress-bar span {
+  .progress-bar-ex-cclss .progress-bar span {
     display: inline-block;
     height: 100%;
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .4s ease-in-out;    
   }
-  .blue span { 
+  .progress-bar-ex-cclss .blue span { 
     /* background-image: linear-gradient(-86deg, #5151e5 0%, #72edf2 100%);   */
     background-color: rgb(77, 77, 77);
   }

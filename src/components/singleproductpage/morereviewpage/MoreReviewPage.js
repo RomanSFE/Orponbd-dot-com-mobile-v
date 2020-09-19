@@ -149,7 +149,7 @@ export default class MoreReviewPage extends Component {
                                         </ul> 
                                     </div>
                                 </div>
-                                {/* single review */}
+                                {/* single review - */}
                                 {/* single review */}
                                 <div className="singge-product-more-review-page-mobile-main-section-total-rat-ccnt-right-part extradcax">
                                     <div className="hshsgdf-five-starx">
