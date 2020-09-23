@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './singlecategoryproducttwocolumn.css';
 
+import Search from '../../search/Search.js';
+
+// Modal
+import PopPop from 'react-poppop';
+// Modal
+
 import classnames from "classnames";
 
 import MainMenu from '../../mainmenu/MainMenu.js';
@@ -16,8 +22,11 @@ class SingleCategoryProductTwoColumn extends Component {
           menuStatus:"open",
         //   Top bar option
             prevScrollpos: window.pageYOffset,
-            visible: true
+            visible: true,
         //   Top bar option
+        //   Modal
+            show: false,
+        //   Modal
         };
         this.handleClick = this.handleClick.bind(this);
       };
@@ -66,7 +75,15 @@ class SingleCategoryProductTwoColumn extends Component {
         });
       };
     // Top Bar Option
+    // Modal
+    toggleShow = show => {
+        this.setState({show});
+      }
+    // Modal
     render() {
+        // Modal
+        const {show} = this.state;
+        // Modal
         return (
             <>
             <nav
@@ -83,7 +100,7 @@ class SingleCategoryProductTwoColumn extends Component {
                                 </div>
                             </Link> */}
                             
-                            <div className="main-category-top-menu-iconn-sec-txt">
+                            {/* <div className="main-category-top-menu-iconn-sec-txt">
                                 <Link to="/sub-category">
                                     <span><i className="fa fa-chevron-left"></i></span>
                                 </Link>
@@ -92,19 +109,31 @@ class SingleCategoryProductTwoColumn extends Component {
                         
                             <div className="main-category-proddct-serrch-boox">
                                 <form action="" id="demo-2">
-                                    {/* <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button> */}
+                                    <button type="submit" className="main-cattgry-serrxcg-ixn"><i class="fas fa-search"></i></button>
                                     <input type="search" placeholder="search"/>
                                 </form>
+                            </div> */}
+
+
+                            <div className="main-category-top-menu-iconn-sec-txt-exttxra">
+                                <Link to="/sub-category">
+                                    <span><i className="fa fa-chevron-left"></i></span>
+                                </Link>
+                            </div>
+
+                            <div className="sin-cct-ser-ttp">
+                                    <Search/>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </nav>
-            <div className="singlecategory-product-two-column-top-menu">
+
+            <div className="single-category-product-item-mobile-top-section">
                 <div className="container">
                     <div className="row single-category-prod-ex-pdd">
-                        <div className="col-9">
+                        <div className="col-8">
                             <div className="single-category-product-left-best-match-section">
                                 <select>
                                     <option value="" selected>Best match</option>
@@ -114,86 +143,17 @@ class SingleCategoryProductTwoColumn extends Component {
                                 </select>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-4">
                             <div className="single-category-product-right-filter-sec-mobli">
                                 <ul>
                                     <li className="single-cat-prr-iitm-left-icn"><Link to="/single-category-product"><span className="sing-pro-sing-pro-icon-two-box"><i class="fas fa-bars"></i></span></Link></li>
                                     {/* <li className="single-cat-prr-iitm-filter-iicn"><span><i class="fas fa-filter"></i></span></li> */}
+                                    
                                 </ul>
                             </div>
                         </div>
                         {/* Sidebar section */}
-                        <button onClick={this.handleClick}><span><i class="fas fa-filter"></i></span></button>
-                        <div className={this.state.style}> 
-                            <div className="single-pro-cat-sidebar-filter-section">
-                                <div className="container">
-                                    <div className="row sidebar-inside-ccnntv">
-                                        <div className="col-12">
-                                            <div className="single-pro-cat-sidebar-filter-section-top-menu">
-                                                <ul>
-                                                    <li><span>Reset</span></li>
-                                                    <li><span>Filter</span></li>
-                                                    <li className="sing-cat-profill-done"><span>Done</span></li>
-                                                </ul>
-                                            </div>
-                                            {/* Color */}
-                                            <div className="single-pro-cat-sidebar-filter-section-select-opttn">
-                                                <select>
-                                                    <option value="" selected disabled>Color</option>
-                                                    <option value="">color 1</option>
-                                                    <option value="">color 2</option>
-                                                    <option value="">color 3</option>
-                                                </select>
-                                            </div>
-                                            {/* Color */}
-
-                                            {/* Feature */}
-                                            <div className="single-pro-cat-sidebar-filter-section-select-opttn">
-                                                <select>
-                                                    <option value="" selected disabled>Features</option>
-                                                    <option value="">features 1</option>
-                                                    <option value="">Features 2</option>
-                                                    <option value="">Features 3</option>
-                                                </select>
-                                            </div>
-                                            {/* Feature */}
-
-                                            {/* Size */}
-                                            <div className="single-pro-cat-sidebar-filter-section-select-opttn">
-                                                <select>
-                                                    <option value="" selected disabled>Size</option>
-                                                    <option value="">S</option>
-                                                    <option value="">M</option>
-                                                    <option value="">L</option>
-                                                    <option value="">XL</option>
-                                                </select>
-                                            </div>
-                                            {/* Size */}
-
-                                            {/* Price */}
-                                            <div className="single-pro-cat-sidebar-filter-section-pricce-opttn">
-                                                <div className="row single-pro-fill-price-ex-pdd">
-                                                    <div className="col-6">
-                                                        <div className="sinngg-pprt-ttxt">
-                                                            <p>price</p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-6">
-                                                        <div className="hgfgzzhf">
-                                                            <ul>
-                                                                <li><input type="text" placeholder="Min"/></li>
-                                                                <li><input type="text" placeholder="Max"/></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Price */}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>              
-                        </div>
+                        <button onClick={() => this.toggleShow(true)}><span><i class="fas fa-filter"></i> Filter</span></button>
                          {/* Sidebar section */}
                     </div>
                 </div>
@@ -277,6 +237,91 @@ class SingleCategoryProductTwoColumn extends Component {
                 </div>
             </div>
             {/* single category product two column */}
+
+            {/* Modal */}
+            <div className="cchdhgfg">
+                {/* <Button onClick={() => this.toggleShow(true)}>Long Content</Button> */}
+                {/* <button onClick={() => this.toggleShow(true)}>Show Me</button> */}
+                <PopPop open={show}
+                        closeBtn={true}
+                        closeOnEsc={true}
+                        onClose={() => this.toggleShow(false)}
+                        closeOnOverlay={true}>
+                {/* <div style={{textAlign: 'center'}}> */}
+                    <div className="jhgjhfhjfyt">
+                    <div className="single-pro-cat-sidebar-filter-section">
+                        <div className="container">
+                            <div className="row sidebar-inside-ccnntv">
+                                <div className="col-12">
+                                    <div className="single-pro-cat-sidebar-filter-section-top-menu">
+                                        <ul>
+                                            <li><span>Reset</span></li>
+                                            <li><span>Filter</span></li>
+                                            <li className="sing-cat-profill-done"><span>Done</span></li>
+                                        </ul>
+                                    </div>
+                                    {/* Color */}
+                                    <div className="single-pro-cat-sidebar-filter-section-select-opttn">
+                                        <select>
+                                            <option value="" selected disabled>Color</option>
+                                            <option value="">color 1</option>
+                                            <option value="">color 2</option>
+                                            <option value="">color 3</option>
+                                        </select>
+                                    </div>
+                                    {/* Color */}
+
+                                    {/* Feature */}
+                                    <div className="single-pro-cat-sidebar-filter-section-select-opttn">
+                                        <select>
+                                            <option value="" selected disabled>Features</option>
+                                            <option value="">features 1</option>
+                                            <option value="">Features 2</option>
+                                            <option value="">Features 3</option>
+                                        </select>
+                                    </div>
+                                    {/* Feature */}
+
+                                    {/* Size */}
+                                    <div className="single-pro-cat-sidebar-filter-section-select-opttn">
+                                        <select>
+                                            <option value="" selected disabled>Size</option>
+                                            <option value="">S</option>
+                                            <option value="">M</option>
+                                            <option value="">L</option>
+                                            <option value="">XL</option>
+                                        </select>
+                                    </div>
+                                    {/* Size */}
+
+                                    {/* Price */}
+                                    <div className="single-pro-cat-sidebar-filter-section-pricce-opttn">
+                                        <div className="row single-pro-fill-price-ex-pdd">
+                                            <div className="col-6">
+                                                <div className="sinngg-pprt-ttxt">
+                                                    <p>price</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-6">
+                                                <div className="hgfgzzhf">
+                                                    <ul>
+                                                        <li><input type="text" placeholder="Min"/></li>
+                                                        <li><input type="text" placeholder="Max"/></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Price */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                {/* </div> */}
+                </PopPop>
+            </div>
+            {/* Modal */}
 
             <MainMenu/>
             </>

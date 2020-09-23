@@ -136,6 +136,7 @@ class SingleCategoryProduct extends Component {
                     </div>
                 </div>
             </nav>
+
             <div className="single-category-product-item-mobile-top-section">
                 <div className="container">
                     <div className="row single-category-prod-ex-pdd">
@@ -159,11 +160,7 @@ class SingleCategoryProduct extends Component {
                             </div>
                         </div>
                         {/* Sidebar section */}
-                        {/* <button onClick={this.handleClick}><span><i class="fas fa-filter"></i></span></button> */}
                         <button onClick={() => this.toggleShow(true)}><span><i class="fas fa-filter"></i> Filter</span></button>
-                        {/* <div className={this.state.style}> 
-                            <p>Lorem, ipsum dolor.</p>              
-                        </div> */}
                          {/* Sidebar section */}
                     </div>
                 </div>

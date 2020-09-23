@@ -21,7 +21,7 @@
     padding: 4px 5px 4px 5px;
 }
 .singlecategory-product-two-column-top-menu {
-    margin-top: 48px;
+    margin-top: 64px;
     background-color: #fff;
     height: 70px;
 }
@@ -65,14 +65,16 @@ span.single-catt-pro-iit-star-two-cclm {
 }
 
 .single-category-single-product-two-column {
-    margin-top: -11px;
+    margin-top: 4px;
+    background-color: #fff;
+    padding-top: 7px;
 }
 
 /* Sidebar */
 .row.single-category-prod-ex-pdd button {
     border: none;
     position: absolute;
-    top: 59px;
+    top: 75px;
     outline: 0;
     transition: all 0.25s ease;
     z-index: 1;
@@ -136,6 +138,7 @@ span.single-catt-pro-iit-star-two-cclm {
 }
 .single-pro-cat-sidebar-filter-section-top-menu {
     background-color: #efefef;
+    margin-top: 42px;
 }
 .single-pro-cat-sidebar-filter-section-top-menu ul li span {
     color: #000;

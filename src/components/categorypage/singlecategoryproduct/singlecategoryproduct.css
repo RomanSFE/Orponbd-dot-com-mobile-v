@@ -59,10 +59,12 @@
 }
 .single-category-product-item-mobile-top-section {
     height: 50px;
-    margin-top: 48px;
+    margin-top: 64px;
+    background-color: #fff;
 }
 .single-category-product-right-filter-sec-mobli ul li span i.fas {
     font-size: 23px;
+    margin-left: -18px;
 }
 li.single-cat-prr-iitm-left-icn span {
     margin-right: 12px;
