@@ -13,6 +13,7 @@ import TopBrands from '../allsections/topbrands/TopBrands.js'
 import TopPicks from '../allsections/toppicks/TopPicks.js'
 import JustForYou from '../allsections/justforyou/JustForYou.js'
 import MainMenu from '../mainmenu/MainMenu.js'
+import GroceryZoneSlide from '../allsections/homegroceryzoneslide/GroceryZoneSlide.js'
 
 export default class home extends Component {
     render() {
@@ -24,6 +25,7 @@ export default class home extends Component {
                 <CategoryMenu/>
                 <FlashDeals/>
                 <PreOrder/>
+                <GroceryZoneSlide/>
                 <Banner/>
                 <TopCategoryItem/>
                 <NewArrivalSec/>

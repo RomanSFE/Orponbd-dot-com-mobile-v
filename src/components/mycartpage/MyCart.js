@@ -41,6 +41,7 @@ export default class MyCart extends Component {
       }
 
       // Quantity incre decre
+
         // constructor(props) {
         //     super(props);
         //     this.state = {
@@ -77,6 +78,10 @@ export default class MyCart extends Component {
                     <div className="row">
                         <div className="col-12">
                             <div className="mycart-select-all-sectopnxscs">
+
+                            <div className="bobd-cart-page-main-content-regular-order-ssc-cart">
+                                <h3><span><i class="fas fa-truck"></i></span> Regular Delivery</h3>
+                            </div>
 
                             <div className="dhsggh">
                                 <div className="shdhghhg">
@@ -213,6 +218,196 @@ export default class MyCart extends Component {
                     </div>
                 </div>
             </div>
+
+            {/* Pre Order Section Start */}
+            <div className="mycart-all-item-check-mobile-viexw-main-section only-for-in-stockkxz">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="mycart-select-all-sectopnxscs">
+
+                            <div className="bobd-cart-page-main-content-regular-order-ssc-cart">
+                                <h3><span><i class="fas fa-shopping-basket"></i></span> Pre Order</h3>
+                            </div>
+
+                            <div className="dhsggh">
+                                <div className="shdhghhg">
+                                    <Checkbox
+                                    indeterminate={this.state.indeterminate}
+                                    checked={this.state.checkAll}
+                                    onChange={this.handleCheckAll}
+                                    >
+                                    <span className="my-cart-select-all-x-txtt">Select all</span>
+                                    </Checkbox>
+                                </div>
+                                <hr />
+                                <CheckboxGroup
+                                inline
+                                name="checkboxList"
+                                value={this.state.value}
+                                onChange={this.handleChange}
+                                >
+                                <div className="mycart-selectt-all-sec-bbzxc">
+                                    {/* Single Cart Item */}
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="A"></Checkbox>
+                                                </div>
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-1.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Single Cart Item */}
+                                    {/* Single Cart Item */}
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="B"></Checkbox>
+                                                </div>
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-2.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Single cart Item */}
+
+
+                                    {/* Pre Order Blar Section Start */}
+                                    <div className="instock-cart-page-blar-section-mmoversn">
+                                        {/* Single Cart Item */}
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="A"></Checkbox>
+                                                </div>
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-1.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Single Cart Item */}
+                                    {/* Single Cart Item */}
+                                    <div className="my-cart-select-all-ex-ppdnfg-mn-bbox">
+                                        <div className="row my-cart-select-all-ex-ppdnfg">
+                                            <div className="col-2">
+                                                <div className="my-carrtt-only-single-chect">
+                                                    <Checkbox value="B"></Checkbox>
+                                                </div>
+                                            </div>
+                                            <div className="col-3">
+                                                <div className="my-cart-select-vvb-immxg">
+                                                    <img src={require('../../assets/slide-2.jpg')} alt="OrponBD Online shop"/>
+                                                </div>
+                                            </div>
+                                            <div className="col-7">
+                                                <div className="my-cart-product-vvx-and-text-section">
+                                                    <p>Product details text...</p>
+                                                    <h5>Color: Black</h5>
+                                                    <h4>1250 TK</h4>
+
+                                                    <div className="my-cartproduct-vvx-delete-iixcn">
+                                                        <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                    <div className="my-cart-dfc-single-products-options-section-quantity-bbox">
+                                                        <ul>
+                                                            <li><button onClick={this.DecreaseItem}>-</button></li>
+                                                            <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
+                                                            <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* incress decress */}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Single cart Item */}
+                                    </div>
+                                    {/* Pre Order Blar Section End */}
+                                </div>
+                                </CheckboxGroup>
+                            </div> 
+                                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Pre Order Section End */}
 
             {/* My cart total price section */}
             <div className="my-cart-total-price-main-section">

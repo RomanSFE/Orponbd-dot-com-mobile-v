@@ -1,0 +1,328 @@
+/* Cart Box Start */
+.grocery-zone-all-itm-fix-cart-box-iconn button {
+    border: none;
+    border-radius: 15px;
+    background-color: #35A28C;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(82, 220, 192,.8);
+}
+.grocery-zone-all-itm-fix-cart-box-iconn button img {
+    width: 31px;
+    height: 31px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.grocery-zone-all-itm-fix-cart-box-iconn {
+    position: fixed;
+    right: 0;
+    margin-top: 50px;
+    z-index: 99;
+}
+.grocery-zone-all-itm-fix-cart-box-iconn button {
+    position: relative;
+}
+span.grocery-zone-all-itm-fix-cart-box-iconn-count p {
+    position: absolute;
+    z-index: 99;
+    top: -8px;
+    background-color: #FF6347;
+    color: #fff;
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 22px;
+    left: -5px;
+}
+.grocery-zone-all-itm-fix-cart-box-iconn-price p {
+    background-color: #fff;
+    color: #35a28c;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-top: 8px;
+    padding: 2px 4px 2px 4px;
+}
+
+/* Modal Open */
+.rodal-dialog {
+    position: absolute;
+    top: 0;
+    left: unset !important;
+    right: 0px !important;
+    bottom: 0;
+    margin: auto;
+    z-index: 999;
+    padding: 0px !important;
+    background: rgba(255, 255, 255, .95) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.rodal-mask {
+    position: absolute;
+    background: unset !important;
+}
+.rodal {
+    top: 0;
+    left: unset !important;
+    right: 0;
+    width: 13% !important;
+    height: 100%;
+    z-index: 100;
+    left: unset;
+}
+.rodal-close {
+    position: absolute;
+    cursor: pointer;
+    top: 13px !important;
+    right: 16px !important;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #fff;
+    color: #35a28c;
+    border-radius: 50px;
+    outline: none;
+}
+.rodal-close:hover {
+    background-color: #52DCC0;
+    color: #9fb3af;
+    border-radius: 50px;
+    outline: none;
+}
+.rodal-close:before, .rodal-close:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 72% !important;
+    top: 50%;
+    left: 3px !important;
+    margin-top: -1px;
+    background: #35a28c !important;
+    border-radius: 100%;
+    transition: background 0.2s;
+}
+.rodal-dialog.rodal-slideRight-enter {
+    width: 350px !important;
+    height: 520px !important;
+    animation-duration: 300ms;
+}
+/* -------------------- */
+
+.grocery-zone-all-itm-fix-cart-box-cart-item-img-top-sec {
+    background-color: #35A28C;
+    height: 44px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.grocery-zone-all-itm-fix-cart-box-cart-item-img-top-sec img {
+    width: 21px;
+    margin-left: 10px;
+}
+.grocery-zone-all-itm-fix-cart-box-cart-item-img-top-sec span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+}
+.grocery-cart-modal-top-inner-secc-wwvv {
+    line-height: 40px;
+}
+
+/* Place Order Sec Total */
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec {
+    background-color: #EAF8F5;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul {
+    list-style: none;
+    margin: 0px;
+    padding: 8px;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul li a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #52dcc0;
+    border-radius: 15px;
+    padding: 4px 28px 4px 29px;
+    text-decoration: none;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul li a:hover {
+    background-color: #35a28c;
+    transition: .2s;
+}
+li.grocery-zone-all-itm-fix-cart-total-left-exx {
+    position: relative;
+}
+li.grocery-zone-all-itm-fix-cart-total-mdl-prc {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+}
+li.grocery-zone-all-itm-fix-cart-total-mdl-prc p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #35a28c;
+}
+li.grocery-zone-all-itm-fix-cart-total-mdl-prc p span {
+    margin-left: 7px;
+    background-color: #35a28c;
+    color: #fff;
+    padding: 4px 7px 4px 20px;
+    border-radius: 7px;
+}
+/* Place Order Sec Total */
+
+/* Single product itm start */
+.grocery-zone-all-itm-fix-cart-box-single-product-img img {
+    width: 100%;
+    height: 49px;
+    border-radius: 4px;
+}
+
+.row.grocery-zone-all-itm-fix-cart-box-single-product-box-pdd .col-md-2 {
+    margin: 0px;
+    padding: 4px;
+}
+.row.grocery-zone-all-itm-fix-cart-box-single-product-box-pdd {
+    margin-bottom: 4px;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-contnxt h5 {
+    font-size: 11px;
+    color: #333;
+    font-weight: 400;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-contnxt p {
+    font-size: 10px;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    margin: 0px;
+    margin-top: -4px;
+}
+.row.grocery-zone-all-itm-fix-cart-box-single-product-box-pdd .col-md-5 {
+    margin: 0px;
+    padding: 4px;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-price p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 26px;
+    margin-left: 4px;
+}
+.row.grocery-zone-all-itm-fix-cart-box-single-product-box-pdd {
+    padding: 5px 4px 5px 4px;
+    border-bottom: 1px solid #dedede;
+}
+.row.grocery-zone-all-itm-fix-cart-box-single-product-box-pdd .col-md-3 {
+    margin: 0px;
+    padding: 2px;
+}
+
+.grocery-zone-all-itm-fix-cart-box-item-prod-itl-list-mdl-sec {
+    overflow: scroll;
+    height: 81%;
+    width: 100%;
+    position: absolute;
+}
+.row.grocery-zone-all-itm-fix-cart-box-single-product-box-pdd {
+    position: relative;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-remove-icon button {
+    position: absolute;
+    right: 7px;
+    top: -2px;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-remove-icon button i.fas {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-remove-icon button {
+    border: none;
+    background: none;
+    outline: none;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-remove-icon button i.fas:hover {
+    color: #545454;
+    transition: .1s;
+}
+
+/* increase decrease --- */
+  /* Ex */
+  .grocery-zone-all-itm-fix-cart-box-single-product-inc-dec .def-number-input.number-input {
+    margin-bottom: 2px !important;
+}
+.grocery-zone-all-itm-fix-cart-box-single-product-inc-dec {
+    margin-top: 24px;
+    margin-left: -4px;
+}
+  .def-number-input.number-input button {
+    outline: none;
+}
+    button.grocery-cart-dec-singl-prod-wv-btn-in-modal {
+    border: 1px solid #DEE2F2;
+    width: 21px !important;
+    height: 21px !important;
+    border-radius: 50px;
+    background-color: #f6f6f6;
+    color: #66686E;
+    margin-right: 3px;
+    line-height: 15px;
+}
+    button.grocery-cart-incc-singl-prod-wv-btn-in-modal {
+    border: 1px solid #DEE2F2;
+    width: 21px !important;
+    height: 21px !important;
+    border-radius: 50px;
+    background-color: #f6f6f6;
+    color: #66686E;
+    margin-left: 3px;
+    line-height: 0px;
+}
+.def-number-input.number-input button i.fas {
+    font-size: 11px;
+}
+button.grocery-cart-dec-singl-prod-wv-btn-in-modal:hover {
+    background-color: #52DCC0;
+    border-color: #52DCC0;
+    transition: .1s;
+    color: #fff;
+    box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
+}
+button.grocery-cart-incc-singl-prod-wv-btn-in-modal:hover {
+    background-color: #52DCC0;
+    border-color: #52DCC0;
+    transition: .1s;
+    color: #fff;
+    box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
+}
+input.grocery-cart-inc-dec-singl-prod-input-fld-in-modal {
+    outline: none;
+    border-radius: 15px;
+    width: 32px;
+    height: 22px !important;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #DEE2F2 !important;
+    color: #66686E !important;
+    font-size: 11px !important;
+}
+  /* Ex */
+/* increase decrease --- */
+/* Single product itm end -------------------- */
+
+/* Modal Open */
+/* Cart Box End */

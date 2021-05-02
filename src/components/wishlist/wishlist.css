@@ -51,7 +51,7 @@ span.maincategory-topmenu-wishlist-mv-ccrt-item-nmbr {
 .wishlist-product-and-text-section h4 {
     font-size: 16px;
     font-weight: 600;
-    color: #f88922;
+    color: #F34425;
     margin-top: -4px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -73,7 +73,7 @@ span.maincategory-topmenu-wishlist-mv-ccrt-item-nmbr {
     padding-bottom: 9px;
 }
 .wishlist-product-and-text-section a {
-    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    background-color: #FF6347;
     border-radius: 10px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -89,7 +89,7 @@ span.maincategory-topmenu-wishlist-mv-ccrt-item-nmbr {
 
 /* Modal Button */
 .wishlist-product-and-text-section button h5 {
-    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    background-color: #FF6347;
     border-radius: 10px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -126,7 +126,7 @@ span.maincategory-topmenu-wishlist-mv-ccrt-item-nmbr {
     position: absolute;
     right: -5px;
     top: 40px;
-    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    background-color: #FF6347;
     border-radius: 10px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -336,7 +336,7 @@ span.maincategory-topmenu-wishlist-mv-ccrt-item-nmbr {
 /* Quantity */
 /* Buy Now Button open modal */
 .wishlist-bvf-product-buy-now-open-modal-mobile-section-box button {
-    background-image: linear-gradient(-70deg, #F8B31F 0%, #F88422 100%);
+    background-color: #FF6347;
     border: none;
     color: #fff;
     font-weight: 600;

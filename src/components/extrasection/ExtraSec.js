@@ -58,6 +58,19 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/pre-order-home-page">Pre Order Home</Link></li>
                                     {/* PreOrder Page Section */}
 
+                                    {/* Pre Order Cart */}
+                                    <li><Link to="/pre-order-cart">Pre Order Cart</Link></li>
+                                    {/* Pre Order Cart */}
+
+                                    {/* Grocery Main Page Details */}
+                                    <li><Link to="/grocery-all-items">Grocery Details</Link></li>
+                                    <li><Link to="/grocery-cooking-essentials-all-items">Grocery Cooking Essentials</Link></li>
+                                    <li><Link to="/grocery-snacks-confectionary-all-items">Grocery Snacks Confectionary</Link></li>
+                                    <li><Link to="/grocery-beverage-all-items">Grocery Beverage</Link></li>
+                                    <li><Link to="/grocery-health-and-beauty-all-items">Grocery Health and Beauty</Link></li>
+                                    {/* Grocery Main Page Details */}
+
+
                                     {/* Extra */}
                                     <li><Link to="/test-extra">Test Extra</Link></li>
                                     {/* Extra */}

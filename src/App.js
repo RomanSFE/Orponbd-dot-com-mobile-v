@@ -129,6 +129,17 @@ import MyAccountWithoutLogin from './components/accountpage/myaccountwithoutlogi
 import PreHomePage from './components/preorderpagesec/home/PreHomePage.js'
 // PreOrder Page Section
 
+// Pre Order Cart Page
+import PreOrderCart from './components/preordercart/PreOrderCart.js'
+
+// Grocery Main Page Details
+import GroceryAllItems from './components/grocerydetailspage/GroceryAllItems';
+import CookingEssentialCategoryDetails from './components/grocerydetailspage/cookingcatdetails/CookingEssentialCategoryDetails';
+import SnacksAndConfectionaryCatDetails from './components/grocerydetailspage/snacksandconfectdetails/SnacksAndConfectionaryCatDetails';
+import BeverageCatDetails from './components/grocerydetailspage/beveragedetails/BeverageCatDetails';
+import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthandbeauty/HealthAndBeautyCatDetails';
+// Grocery Main Page Details
+
 // Test Extra Page
 import TestExtrafile from './components/testextrafile/TestExtrafile.js'
 
@@ -186,9 +197,19 @@ function App() {
 
         <Route path="/my-account-without-login" component={MyAccountWithoutLogin}/>
 
+        <Route path="/pre-order-cart" component={PreOrderCart}/>
+
         {/* PreOrder Page Section */}
         <Route path="/pre-order-home-page" component={PreHomePage}/>
         {/* PreOrder Page Section */}
+
+        {/* Grocery Main Page Details  */}
+        <Route path="/grocery-all-items" component={GroceryAllItems}/>
+        <Route path="/grocery-cooking-essentials-all-items" component={CookingEssentialCategoryDetails}/>
+        <Route path="/grocery-snacks-confectionary-all-items" component={SnacksAndConfectionaryCatDetails}/>
+        <Route path="/grocery-beverage-all-items" component={BeverageCatDetails}/>
+        <Route path="/grocery-health-and-beauty-all-items" component={HealthAndBeautyCatDetails}/>
+        {/* Grocery Main Page Details  */}
 
         {/* Extra */}
         <Route path="/test-extra" component={TestExtrafile}/>

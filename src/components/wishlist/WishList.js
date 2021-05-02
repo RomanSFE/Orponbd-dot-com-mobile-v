@@ -203,53 +203,6 @@ export default class WishList extends Component {
                     </div>
                     {/* Single Wishlist Item */}
 
-                    {/* Single Wishlist Item */}
-                    <Link to="/">
-                    <div className="row my-wishlisst-ex-ppdnfg">
-                        <div className="col-4">
-                            <div className="hgffhhfg">
-                                <img src={require('../../assets/product-2.jpg')} alt="OrponBD Online shop"/>
-                            </div>
-                        </div>
-                        <div className="col-8">
-                            <div className="wishlist-product-and-text-section">
-                                <p>Product details text...</p>
-                                <h5>Shoe</h5>
-                                <h4>1250 TK</h4>
-
-                                <div className="wishlstt-delete-iconn">
-                                    <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
-                                </div>
-                                <Link to="/">Add To Cart</Link>
-                            </div>
-                        </div>
-                    </div>
-                    </Link>
-                    {/* Single Wishlist Item */}
-
-                    {/* Single Wishlist Item */}
-                    <Link to="/">
-                    <div className="row my-wishlisst-ex-ppdnfg">
-                        <div className="col-4">
-                            <div className="hgffhhfg">
-                                <img src={require('../../assets/product-5.jpg')} alt="OrponBD Online shop"/>
-                            </div>
-                        </div>
-                        <div className="col-8">
-                            <div className="wishlist-product-and-text-section">
-                                <p>Product details text...</p>
-                                <h5>Shoe</h5>
-                                <h4>1250 TK</h4>
-
-                                <div className="wishlstt-delete-iconn">
-                                    <img src={require('../../assets/delete-zz.svg')} alt="OrponBD Online shop"/>
-                                </div>
-                                <Link to="/">Add To Cart</Link>
-                            </div>
-                        </div>
-                    </div>
-                    </Link>
-                    {/* Single Wishlist Item */}
                 </div>
             </div>
             <MainMenu/>
