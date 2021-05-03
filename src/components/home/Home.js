@@ -14,6 +14,7 @@ import TopPicks from '../allsections/toppicks/TopPicks.js'
 import JustForYou from '../allsections/justforyou/JustForYou.js'
 import MainMenu from '../mainmenu/MainMenu.js'
 import GroceryZoneSlide from '../allsections/homegroceryzoneslide/GroceryZoneSlide.js'
+import HotCategories from '../allsections/hotcategories/HotCategories.js'
 
 export default class home extends Component {
     render() {
@@ -30,6 +31,7 @@ export default class home extends Component {
                 <TopCategoryItem/>
                 <NewArrivalSec/>
                 <TopBrands/>
+                <HotCategories/>
                 <TopPicks/>
                 <JustForYou/>
                 <MainMenu/>
