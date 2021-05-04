@@ -13,6 +13,7 @@ import RecentlyPurches from '../sections/RecentlyPurches.js';
 import JustForYouSection from '../sections/JustForYouSection.js';
 
 import MainMenu from '../../mainmenu/MainMenu.js';
+import AllCategoryItems from '../sections/AllCategoryItems';
 
 class PreHomePage extends Component {
     render() {
@@ -24,6 +25,7 @@ class PreHomePage extends Component {
                 <TopPicksSection/>
                 <UsePointsSec/>
                 <RecentlyPurches/>
+                <AllCategoryItems/>
                 <JustForYouSection/>
 
                 <MainMenu/>
