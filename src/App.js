@@ -143,6 +143,9 @@ import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthand
 // Test Extra Page
 import TestExtrafile from './components/testextrafile/TestExtrafile.js'
 
+// My Wallet
+import MyWallet from './components/accountpage/mywallet/MyWallet';
+
 
 function App() {
   return (
@@ -175,6 +178,7 @@ function App() {
         <Route path="/register-with-email" component={RegisterWithEmail}/>
         <Route path="/card-payment" component={CardPayment}/>
         <Route path="/my-account-main" component={MyAccountMainPage}/>
+        <Route path="/my-wallet" component={MyWallet}/>
         <Route path="/help-and-support" component={HelpAndSupport}/>
         <Route path="/privacy-policy" component={PrivacyAndPolicy}/>
         <Route path="/terms-conditions" component={TermsAndConditions}/>

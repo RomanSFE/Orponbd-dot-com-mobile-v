@@ -181,6 +181,13 @@ export default class MyAccountMainPage extends Component {
                                             <span className="account-mv-an-rg-icon"><i className="fas fa-angle-right"></i></span>
                                         </div>
                                     </Link>
+                                    <Link to="/my-wallet">
+                                        <div className="account-settings-wishlist-all-link-sections-mv-single">
+                                            <span className="acc-wisshlst-icn-cls"><img src={require('../../assets/coupon-11.png')} alt="orponbd Online shop"/></span>
+                                            <p>My Wallet</p>
+                                            <span className="account-mv-an-rg-icon"><i className="fas fa-angle-right"></i></span>
+                                        </div>
+                                    </Link>
                                     <Link to="/address-book">
                                         <div className="account-settings-wishlist-all-link-sections-mv-single">
                                             <span className="acc-wisshlst-icn-cls"><img src={require('../../assets/address-book-11.png')} alt="orponbd Online shop"/></span>
