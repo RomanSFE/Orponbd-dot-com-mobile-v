@@ -14,14 +14,7 @@ export default class MainMenu extends Component {
                             <div className="mainementu-meny-dd-bbox text-center">
                                 <ul>
                                     <li>
-                                        {/* <Link to="/">
-                                            <div className="main-menu-xccx-boxc">
-                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                    <img src={require('../../assets/home-icon-red.svg')} alt="orponbd Online Shop"/>
-                                                </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name-homm">Home</p>
-                                            </div>
-                                        </Link> */}
+                                        
                                         <NavLink
                                             tag={Link}
                                             d="navResume"
@@ -41,14 +34,6 @@ export default class MainMenu extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        {/* <Link to="/main-category">
-                                            <div className="main-menu-xccx-boxc">
-                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx category-exx-ccls-vc">
-                                                    <img src={require('../../assets/catt-list.svg')} alt="orponbd Online Shop"/>
-                                                </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name-cattx text-center">Category</p>
-                                            </div>
-                                        </Link> */}
                                         <NavLink
                                             tag={Link}
                                             d="navResume"
@@ -68,15 +53,6 @@ export default class MainMenu extends Component {
                                         </div>
                                     </li>
                                     <li className="cart-wish-iitm-ex">
-                                        {/* <Link to="/my-cart">
-                                            <div className="main-menu-xccx-boxc extra-cczxrt-ic">
-                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                    <img src={require('../../assets/supermarket.svg')} alt="orponbd Online Shop"/>
-                                                </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name-ccvrt crrtxtx text-center">Cart</p>
-                                                <span><p>10</p></span>
-                                            </div>
-                                        </Link> */}
                                         <NavLink
                                             tag={Link}
                                             d="navResume"
@@ -99,18 +75,6 @@ export default class MainMenu extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        {/* <Link to="/signup-registration">
-                                            <div className="main-menu-xccx-boxc">
-                                                <div className="mainmenu-cm-meny-dd-bbox-img-bbx">
-                                                    <img src={require('../../assets/user.svg')} alt="orponbd Online Shop"/>
-                                                </div>
-                                                <p className="main-cx-meny-dd-bbox-cct-name-aacnxt text-center">Account</p>
-                                            </div>
-                                        </Link> */}
-
-                                            {/* <NavLink tag={Link} d="navResume" className="text-dark inactive resumeImage" to="/main-category">
-                                                Resume
-                                            </NavLink>; */}
 
                                             <NavLink
                                                 tag={Link}

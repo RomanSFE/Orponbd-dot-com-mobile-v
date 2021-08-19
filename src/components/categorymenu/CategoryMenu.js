@@ -14,41 +14,41 @@ export default class CategoryMenu extends Component {
                                     <li>
                                         <Link to="/">
                                             <div className="caatetory-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/all-444.png')} alt="orponbd online shop"/>
+                                                <img src={require('../../assets/m-all-category-mg.svg')} alt="orponbd online shop"/>
                                             </div>
-                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">All Category</p>
+                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">All <br/> Category</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <div className="caatetory-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/all-555.png')} alt="orponbd online shop"/>
+                                                <img src={require('../../assets/m-global-shopping-mg.svg')} alt="orponbd online shop"/>
                                             </div>
-                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">T-Shirt</p>
+                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Global Shopping</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <div className="caatetory-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/all-333.png')} alt="orponbd online shop"/>
+                                                <img src={require('../../assets/m-beauty-and-health.svg')} alt="orponbd online shop"/>
                                             </div>
-                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Watch</p>
+                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Beauty & Health</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <div className="caatetory-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/all-524.png')} alt="orponbd online shop"/>
+                                                <img src={require('../../assets/m-home-and-living.svg')} alt="orponbd online shop"/>
                                             </div>
-                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Shoes</p>
+                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Home & <br/> Living</p>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <div className="caatetory-meny-dd-bbox-img-bbx">
-                                                <img src={require('../../assets/all-555.png')} alt="orponbd online shop"/>
+                                                <img src={require('../../assets/m-watch-and-accrs.svg')} alt="orponbd online shop"/>
                                             </div>
-                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Toys</p>
+                                            <p className="caatetory-meny-dd-bbox-cct-name text-center">Watches & Accessories</p>
                                         </Link>
                                     </li>
                                 </ul>
