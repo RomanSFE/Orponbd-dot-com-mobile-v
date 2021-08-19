@@ -1,0 +1,299 @@
+/* Heading text */
+.single-product-page-mobile-product-main-wrpp-sec {
+    background-color: #fff;
+    height: 100%;
+}
+.single-product-page-mobile-product-name-grocery-section h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #53565F;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.single-product-page-mobile-product-name-grocery-section {
+    padding: 5px;
+    padding-left: 12px;
+}
+.single-product-page-mobile-product-name-grocery-section p {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: #62646b;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+/* Heading text */
+
+/* Price section */
+.single-product-page-mobile-price-section-grocery {
+    background-color: #F4F4F5;
+    height: 45px;
+    margin-top: -3px;
+}
+.single-product-price-xtt-left-sec-groceryy p {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-left: -3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.single-product-price-xtt-left-sec-groceryy p del {
+    color: #a5a5a5;
+}
+.single-product-price-xtt-left-sec-groceryy p span {
+    font-weight: 600;
+    font-size: 17px;
+    color: #52DCC0;
+}
+.single-product-price-xtt-left-sec-groceryy p del span.old-price-xxc-grocery {
+    color: #989898;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+.single-product-price-xtt-left-sec-groceryy {
+    margin-top: 10px;
+}
+.single-product-price-xtt-right-sec-offer-groceryy {
+    margin-top: 9px;
+}
+.single-product-price-xtt-right-sec-offer-groceryy p {
+    background: #52DCC0;
+    width: 60px;
+    color: #fff;
+    font-weight: 600;
+    padding: 1px;
+    text-align: center;
+    font-size: 12px;
+    height: 28px;
+    border-radius: 10px;
+    line-height: 26px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/* Price section */
+
+
+
+/* products options color size quantity */
+/* Quantity */
+/* Increase Decrease Button Start */
+.number-input input[type="number"] {
+    -webkit-appearance: textfield;
+      -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  .number-input input[type=number]::-webkit-inner-spin-button,
+  .number-input input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  .number-input {
+    margin-bottom: 3rem;
+  }
+  .number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  .number-input input[type=number] {
+    text-align: center;
+  }
+  .number-input.number-input {
+    /* border: 1px solid #ced4da; */
+    /* width: 10rem; */
+    border-radius: .25rem;
+  }
+  .number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+  }
+  .number-input.number-input button.minus {
+    padding-left: 10px;
+  }
+  /* .number-input.number-input button:before,
+  .number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+  } */
+  .number-input.number-input input[type=number] {
+    max-width: 4rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+  }
+
+  /* Ex */
+  input.grocery-cart-inc-dec-input-fld.only-grocry {
+    outline: none;
+    border-radius: 15px;
+    width: 50px;
+    height: 30px !important;
+    background: rgba(140, 140, 140, .1);
+    border: 1px solid #ececec !important;
+    color: #333 !important;
+}
+  .def-number-input.number-input button {
+    outline: none;
+}
+    button.grocery-cart-dec-wv-btn {
+    border: 1px solid #cacaca;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50px;
+    background-color: #b3b3b3;
+    color: #fff;
+    margin-right: 5px;
+}
+    button.grocery-cart-incc-wv-btn {
+    border: 1px solid #cacaca;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50px;
+    background-color: #b3b3b3;
+    color: #fff;
+    margin-left: 5px;
+}
+.def-number-input.number-input button i.fas {
+    font-size: 11px;
+}
+button.grocery-cart-dec-wv-btn:hover {
+    background-color: #52DCC0;
+    border-color: #52DCC0;
+    transition: .1s;
+    box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
+}
+button.grocery-cart-incc-wv-btn:hover {
+    background-color: #52DCC0;
+    border-color: #52DCC0;
+    transition: .1s;
+    box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
+}
+.obd-grocery-all-itxm-details-overly-con-in-dec-grocery-product-pg {
+    margin-top: 20px;
+    margin-left: 13px;
+}
+  /* Ex */
+  /* Increase Decrease Button End */
+/* Quantity */
+
+/* products options color size quantity */
+/* After modal open */
+/* Modal single product color size */
+
+
+/* Product Details Section */
+.single-product-page-mobile-product-details-text-and-review-grocerryy {
+    padding-bottom: 20px;
+    margin-top: -27px;
+    margin-left: -1px;
+}
+.single-product-page-mobile-product-details-text-box-grocerryy p {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: #585858;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/* Product Details Section */
+
+
+
+/* Buy now and add to cart button  */
+.buy-now-and-add-to-cart-page-mobile-v-single-prodcpg-only-groc-prodct-pg {
+    background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #d6d6d6;
+}
+.buy-now-and-add-to-cart-page-mobile-v-single-prodcpg-only-groc-prodct-pg {
+    position: fixed;
+    bottom: 0px;
+    z-index: 99999;
+}
+.row.buy-now-and-add-to-cart-page-mobile-extra-ppxdc-only-groc-prodct-pg .col-5 {
+    margin: 0px;
+    padding: 0px 0px 0px 6px;
+}
+.buy-now-and-add-to-cart-page-mobile-buy-now-bbtn-only-groc-prodct-pg {
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #effefb;
+    border: 1px solid #52DCC0;
+    border-radius: 50px;
+    width: 100%;
+    height: 42px;
+    margin-top: 9px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+}
+.buy-now-and-add-to-cart-page-mobile-buy-now-bbtn-only-groc-prodct-pg a {
+    font-family: 'Montserrat', sans-serif;
+    color: #52DCC0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 41px;
+}
+
+.buy-now-and-add-to-cart-page-mobile-addto-ccrt-bbtn-only-groc-prodct-pg {
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #52DCC0;
+    border-radius: 50px;
+    width: 100%;
+    height: 42px;
+    margin-top: 9px;
+    box-shadow: 0 4px 12px rgb(0 25 0 / 8%);
+}
+.buy-now-and-add-to-cart-page-mobile-addto-ccrt-bbtn-only-groc-prodct-pg a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600; 
+    font-size: 16px;
+    line-height: 41px;
+}
+.buy-now-and-add-to-cart-page-mobile-cart-icon-bbtn-only-groc-prodct-pg img {
+    width: 96%;
+    height: 58px;
+    margin-top: 5px;
+    position: relative;
+}
+.buy-now-and-add-to-cart-page-mobile-cart-icon-bbtn-only-groc-prodct-pg p {
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    background: #52DCC0;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+    font-weight: 500;
+    border: 2px solid #f5f5f5;
+    box-shadow: 0 0px 1px rgba(0,0,0,.3);
+}
+/* Buy now and add to cart button  */
+
+

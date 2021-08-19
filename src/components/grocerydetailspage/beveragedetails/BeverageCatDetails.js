@@ -4,12 +4,50 @@ import './beveragedetailscat.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import classnames from "classnames";
 
 
-import GroceryCartIconBox from '../carticonbox/GroceryCartIconBox';
+// import GroceryCartIconBox from '../carticonbox/GroceryCartIconBox';
 import MainMenu from '../../mainmenu/MainMenu';
 
 export default class BeverageCatDetails extends Component {
+
+    constructor(props) {
+		super(props);
+
+		this.state = {
+            // For Top bar Option
+            prevScrollpos: window.pageYOffset,
+            visible: true,
+            // For Top bar Option
+		};
+	}
+
+    // For Topbar Option Start ========
+    // Adds an event listener when the component is mount.
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    
+      // Remove the event listener when the component is unmount.
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+      // Hide or show the menu.
+      handleScroll = () => {
+        const { prevScrollpos } = this.state;
+    
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+    
+        this.setState({
+          prevScrollpos: currentScrollPos,
+          visible
+        });
+      };
+    // For Top Bar Option End ====
+
     render() {
         var groceryallcat = {
             dots: false,
@@ -32,13 +70,38 @@ export default class BeverageCatDetails extends Component {
         return (
             <>
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
-                
+                <nav
+                    className={classnames("main-category-top-nav-menu", {
+                    "main-category-top-nav-menu-hidden": !this.state.visible
+                    })}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                <Link to="/">
+                                    <span><i className="fa fa-chevron-left"></i></span>
+                                </Link>
+                                    <span>Beverages</span>
+                                </div>
+                            
+                                <div className="main-category-proddct-serrch-boox">
+                                    <form action="" id="demo-2">
+                                        <input type="search" placeholder="search"/>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
 
             {/* Grocery Cart Icon Box Fixed Section Start */}
-            <div className="obd-grocery-main-page-all-item-cart-main-page-box">
+            {/* <div className="obd-grocery-main-page-all-item-cart-main-page-box">
                 <GroceryCartIconBox/>
-            </div>
+            </div> */}
             {/* Grocery Cart Icon Box Fixed Section End */}
 
             {/* Banner start */}

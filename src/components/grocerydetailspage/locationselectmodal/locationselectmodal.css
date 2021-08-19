@@ -1,0 +1,104 @@
+.obd-location-select-modal-headingg-main-sec {
+    background-color: #52DCC0;
+    height: 44px;
+}
+
+.obd-location-select-modal-headingg h4 {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: 600;
+}
+
+.obd-location-select-close-iconn {
+    margin-top: 12px;
+}
+.obd-location-select-close-iconn button {
+    background-color: unset;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+.obd-location-select-close-iconn i.far {
+    color: #fff;
+    font-size: 20px;
+}
+
+.obd-location-select-modal-headingg h4 span {
+    margin-right: 5px;
+}
+
+.obd-location-select-modal-main-contentt-select-sbmnt-box {
+    margin-top: 25px;
+}
+
+.obd-location-select-modal-main-contentt-select-city select {
+    margin-bottom: 18px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5d616d;
+    border: 1px solid #b4bacb;
+    outline: none;
+    width: 90%;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.obd-location-select-modal-main-contentt-select-area select {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5d616d;
+    border: 1px solid #b4bacb;
+    outline: none;
+    width: 90%;
+    height: 32px;
+}
+
+.obd-location-select-modal-main-contentt-select-submit-btn button {
+    background-color: #52DCC0;
+    border: none;
+    border-radius: 35px;
+    padding: 5px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: 0 0 5px rgb(82 220 192);
+}
+
+.obd-location-select-modal-main-contentt-select-submit-btn {
+    margin-bottom: 20px;
+}
+
+.obd-location-select-modal-main-contentt-img-and-footer-txt img {
+    width: 86px;
+}
+
+.obd-location-select-modal-main-contentt-img-and-footer-txt p {
+    font-size: 13px;
+    color: #5D616D;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.obd-location-select-modal-main-btnn button {
+    background-color: #89a6a0;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    margin-top: 15px;
+}

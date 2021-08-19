@@ -69,6 +69,8 @@ export default class ExtraSec extends Component {
                                     <li><Link to="/grocery-snacks-confectionary-all-items">Grocery Snacks Confectionary</Link></li>
                                     <li><Link to="/grocery-beverage-all-items">Grocery Beverage</Link></li>
                                     <li><Link to="/grocery-health-and-beauty-all-items">Grocery Health and Beauty</Link></li>
+
+                                    <li><Link to="/grocery-product-page">Grocery Product Page</Link></li>
                                     {/* Grocery Main Page Details */}
 
 

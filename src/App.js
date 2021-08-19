@@ -138,6 +138,8 @@ import CookingEssentialCategoryDetails from './components/grocerydetailspage/coo
 import SnacksAndConfectionaryCatDetails from './components/grocerydetailspage/snacksandconfectdetails/SnacksAndConfectionaryCatDetails';
 import BeverageCatDetails from './components/grocerydetailspage/beveragedetails/BeverageCatDetails';
 import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthandbeauty/HealthAndBeautyCatDetails';
+
+import GroceryProductPage from './components/grocerydetailspage/groceryproductpage/GroceryProductPage';
 // Grocery Main Page Details
 
 // Test Extra Page
@@ -213,6 +215,8 @@ function App() {
         <Route path="/grocery-snacks-confectionary-all-items" component={SnacksAndConfectionaryCatDetails}/>
         <Route path="/grocery-beverage-all-items" component={BeverageCatDetails}/>
         <Route path="/grocery-health-and-beauty-all-items" component={HealthAndBeautyCatDetails}/>
+
+        <Route path="/grocery-product-page" component={GroceryProductPage}/>
         {/* Grocery Main Page Details  */}
 
         {/* Extra */}

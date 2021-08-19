@@ -255,10 +255,6 @@ export default class SingleProductAllText extends Component {
                                                     <li className="incrementhhtwo-ttxt">{ this.state.show ? <h2>{ this.state.clicks }</h2> : '' }</li>
                                                     <li className="plusxsxts-bbtn"><button onClick={this.IncrementItem}>+</button></li>
                                                 </ul>
-                                                
-                                                {/* <button onClick={this.ToggleClick}>
-                                                { this.state.show ? 'Hide number' : 'Show number' }
-                                                </button> */}
                                             </div>
                                         </div>
                                         {/* Quantity */}

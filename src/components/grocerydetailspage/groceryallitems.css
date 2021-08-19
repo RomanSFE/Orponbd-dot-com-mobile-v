@@ -13,7 +13,7 @@
     height: 160px;
 }
 .obd-grocery-main-page-all-item-banner-section {
-    margin-top: 12px;
+    margin-top: 58px;
     position: relative;
     z-index: 9;
 }
@@ -709,6 +709,16 @@ button.grocery-cart-incc-wv-btn:hover {
 /* Hover product overlay end ------------------------------- */
 
 /* View More Button */
+.obd-grocery-all-itxm-details-overly-con-view-det a {
+    color: #fff;
+    background: rgba(230, 230, 230,.5);
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 5px 24px 5px 24px;
+    z-index: 99999;
+    border: 1px solid #bfbfbf;
+    font-weight: 500;
+}
 .obd-grocery-all-itxm-details-view-more-buttonn {
     margin-top: 20px;
     margin-bottom: 36px;

@@ -4,12 +4,10 @@ import './groceryallitems.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import classnames from "classnames";
 
-
-import Modal from 'react-bootstrap/Modal';
-
-import GroceryCartIconBox from './carticonbox/GroceryCartIconBox';
 import MainMenu from '../mainmenu/MainMenu';
+import LocationSelectModal from './locationselectmodal/LocationSelectModal';
 
 export default class GroceryAllItems extends Component {
     
@@ -22,13 +20,45 @@ export default class GroceryAllItems extends Component {
 		this.handleClose = this.handleClose.bind(this);
 
 		this.state = {
+            // For Modal
 			show: false,
+            // For Modal
 
             // For Increase Decrease
             value: 1,
             // For Increase Decrease
+
+            // For Top bar Option
+            prevScrollpos: window.pageYOffset,
+            visible: true,
+            // For Top bar Option
 		};
 	}
+
+    // For Topbar Option Start ========
+    // Adds an event listener when the component is mount.
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    
+      // Remove the event listener when the component is unmount.
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+      // Hide or show the menu.
+      handleScroll = () => {
+        const { prevScrollpos } = this.state;
+    
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+    
+        this.setState({
+          prevScrollpos: currentScrollPos,
+          visible
+        });
+      };
+    // For Top Bar Option End ====
 
 	handleClose() {
 		this.setState({ show: false });
@@ -77,14 +107,34 @@ export default class GroceryAllItems extends Component {
         return (
             <>
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
-                
+                <nav
+                    className={classnames("main-category-top-nav-menu", {
+                    "main-category-top-nav-menu-hidden": !this.state.visible
+                    })}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                
+                                <div className="main-category-top-menu-iconn-sec-txt">
+                                <Link to="/">
+                                    <span><i className="fa fa-chevron-left"></i></span>
+                                </Link>
+                                    <span>Grocery Zone</span>
+                                </div>
+                            
+                                <div className="main-category-proddct-serrch-boox">
+                                    <form action="" id="demo-2">
+                                        <input type="search" placeholder="search"/>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
 
-            {/* Grocery Cart Icon Box Fixed Section Start */}
-            <div className="obd-grocery-main-page-all-item-cart-main-page-box">
-                <GroceryCartIconBox/>
-            </div>
-            {/* Grocery Cart Icon Box Fixed Section End */}
 
             {/* Banner start */}
             <div className="obd-grocery-main-page-all-item-banner-section">
@@ -99,6 +149,12 @@ export default class GroceryAllItems extends Component {
                 </div>
             </div>
             {/* Banner end */}
+
+            {/* Modal start */}
+            <div className="location-modal-part-tm">
+                <LocationSelectModal />
+            </div>
+            {/* Modal end */}
 
             {/* Slider Section Start */}
             <div className="grocery-zone-all-itm-wv-com-webversion-main-sectionx">
@@ -279,93 +335,8 @@ export default class GroceryAllItems extends Component {
                                                             </Link>       
                                                         </div>
                                                         <div className="obd-grocery-all-itxm-details-overly-con-view-det">
-
-                                                            {/* Modal Start */}
-                                                            <button onClick={this.handleShow}>
-                                                                View Details
-                                                            </button>
-                                                                <Modal show={this.state.show} onHide={this.handleClose}>
-                                                                    <Modal.Header closeButton>
-                                                                        {/* <Modal.Title>Modal heading</Modal.Title> */}
-                                                                    </Modal.Header>
-
-                                                                    <Modal.Body>
-                                                                        <div className="obd-grocery-all-itxm-details-modal-body-main-box">
-                                                                            <div className="container">
-                                                                                <div className="row obd-grocery-all-itxm-details-exx-pxcd">
-                                                                                    <div className="col-md-6">
-                                                                                        <div className="obd-grocery-all-itxm-details-modal-body-product-img">
-                                                                                            <img src={require('../../assets/grocery-product-2.png')} alt="orponbd Online Shop"/>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div className="col-md-6">
-                                                                                        <div className="obd-grocery-all-itxm-details-modal-body-product-text-content">
-                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-hedd">
-                                                                                                <h4>Product Name Here</h4>
-                                                                                                <p>2.5 KG</p>
-                                                                                            </div>
-
-                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-price-and-offer">
-                                                                                                <h4><span>৳</span> 1750 <span className="obdx-grocery-all-itxm-details-modal-offer"><p>17% Off</p></span></h4>
-                                                                                            </div>
-
-                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-inc-dec">
-                                                                                                <div className="def-number-input number-input">
-                                                                                                    <button className="grocery-cart-dec-wv-btn-in-modal" onClick={this.decrease}><i class="fas fa-minus"></i></button>
-                                                                                                    <input className="quantity grocery-cart-inc-dec-input-fld-in-modal" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
-                                                                                                    type="number" />
-                                                                                                    <button className="grocery-cart-incc-wv-btn-in-modal" onClick={this.increase}><i className="fas fa-plus"></i></button>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-description">
-                                                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur quia
-                                                                                                    vel esse, voluptas numquam mollitia saepe laudantium.  
-                                                                                                </p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-bottom-add-to-cart-buy-sec">
-                                                                                <div className="container">
-                                                                                    <div className="row">
-                                                                                        <div className="col-md-6">
-                                                                                            <div className="obd-grocery-all-itxm-web-version-social-icon-section">
-                                                                                                <ul>
-                                                                                                    <li><span>Share to :</span></li>
-                                                                                                    <li className="obd-grocery-all-itxm-details-share-social-icon">
-                                                                                                        <li className="obd-grocery-all-itxm-details-facbk"><Link to=""><i class="fab fa-facebook-f"></i></Link></li>
-                                                                                                        <li className="obd-grocery-all-itxm-details-twittr"><Link to=""><i class="fab fa-twitter"></i></Link></li>
-                                                                                                        <li className="obd-grocery-all-itxm-details-instag"><Link to=""><i class="fab fa-instagram"></i></Link></li>
-                                                                                                        <li className="obd-grocery-all-itxm-details-whatsa"><Link to=""><i class="fab fa-whatsapp"></i></Link></li>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div className="col-md-6">
-                                                                                            <div className="obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv text-right">
-                                                                                                <ul>
-                                                                                                    <li className="obd-grocery-all-itxm-addd-buy-now-add-bxtn"><Link to="">Add to Cart</Link></li>
-                                                                                                    <li className="obd-grocery-all-itxm-addd-buy-now-buy-bxtn"><Link to="">Buy Now</Link></li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </Modal.Body>
-
-                                                                    {/* <Modal.Footer>
-                                                                        <Button variant="secondary" onClick={this.handleClose}>
-                                                                            Close
-                                                                        </Button>
-                                                                        <Button variant="primary" onClick={this.handleClose}>
-                                                                            Save Changes
-                                                                        </Button>
-                                                                    </Modal.Footer> */}
-                                                                </Modal>
-                                                                {/* Modal End*/}
+                                                            <Link to="/grocery-product-page">View Details</Link>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
