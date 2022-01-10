@@ -148,6 +148,12 @@ import TestExtrafile from './components/testextrafile/TestExtrafile.js'
 // My Wallet
 import MyWallet from './components/accountpage/mywallet/MyWallet';
 
+// Store Details
+import StoreDetails from './components/storepages/StoreDetails';
+import StoreAllFeaturedProd from './components/storepages/storefeaturedproducts/StoreAllFeaturedProd';
+import StoreAllNewArrivalProd from './components/storepages/storenewarivalproducts/StoreAllNewArrivalProd';
+// Store Details
+
 
 function App() {
   return (
@@ -161,7 +167,7 @@ function App() {
 
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/singleproductpage" component={SingleProductPage}/>
+        <Route path="/products" component={SingleProductPage}/>
         <Route path="/more-review-page" component={MoreReviewPage}/>
         <Route path="/empty-cart" component={EmptyCart}/>
         <Route path="/my-cart" component={MyCart}/>
@@ -218,6 +224,12 @@ function App() {
 
         <Route path="/grocery-product-page" component={GroceryProductPage}/>
         {/* Grocery Main Page Details  */}
+
+        {/* Store Details */}
+        <Route path="/store-details" component={StoreDetails}/>
+        <Route path="/store-featured-all" component={StoreAllFeaturedProd}/>
+        <Route path="/store-new-arrival-all" component={StoreAllNewArrivalProd}/>
+        {/* Store Details */}
 
         {/* Extra */}
         <Route path="/test-extra" component={TestExtrafile}/>

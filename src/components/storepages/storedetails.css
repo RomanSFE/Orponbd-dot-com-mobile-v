@@ -1,0 +1,134 @@
+.obd-mv-store-details-main-top-wrp {
+    margin-top: 68px;
+}
+
+.obd-mv-store-details-main-top-wrp .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+/* Banner */
+.obd-mv-store-details-main-rt-banner img {
+    width: 100%;
+    height: 135px;
+    border-radius: 4px;
+}
+.obd-mv-store-details-main-rt-banner {
+    margin-bottom: 10px;
+}
+/* Banner */
+
+/* Logo */
+.row.obd-stor-mv-exz-pd .col-5 {
+    padding: 0px;
+}
+.obd-mv-store-details-st-logo img {
+    width: 100%;
+}
+.obd-mv-store-details-st-nm-cnt h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #616161;
+    margin-bottom: 3px;
+}
+.obd-mv-store-details-st-nm-cnt p {
+    font-size: 11px;
+    color: #8b8b8b;
+    margin-bottom: 10px;
+}
+.obd-mv-store-details-st-nm-cnt p span {
+    color: #333;
+    font-weight: 500;
+}
+.obd-logo-main-bxx-mv {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: -20px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+/* Logo */
+
+/* Like and Followers */
+.obd-store-product-det-mv-lk-flow {
+    margin-top: -8px;
+}
+.obd-store-product-det-mv-lk-flow ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.obd-store-product-det-mv-lk-flow ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.obd-store-product-det-mv-lk-flow ul li p {
+    font-size: 10px;
+    color: #9a9fad;
+    margin-bottom: 5px;
+}
+.obd-store-product-det-mv-lk-flow ul li p span i.fas {
+    color: tomato;
+    margin-right: 2px;
+    font-size: 11px;
+}
+.store-pg-det-ttl-followrs {
+    margin-top: -8px;
+}
+span.store-pg-det-ttotl-follw-rat-count {
+    font-size: 10px;
+    color: tomato;
+    margin-left: 4px;
+}
+span.store-pg-det-flw-count-number {
+    font-size: 10px;
+    color: #9a9fad;
+    margin-left: 3px;
+}
+/* Like and Followers */
+
+
+/* Followers And Love Button */
+.obd-store-mv-dtls-followus-and-love-btn {
+    margin-top: 8px;
+}
+.obd-store-mv-dtls-followus-and-love-btn ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.obd-store-mv-dtls-followus-and-love-btn ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+li.obd-store-mv-dtls-followus-bbtn button {
+    background-color: tomato;
+    border: none;
+    border-radius: 6px;
+    padding: 3px 12px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    outline: none;
+}
+li.obd-store-mv-dtls-love-bbtn {
+    position: relative;
+}
+li.obd-store-mv-dtls-love-bbtn button {
+    background-color: unset;
+    border: none;
+    border-radius: 6px;
+    color: #4f525d;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    position: absolute;
+    top: -20px;
+    padding: 0px;
+}
+/* Followers And Love Button */

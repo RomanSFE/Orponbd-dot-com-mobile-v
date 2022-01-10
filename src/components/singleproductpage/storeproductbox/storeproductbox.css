@@ -1,0 +1,102 @@
+.obd-mv-store-name-box-wpr {
+    background-color: #fff;
+    margin-top: 10px;
+}
+.obd-mv-store-name-box-wpr {
+    background-color: #fff;
+    margin-top: 10px;
+}
+.obd-mv-store-name-box-txt h4 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #585858;
+    margin-bottom: 6px;
+}
+.obd-mv-store-name-box-txt h4 span {
+    font-weight: 700;
+}
+.obd-mv-store-name-box-txt h5 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #585858;
+}
+.obd-mv-store-name-box-txt h5 span {
+    font-size: 12px;
+}
+.obd-mv-store-name-box-txt {
+    margin-top: 8px;
+}
+
+/* Follow Button */
+.obd-mv-store-name-box-follw button {
+    border-radius: 4px;
+    border: none;
+    background-color: tomato;
+    color: #fff;
+    outline: none;
+    font-size: 11px;
+    padding: 4px 14px;
+    margin-top: 10px;
+}
+.obd-mv-store-name-box-follw button:hover {
+    background-color: #fb4524;
+    transition: .3s;
+}
+/* Follow Button */
+
+/* Like Follow Box */
+.obd-store-product-mv-lk-flow {
+    margin-top: 3px;
+    border: 1px solid #e9e4e3;
+    padding: 5px;
+}
+.obd-store-product-mv-lk-flow ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.obd-store-product-mv-lk-flow ul li {
+    display: inline-block;
+    margin: 2px;
+}
+.obd-store-product-mv-lk-flow ul li p {
+    font-size: 11px;
+    color: #9a9fad;
+    margin: 0;
+}
+.obd-store-product-mv-lk-flow ul li p span i.fas {
+    color: tomato;
+    margin-right: 2px;
+    font-size: 12px;
+}
+.store-pg-details-ttl-followrs {
+    margin-top: -8px;
+}
+span.store-pg-details-ttotl-follw-rat-count {
+    font-size: 11px;
+    color: tomato;
+    margin-left: 4px;
+}
+span.store-pg-details-flw-count-number {
+    font-size: 11px;
+    color: #9a9fad;
+    margin-left: 3px;
+}
+/* Like Follow Box */
+
+/* View Store Btn */
+.obd-mv-store-name-view-stor-lnk a {
+    border-radius: 4px;
+    border: none;
+    background-color: #5d616d;
+    color: #fff;
+    outline: none;
+    font-size: 11px;
+    padding: 4px 12px;
+    text-decoration: none;
+}
+.obd-mv-store-name-view-stor-lnk {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+/* View Store Btn */

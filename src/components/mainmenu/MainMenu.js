@@ -17,6 +17,7 @@ export default class MainMenu extends Component {
                                         
                                         <NavLink
                                             tag={Link}
+                                            exact
                                             d="navResume"
                                             className="text-dark inactive resumeImageHome"
                                             activeClassName="activestyleclasshome"

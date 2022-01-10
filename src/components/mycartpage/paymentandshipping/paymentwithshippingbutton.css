@@ -6,7 +6,7 @@
     height: 100%;
 }
 .payment-with-shipping-button-button-box a {
-    background-image: linear-gradient(0deg, #F8B31F 0%, #F88422 100%);
+    background-color: #F34425;
     border: none;
     color: #fff;
     font-weight: 600;
@@ -39,10 +39,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 .order-summary-sinng-pro-ittm-ttext h5 {
-    color: #f88922 !important;
+    color: #F34425 !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 16px !important;
+    font-size: 12px !important;
     margin-top: -14px !important;
 }
 .single-product-itwm-summary-color-option ul {
@@ -86,7 +86,7 @@
 }
 .product-summary-item-total-price-box p strong {
     font-family: 'Montserrat', sans-serif;
-    color: #f88922 !important;
+    color: #F34425 !important;
     font-weight: 700;
     font-size: 16px !important;
 }
@@ -107,7 +107,7 @@
 .product-summary-item-total-del-chrrg-bxbx-ttxt-quntty p {
     font-size: 16px !important;
     font-weight: 600;
-    color: #f88922 !important;
+    color: #F34425 !important;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
 }
@@ -144,7 +144,7 @@
     height: 50px;
     border: none;
     color: #fff;
-    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    background-color: #F34425;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -206,7 +206,7 @@
 }
 .product-summary-item-total-payable-amt p strong {
     font-family: 'Montserrat', sans-serif;
-    color: #f88922 !important;
+    color: #F34425 !important;
     font-weight: 700;
     font-size: 16px !important;
 }
@@ -231,10 +231,10 @@
 .product-summary-total-confirm-section-total-ttxt p span {
     font-size: 16px !important;
     font-weight: 600;
-    color: #f88922 !important;
+    color: #F34425 !important;
 }
 .product-summary-total-confirm-section-con-ffn-btn {
-    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    background-color: #F34425;
     width: 100%;
     height: 35px;
     border-radius: 50px;

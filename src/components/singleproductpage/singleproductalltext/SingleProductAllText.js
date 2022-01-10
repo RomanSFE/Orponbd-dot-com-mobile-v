@@ -14,6 +14,7 @@ import Collapse from "@kunukn/react-collapse";
 
 // Recommended component
 import RecommendedProducts from '../recomendedproducts/RecommendedProducts.js'
+import StoreProductBox from '../storeproductbox/StoreProductBox';
 
 export default class SingleProductAllText extends Component {
     // Quantity incre decre
@@ -519,6 +520,12 @@ export default class SingleProductAllText extends Component {
             {/* Products Details Section */}
 
             <div className="after-product-details-exx-ddv-mv"></div>
+
+            {/* Stote Product Box */}
+            <div className="obd-mv-store-mn-wrap">
+                <StoreProductBox/>
+            </div>
+            {/* Stote Product Box */}
 
             {/* Recommended for you section */}
             <div className="single-products-recommended-peoodect-sec">

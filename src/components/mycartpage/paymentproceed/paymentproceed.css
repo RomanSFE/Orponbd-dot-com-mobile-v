@@ -40,7 +40,7 @@
     border: 1px solid #ececec;
 }
 .select-courier-service-name-box:hover {
-    background-color: #F8AB1F;
+    background-color: #F34425;
 }
 .select-courier-service-name-box:hover p {
     color: #fff;
@@ -89,7 +89,7 @@
     margin-top: 7px;
 }
 .payment-option-name-service-name-box:hover {
-    background-color: #F8AB1F;
+    background-color: #F34425;
 }
 .payment-option-name-service-name-box:hover span {
     color: #fff;
@@ -125,10 +125,10 @@
 .select-courier-total-proceed-mmxml-section-ttxt-mv p span {
     font-size: 16px;
     font-weight: 600;
-    color: #f88922;
+    color: #F34425;
 }
 .select-courier-total-proceed-mmxml-section-ttxt-mv-procceed-ffn-btn {
-    background-image: linear-gradient(-70deg, #F88522 0%, #F8B21F 100%);
+    background-color: #F34425;
     width: 100%;
     height: 35px;
     border-radius: 50px;

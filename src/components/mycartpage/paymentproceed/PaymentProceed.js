@@ -93,7 +93,7 @@ export default class PaymentProceed extends Component {
                         </div>
                         <div className="col-6">
                             <div className="select-courier-total-proceed-mmxml-section-ttxt-mv-procceed-ffn-btn">
-                                <Link to="/">
+                                <Link to="/order-confirm-successful">
                                     Proceed <span><i className="fa fa-arrow-right" aria-hidden="true"></i></span>
                                 </Link>
                             </div>

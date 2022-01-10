@@ -10,19 +10,6 @@
     width: 100%;
     height: 74px;
 }
-
-/* .my-cart-select-all-ex-ppdnfg-mn-bbox {
-    background-color: #fff;
-    border-radius: 5px;
-}
-.mycart-all-item-check-mobile-viexw-main-section .container {
-    width: 100%;
-    padding-right: 7px;
-    padding-left: 7px;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: hidden;
-} */
 .mycart-all-item-check-mobile-viexw-main-section {
     background-color: #fff;
     height: 100%;
@@ -33,35 +20,33 @@
     margin: 0px;
     padding-right: 10px;
 }
-.row.my-cart-select-all-ex-ppdnfg .col-2 {
+.row.my-cart-select-all-ex-ppdnfg .col-1 {
     margin: 0px;
     padding-right: 0px;
 }
 .row.my-cart-select-all-ex-ppdnfg .col-3 {
     margin: 0px;
-    padding: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
 }
 .my-cart-product-vvx-and-text-section a {
     float: right;
     margin-top: -38px;
 }
 .my-cart-product-vvx-and-text-section h4 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     color: #F34425;
     margin-top: -4px;
-    font-family: 'Montserrat', sans-serif;
 }
 .my-cart-product-vvx-and-text-section h5 {
     font-size: 10.5px;
     color: #adadad;
     margin-top: -13px;
-    font-family: 'Montserrat', sans-serif;
 }
 .my-cart-product-vvx-and-text-section p {
     font-size: 11.5px;
     color: #333;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 4px;
 }
 .row.my-wishlisst-ex-ppdnfg {
@@ -71,8 +56,9 @@
 }
 .my-cart-select-vvb-immxg img {
     width: 100%;
-    height: 70px;
-    margin-left: -10px;
+    height: 66px;
+    margin-left: -8px;
+    border-radius: 6px;
 }
 .row.my-cart-select-all-ex-ppdnfg {
     border-bottom: 1px solid #d8d8d8;
@@ -83,7 +69,6 @@ span.my-cart-select-all-x-txtt {
     font-size: 16px;
     font-weight: 600;
     color: #5d5d5d;
-    font-family: 'Montserrat', sans-serif;
     margin-left: 9px;
 }
 .rs-checkbox-checker label {
@@ -109,18 +94,6 @@ span.my-cart-select-all-x-txtt {
 
 
 /* Checkbox custom css */
-input[type=checkbox], input[type=radio] {
-    box-sizing: border-box;
-    padding: 0;
-    width: 18px;
-    height: 18px;
-    position: relative;
-    margin: 11px auto;
-    background: #fcfff4;
-    border-radius: 100px;
-    /* box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgb(249 14 14 / 50%); */
-    border: 2px solid #333;
-}
 
 
 /* Incress Decress */
@@ -178,7 +151,6 @@ input[type=checkbox], input[type=radio] {
 /* Total price section */
 .my-cart-total-price-buttxcn-section-bbox a {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
@@ -214,7 +186,6 @@ input[type=checkbox], input[type=radio] {
     color: #0c0c0c;
     font-weight: 600;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
 }
 .my-cart-total-price-section-bbox {
     margin-top: 14px;
@@ -222,7 +193,7 @@ input[type=checkbox], input[type=radio] {
 .my-cart-total-price-section-bbox p strong {
     color: #F34425;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 10px;
 }
 /* Total price section */
@@ -245,7 +216,6 @@ input[type=checkbox], input[type=radio] {
 }
 .bobd-cart-page-main-content-regular-order-ssc-cart h3 {
     font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding: 5px;
     line-height: 42px;
@@ -262,3 +232,12 @@ input[type=checkbox], input[type=radio] {
     margin-top: 32px;
 }
 /* New Css */
+
+/* For Checkbox */
+.shdhghhg {
+    margin-top: 18px;
+}
+.my-carrtt-only-single-chect input {
+    margin-top: 27px;
+}
+/* For Checkbox */

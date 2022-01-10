@@ -1,0 +1,107 @@
+.store-new-arrival-products-mv-secz {
+    margin-top: 10px;
+}
+.store-new-arrival-products-mv-secz .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.store-new-arrival-products-mv-secz-bbox {
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+.store-new-arrival-products-mv-secz-bbox {
+    margin-bottom: 65px;
+}
+
+/* hhhh */
+.store-new-arrival-products-mv-sec-hd-lnk p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+.store-new-arrival-products-mv-sec-hd-lnk p {
+    position: relative;
+    margin-left: 4px;
+}
+.store-new-arrival-products-mv-sec-hd-lnk a {
+    position: absolute;
+    right: 19px;
+    top: 6px;
+    font-size: 13px;
+    color: #696969;
+    font-weight: 400;
+}
+.store-new-arrival-products-mv-sec-hd-lnk a i.fa {
+    color: #545454;
+    font-size: 12px;
+}
+/* hhhh */
+
+.row.store-new-arrival-products-mv-ex-pd {
+    margin: 0px;
+}
+
+.row.store-new-arrival-products-mv-ex-pd .col-4 {
+    padding: 2px;
+}
+.store-newarvl-prod-mv-single-prodz-img img {
+    width: 100%;
+    height: 94px;
+    border-radius: 4px;
+}
+.store-newarrivl-products-mv-single-prodz {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.store-newarvl-prod-mv-single-prodz-ttxt p {
+    font-size: 10px;
+    color: #252525;
+    line-height: 12px;
+}
+.store-newarvl-prod-mv-single-prodz-ttxt h4 {
+    color: #F34425;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: -13px;
+}
+.store-new-arrival-products-mv-sec-hd-lnk {
+    margin-bottom: -10px;
+}
+.store-newarvl-prod-mv-single-prodz-ttxt {
+    padding: 2px;
+}
+
+/* For New Arrival All Products */
+.store-new-arrival-products-all-mv-secz {
+    margin-top: 68px;
+    margin-bottom: 65px;
+}
+.store-new-arrival-products-all-mv-secz .container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.store-newarrivl-products-all-load-mr button {
+    background-color: #fb694e;
+    border: none;
+    border-radius: 35px;
+    padding: 3px 20px 3px 20px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    outline: none;
+}
+.store-newarrivl-products-all-load-mr {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+/* For New Arrival All Products  */
